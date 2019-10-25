@@ -1,3 +1,4 @@
+
 import 'dart:convert';
 import 'dart:math';
 import 'package:flutter/cupertino.dart';
@@ -6,9 +7,15 @@ import 'package:gente_toxica_app/features/gente_toxica/presentation/utils/text_s
 import 'package:gente_toxica_app/features/gente_toxica/presentation/widgets/'
     'listView_home.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/widgets/list_home.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/widgets/list_home.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/widgets/my_app_routes.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/widgets/navigation_page.dart';
 import 'package:share/share.dart';
 
+
 class Home extends StatelessWidget {
+  const Home({Key key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -19,7 +26,7 @@ class Home extends StatelessWidget {
         //Changing this will change the color of the TabBar
         accentColor: Colors.cyan[600],
       ),
-      routes: kAppRoutingTable,
+      //routes: kAppRoutingTable,
       home: HomePage(),
     );
   }
@@ -52,6 +59,8 @@ class HomePageState extends State<HomePage> {
     );
   }
 
+
+  ///AppBar
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -79,6 +88,8 @@ class HomePageState extends State<HomePage> {
 
       //body: //SingleChildScrollView(
       //  child:
+
+
 
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -195,6 +206,7 @@ class HomePageState extends State<HomePage> {
           ),
 
           ///Second Part
+          /*
           Expanded(
             flex: 1,
             child: Container(
@@ -210,7 +222,7 @@ class HomePageState extends State<HomePage> {
                 ),
               ),
             ),
-          ),
+          ),*/
 
           ///Third Part
           Expanded(
@@ -218,12 +230,13 @@ class HomePageState extends State<HomePage> {
             child: Container(
               padding: EdgeInsets.only(top: 12.0),
               //child: ListViewHome(),
+              ///ListView
               child: MyHomePage(),
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.only(
+                /*borderRadius: BorderRadius.only(
                   topLeft: Radius.circular(35.0),
                   topRight: Radius.circular(35.0),
-                ),
+                ),*/
                 color: Colors.white,
               ),
             ),

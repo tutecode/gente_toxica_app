@@ -1,15 +1,13 @@
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/triangulador_definicion.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/widgets/settings.dart';
+import 'package:provider/provider.dart';
 
+import 'my_app_routes.dart';
 import 'my_route.dart';
 
-
-
-
-
-
+/*
 class MyRouteGroup {
   const MyRouteGroup(
       {@required this.groupName, @required this.icon, @required this.routes});
@@ -75,7 +73,9 @@ final Map<String, WidgetBuilder> kAppRoutingTable = {
   // ignore: sdk_version_ui_as_code
   for (MyRoute route in kAllRoutes) route.routeName: (context) => route,
 };
+*/
 
+/*
 ///home
 class MyHomePage extends StatelessWidget {
   const MyHomePage({Key key}) : super(key: key);
@@ -89,29 +89,52 @@ class MyHomePage extends StatelessWidget {
           .body1
           .copyWith(fontWeight: FontWeight.bold);
       return ListTile(
-        title: Text(myRoute.title, style: routeTitleTextStyle),
+        leading: leading ??
+            Provider.of<Settings>(context).starStatusOfRoute(myRoute.routeName),
+        title: Text(
+          myRoute.title,
+          style: routeTitleTextStyle,
+        ),
         trailing: trialing == null ? null : Icon(trialing),
         subtitle:
-        myRoute.description == null ? null : Text(myRoute.description),
+            myRoute.description == null ? null : Text(myRoute.description),
         onTap: () => Navigator.of(context).pushNamed(myRoute.routeName),
       );
     }
 
+    ///Catalog
     Widget _myRouteGroupToExpansionTile(MyRouteGroup myRouteGroup) {
-      return ExpansionTile(
+      return Card(
+        child: ExpansionTile(
           leading: myRouteGroup.icon,
           title: Text(
             myRouteGroup.groupName,
             style: Theme.of(context).textTheme.title,
           ),
           children: myRouteGroup.routes.map(_myRouteToListTile).toList(),
-        );
+        ),
+      );
     }
 
+    ///Bookmarks
+    Widget _buildBookmarksExpansionTile() {
+      final settings = Provider.of<Settings>(context);
+      MyRouteGroup starredGroup = MyRouteGroup(
+        groupName: 'Bookmarks',
+        icon: Icon(Icons.stars),
+        routes: settings.starredRoutes,
+      );
+      return _myRouteGroupToExpansionTile(starredGroup);
+    }
+
+    ///ListView(BookMarks, kMyAppRoutesStructure, kAboutRoute)
     return ListView(
+      //shrinkWrap: true,
       children: <Widget>[
+        _buildBookmarksExpansionTile(),
         ...kMyAppRoutesStructure.map(_myRouteGroupToExpansionTile),
+        _myRouteToListTile(kAboutRoute, leading: Icon(Icons.info)),
       ],
     );
   }
-}
+}*/
