@@ -25,14 +25,19 @@ class NavigationPageItem {
 }
 
 const kNavigation = <NavigationCategory>[
+  ///El Triangulador
   NavigationCategory(
     head: 'El Triangulador',
-    icon: Icon(Icons.extension),
     navigations: <NavigationPageItem>[
       NavigationPageItem(
         title: 'Definicion',
         route: TrianguladorDefinicion(),
         routeName: '.../routes/triangulador_deficion',
+      ),
+      NavigationPageItem(
+        title: 'Personas que intervienen',
+        route: TrianguladorActitudes(),
+        routeName: '.../routes/triangulador_personas',
       ),
       NavigationPageItem(
         title: 'Actitudes Sanas',
@@ -41,6 +46,7 @@ const kNavigation = <NavigationCategory>[
       ),
     ],
   ),
+  ///El Frustrador
   NavigationCategory(
     head: 'El Frustrador',
     icon: Icon(Icons.extension),
@@ -48,14 +54,255 @@ const kNavigation = <NavigationCategory>[
       NavigationPageItem(
         title: 'Definicion',
         route: TrianguladorDefinicion(),
-        routeName:
-            '/lib/features/gente_toxica/presentation/pages/routes/triangulador_definicion',
+        routeName: '.../routes/frustrador_definicion',
       ),
+      NavigationPageItem(
+        title: 'Rasgos',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/frustrador_rasgos',
+      ),
+      NavigationPageItem(
+        title: 'Actitudes frente a la frustración',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/frustrador_actitudes',
+      ),
+      NavigationPageItem(
+        title: 'Criando hijos sanos',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/frustrador_hijos_sanos',
+      ),
+    ],
+  ),
+  ///El Narcisista
+  NavigationCategory(
+    head: 'El Narcisista',
+    navigations: <NavigationPageItem>[
       NavigationPageItem(
         title: 'Definicion',
         route: TrianguladorDefinicion(),
-        routeName:
-            '/lib/features/gente_toxica/presentation/pages/routes/triangulador_definicion',
+        routeName: '.../routes/narcisista_definicion',
+      ),
+      NavigationPageItem(
+        title: 'Rasgos',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/narcisista_rasgos',
+      ),
+      NavigationPageItem(
+        title: 'Parejas del narcisista',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/narcisista_parejas',
+      ),
+      NavigationPageItem(
+        title: 'Criando hijos sanos',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/narcisista_hijos_sanos',
+      ),
+      NavigationPageItem(
+        title: 'Actitudes frente a él',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/narcisista_actitudes',
+      ),
+    ],
+  ),
+  //TODO: "El Prepotente"
+  NavigationCategory(
+    head: 'El Prepotente',
+    //icon: Icon(Icons.extension),
+    navigations: <NavigationPageItem>[
+      NavigationPageItem(
+        title: 'Definicion',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/prepotente_definicion',
+      ),
+      NavigationPageItem(
+        title: 'Rasgos',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/prepotente_rasgos',
+      ),
+      NavigationPageItem(
+        title: 'La impotencia',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/prepotente_impotencia',
+      ),
+      NavigationPageItem(
+        title: 'El poder del cambio',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/prepotente_poder_cambio',
+      ),
+      NavigationPageItem(
+        title: 'Manejar poder sanamente',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/prepotente_poder_sanamente',
+      ),
+      NavigationPageItem(
+        title: 'Valoracion realista',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/prepotente_valoracion',
+      ),
+    ],
+  ),
+  //TODO: "El Miedoso"
+  NavigationCategory(
+    head: 'El Miedoso',
+    navigations: <NavigationPageItem>[
+      NavigationPageItem(
+        title: 'Definicion',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/miedoso_definicion',
+      ),
+      NavigationPageItem(
+        title: 'Rasgos',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/miedoso_rasgos',
+      ),
+      NavigationPageItem(
+        title: 'Miedos de la infancia',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/miedoso_infancia',
+      ),
+      NavigationPageItem(
+        title: 'Criando hijos sin miedo',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/miedoso_hijos_adolescencia',
+      ),
+      NavigationPageItem(
+        title: 'Miedos en la adolescencia',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/miedoso_adolescencia',
+      ),
+      NavigationPageItem(
+        title: 'Criando hijos sin miedo',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/miedoso_hijos_adolescencia',
+      ),
+      NavigationPageItem(
+        title: 'El poder frente al miedo',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/miedoso_poder',
+      ),
+      NavigationPageItem(
+        title: 'Venciendo el miedo',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/miedoso_venciendo',
+      ),
+    ],
+  ),
+  //TODO: "El Negativo"
+  NavigationCategory(
+    head: 'El Negativo',
+    navigations: <NavigationPageItem>[
+      NavigationPageItem(
+        title: 'Definicion',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/negativo_definicion',
+      ),
+      NavigationPageItem(
+        title: 'Rasgos',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/negativo_rasgos',
+      ),
+      NavigationPageItem(
+        title: 'Cómo actúan',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/negativo_como_actuan',
+      ),
+      NavigationPageItem(
+        title: 'Actitudes frente al negativo',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/negativo_actitudes',
+      ),
+      NavigationPageItem(
+        title: 'Vive en positivo',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/negativo_vive_positivo',
+      ),
+    ],
+  ),
+  //TODO: "El Ansioso"
+  NavigationCategory(
+    head: 'El Ansioso',
+    navigations: <NavigationPageItem>[
+      NavigationPageItem(
+        title: 'Definicion',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/ansioso_definicion',
+      ),
+      NavigationPageItem(
+        title: 'Detectar la ansiedad',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/ansioso_detectar_ansiedad',
+      ),
+      NavigationPageItem(
+        title: 'La preocupación',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/ansioso_preocupacion',
+      ),
+      NavigationPageItem(
+        title: '¿Por qué nos preocupamos',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/ansioso_nos_preocupamos',
+      ),
+      NavigationPageItem(
+        title: 'Libres de la preocupación',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/ansioso_libres_preocupacion',
+      ),
+      NavigationPageItem(
+        title: 'Libres de la ansiedad',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/ansioso_libres_ansiedad',
+      ),
+    ],
+  ),
+  //TODO: "El Sádico"
+  NavigationCategory(
+    head: 'El Sádico',
+    navigations: <NavigationPageItem>[
+      NavigationPageItem(
+        title: 'Definicion',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/sadico_definicion',
+      ),
+      NavigationPageItem(
+        title: 'Rasgos',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/sadico_rasgos',
+      ),
+      NavigationPageItem(
+        title: 'El chivo expiatorio',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/sadico_chivo_expiatorio',
+      ),
+      NavigationPageItem(
+        title: 'Libres del sadismo',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/sadico_libres_sadismo',
+      ),
+    ],
+  ),
+  //TODO: "El Sádico"
+  NavigationCategory(
+    head: 'El Sádico',
+    navigations: <NavigationPageItem>[
+      NavigationPageItem(
+        title: 'Definicion',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/sadico_definicion',
+      ),
+      NavigationPageItem(
+        title: 'Rasgos',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/sadico_rasgos',
+      ),
+      NavigationPageItem(
+        title: 'El chivo expiatorio',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/sadico_chivo_expiatorio',
+      ),
+      NavigationPageItem(
+        title: 'Libres del sadismo',
+        route: TrianguladorDefinicion(),
+        routeName: '.../routes/sadico_libres_sadismo',
       ),
     ],
   ),
