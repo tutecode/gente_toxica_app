@@ -4,11 +4,6 @@ import 'dart:math';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/utils/text_styles.dart';
-import 'package:gente_toxica_app/features/gente_toxica/presentation/widgets/'
-    'listView_home.dart';
-import 'package:gente_toxica_app/features/gente_toxica/presentation/widgets/list_home.dart';
-import 'package:gente_toxica_app/features/gente_toxica/presentation/widgets/list_home.dart';
-import 'package:gente_toxica_app/features/gente_toxica/presentation/widgets/my_app_routes.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/widgets/navigation_page.dart';
 import 'package:share/share.dart';
 
@@ -41,26 +36,36 @@ class HomePage extends StatefulWidget {
 
 class HomePageState extends State<HomePage> {
   List data;
-  var _index;
+  //var _index;
 
+  ///New
+  Random random = new Random();
+  int _index = 0;
+
+  void changeIndex() {
+    ///Total Phrases = 93
+    setState(() => _index = random.nextInt(93));
+  }
+
+  /*
   @override
   void initState() {
     super.initState();
     _random();
   }
+  */
 
+  /*
   void _random() {
     setState(
       () {
-        _index = Random(_index).nextInt(25);
-
-        ///3000
+        _index = Random(_index).nextInt(93);
+        ///NumberPhrase: 93
       },
     );
   }
+  */
 
-
-  ///AppBar
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -88,9 +93,7 @@ class HomePageState extends State<HomePage> {
 
       //body: //SingleChildScrollView(
       //  child:
-
-
-
+      //TODO: Body
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
@@ -132,7 +135,7 @@ class HomePageState extends State<HomePage> {
                                       children: <Widget>[
                                         ///Quotes
                                         Text(
-                                          quote[_index]['Quote'] + "",
+                                          "" + quote[_index]['Quote'],
                                           textScaleFactor: 1.1,
                                           textAlign: TextAlign.center,
                                           style: quotesHome,
@@ -156,7 +159,8 @@ class HomePageState extends State<HomePage> {
                                   alignment: Alignment.bottomRight,
                                   child: InkWell(
                                     onTap: () {
-                                      _random();
+                                      //_random();
+                                      changeIndex();
                                     },
                                     child: new Container(
                                       padding: const EdgeInsets.all(18.0),
@@ -206,30 +210,10 @@ class HomePageState extends State<HomePage> {
           ),
 
           ///Second Part
-          /*
-          Expanded(
-            flex: 1,
-            child: Container(
-              child: Align(
-                alignment: Alignment.center,
-                child: Text(
-                  'TÓXICOS',
-                  textScaleFactor: 2.0,
-                  style: TextStyle(
-                    fontFamily: "RobotoSlab Regular"
-                  ),
-                  //textAlign: TextAlign.center,
-                ),
-              ),
-            ),
-          ),*/
-
-          ///Third Part
           Expanded(
             flex: 6,
             child: Container(
               padding: EdgeInsets.only(top: 12.0),
-              //child: ListViewHome(),
               ///ListView
               child: MyHomePage(),
               decoration: BoxDecoration(

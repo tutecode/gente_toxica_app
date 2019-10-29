@@ -1,286 +1,470 @@
 [
   {
-    "Quote": "Don't cry because it's over, smile because it happened.",
-    "Author": "Dr. Seuss",
-    "Tags": [
-      "attributed-no-source",
-      "cry",
-      "crying",
-      "experience",
-      "happiness",
-      "joy",
-      "life",
-      "misattributed-dr-seuss",
-      "optimism",
-      "sadness",
-      "smile",
-      "smiling "
-    ],
-    "Popularity": 0.15566615566615566,
-    "Category": "life"
+    "Quote": "Nadie ama al mensajero que trae malas noticias.",
+    "Author": "Sófocles"
   },
 
   {
-    "Quote":
-    "I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.",
-    "Author": "Marilyn Monroe",
-    "Tags": [
-      "attributed-no-source",
-      "best",
-      "life",
-      "love",
-      "mistakes",
-      "out-of-control",
-      "truth",
-      "worst "
-    ],
-    "Popularity": 0.12912212912212911,
-    "Category": "love"
+    "Quote": "Un chisme es como una avispa, si no puedes matarla al primer golpe, mejor no te metas con ella.",
+    "Author": "George Bernard Shaw"
   },
 
   {
-    "Quote": "Be yourself; everyone else is already taken.",
-    "Author": "Oscar Wilde",
-    "Tags": [
-      "attributed-no-source",
-      "be-yourself",
-      "honesty",
-      "inspirational",
-      "misattributed-oscar-wilde "
-    ],
-    "Popularity": 0.11322311322311322,
-    "Category": "inspiration"
-  },
-  {
-    "Quote":
-    "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
-    "Author": "Albert Einstein",
-    "Tags": [
-      "attributed-no-source",
-      "human-nature",
-      "humor",
-      "infinity",
-      "philosophy",
-      "science",
-      "stupidity",
-      "universe "
-    ],
-    "Popularity": 0.10312710312710313,
-    "Category": "humor"
+    "Quote": "Culpar a los demás es no aceptar la responsabilidad de nuestra vida, es distraerse de ella.",
+    "Author": "Facundo Cabral"
   },
 
   {
-    "Quote":
-    "Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.",
-    "Author": "Bernard M. Baruch",
-    "Tags": [
-      "ataraxy",
-      "be-yourself",
-      "confidence",
-      "fitting-in",
-      "individuality",
-      "those-who-matter "
-    ],
-    "Popularity": 0.10189010189010189,
-    "Category": ""
-  },
-  {
-    "Quote":
-    "You've gotta dance like there's nobody watching,Love like you'll never be hurt,Sing like there's nobody listening,And live like it's heaven on earth.",
-    "Author": "William W. Purkey",
-    "Tags": [
-      "dance",
-      "heaven",
-      "hurt",
-      "inspirational",
-      "life",
-      "love",
-      "sing "
-    ],
-    "Popularity": 0.10005610005610005,
-    "Category": "love"
+    "Quote": "Importa mucho más lo que tú piensas de ti mismo que lo que los otros opinen de ti.",
+    "Author": "Séneca"
   },
 
   {
-    "Quote":
-    "You know you're in love when you can't fall asleep because reality is finally better than your dreams.",
-    "Author": "Dr. Seuss",
-    "Tags": [
-      "attributed-no-source",
-      "dreams",
-      "love",
-      "reality",
-      "sleep "
-    ],
-    "Popularity": 0.09572409572409572,
-    "Category": "love"
-  },
-  {
-    "Quote": "A room without books is like a body without a soul.",
-    "Author": "Marcus Tullius Cicero",
-    "Tags": ["attributed-no-source", "books", "simile", "soul "],
-    "Popularity": 0.09537509537509538,
-    "Category": "soul"
+    "Quote": "La mayoría de las personas gastan más tiempo y energía en hablar de los problemas que en afrontarlas.",
+    "Author": "Herny Ford"
   },
 
   {
-    "Quote": "So many books, so little time.",
-    "Author": "Frank Zappa",
-    "Tags": ["books", "humor "],
-    "Popularity": 0.09506809506809506,
-    "Category": "humor"
+    "Quote": "Es posible conseguir algo luego de tres horas de pelea, pero es seguro que se podrá conseguir con apenas tres palabras impregnadas de afecto.",
+    "Author": "Confucio"
   },
 
   {
-    "Quote": "You only live once, but if you do it right, once is enough.",
-    "Author": "Mae West",
-    "Tags": ["humor", "life "],
-    "Popularity": 0.08772108772108772,
-    "Category": "life"
+    "Quote": "No consultes a tu temor, sino a tus esperanzas y sueños. No pienses acerca de tus frustraciones, sino sobre tu potencial.",
+    "Author": "San Juan XXIII"
   },
 
   {
-    "Quote": "Be the change that you wish to see in the world.",
-    "Author": "Mahatma Gandhi",
-    "Tags": ["action", "change", "inspirational", "philosophy", "wish "],
-    "Popularity": 0.08524808524808525,
-    "Category": "inspiration"
+    "Quote": "Nunca andes por el camino trazado, pues te conducirá únicamente hacia donde los otros fueron.",
+    "Author": "Alexander Graham Bell"
   },
 
   {
-    "Quote":
-    "In three words I can sum up everything I've learned about life: it goes on.",
-    "Author": "Robert Frost",
-    "Tags": ["life "],
-    "Popularity": 0.08117608117608117,
-    "Category": "life"
-  },
-  {
-    "Quote":
-    "Friendship ... is born at the moment when one man says to another \"What! You too? I thought that no one but myself . . .",
-    "Author": "C.S. Lewis,  The Four Loves",
-    "Tags": ["friendship "],
-    "Popularity": 0.07332207332207333,
-    "Category": ""
-  },
-  {
-    "Quote":
-    "If you want to know what a man's like, take a good look at how he treats his inferiors, not his equals.",
-    "Author": "J.K. Rowling,  Harry Potter and the Goblet of Fire",
-    "Tags": ["from-charles-bayard-miliken", "misattributed-j-k-rowling "],
-    "Popularity": 0.07218607218607219,
-    "Category": ""
-  },
-  {
-    "Quote":
-    "Don’t walk in front of me… I may not followDon’t walk behind me… I may not leadWalk beside me… just be my friend",
-    "Author": "Albert Camus",
-    "Tags": ["friends", "friendship", "misattributed-albert-camus "],
-    "Popularity": 0.07155007155007155,
-    "Category": ""
-  },
-  {
-    "Quote": "No one can make you feel inferior without your consent.",
-    "Author": "Eleanor Roosevelt,  This is My Story",
-    "Tags": ["confidence", "inspirational", "wisdom "],
-    "Popularity": 0.06906506906506907,
-    "Category": "inspiration"
+    "Quote": "Una partida perdida me enseña más que cien partidas ganadas.",
+    "Author": "Roberto Grau"
   },
 
   {
-    "Quote": "If you tell the truth, you don't have to remember anything.",
-    "Author": "Mark Twain",
-    "Tags": ["lies", "lying", "memory", "truth "],
-    "Popularity": 0.06795206795206796,
-    "Category": "truth"
-  },
-  {
-    "Quote": "A friend is someone who knows all about you and still loves you.",
-    "Author": "Elbert Hubbard",
-    "Tags": ["friend", "friendship", "knowledge", "love "],
-    "Popularity": 0.0661000661000661,
-    "Category": "love"
+    "Quote": "El objetivo principal de la educación es crear personas capaces de hacer cosas nuevas, y no simplemente repetir lo que otras generaciones hicieron.",
+    "Author": "Jean Piaget"
   },
 
   {
-    "Quote": "Always forgive your enemies; nothing annoys them so much.",
-    "Author": "Oscar Wilde",
-    "Tags": ["attributed-no-source", "enemies", "forgiveness", "strategy "],
-    "Popularity": 0.061497061497061495,
-    "Category": ""
-  },
-  {
-    "Quote":
-    "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
-    "Author": "Maya Angelou",
-    "Tags": ["61419 likes "],
-    "Popularity": 0.06141906141906142,
-    "Category": ""
-  },
-  {
-    "Quote":
-    "Live as if you were to die tomorrow. Learn as if you were to live forever.",
-    "Author": "Mahatma Gandhi",
-    "Tags": ["carpe-diem", "education", "inspirational", "learning "],
-    "Popularity": 0.05958405958405959,
-    "Category": "inspiration"
+    "Quote": "Dar el ejemplo no es la principal manera de influir sobre los demás, es la única manera.",
+    "Author": "Albert Einstein"
   },
 
   {
-    "Quote":
-    "I am so clever that sometimes I don't understand a single word of what I am saying.",
-    "Author": "Oscar Wilde,  The Happy Prince and Other Stories",
-    "Tags": ["intelligence", "self-deprecation "],
-    "Popularity": 0.05826905826905827,
-    "Category": ""
+    "Quote": "Nunca llegarás a tu destino si te detienes a arrojar piedras a cada perro que te ladre.",
+    "Author": "Winston Churchill"
   },
   {
-    "Quote":
-    "Darkness cannot drive out darkness: only light can do that. Hate cannot drive out hate: only love can do that.",
-    "Author":
-    "Martin Luther King Jr.,  A Testament of Hope: The Essential Writings and Speeches",
-    "Tags": [
-      "darkness",
-      "drive-out",
-      "hate",
-      "inspirational",
-      "light",
-      "love",
-      "peace "
-    ],
-    "Popularity": 0.05806205806205806,
-    "Category": "love"
+    "Quote": "Era como un gallo que creía que el sol había salido para oírle cantar.",
+    "Author": "George Eliot"
   },
 
   {
-    "Quote":
-    "To live is the rarest thing in the world. Most people exist, that is all.",
-    "Author": "Oscar Wilde",
-    "Tags": ["life "],
-    "Popularity": 0.058033058033058034,
-    "Category": "life"
-  },
-  {
-    "Quote": "Without music, life would be a mistake.",
-    "Author": "Friedrich Nietzsche,  Twilight of the Idols",
-    "Tags": ["inspirational", "music", "philosophy "],
-    "Popularity": 0.05467605467605468,
-    "Category": "inspiration"
+    "Quote": "Lo que enceguece no es el amor, sino el amor propio.",
+    "Author": "Voltaire"
   },
 
   {
-    "Quote":
-    "Insanity is doing the same thing, over and over again, but expecting different results.",
-    "Author": "Narcotics Anonymous",
-    "Tags": [
-      "humor",
-      "insanity",
-      "life",
-      "misattributed-ben-franklin",
-      "misattributed-mark-twain",
-      "misattributed-to-einstein "
-    ],
-    "Popularity": 0.054046054046054046,
-    "Category": "life"
+    "Quote": "El orgullo precede a la caída.",
+    "Author": "Proverbio"
+  },
+
+  {
+    "Quote": "Para los vanidosos todos los demás son admiradores.",
+    "Author": "Antoine de Saint-Exupery"
+  },
+
+  {
+    "Quote": "El que ama, se hace humilde. Aquellos que aman, por decirlo de alguna manera, renuncian a una parte de su narcisismo.",
+    "Author": "Sigmund Freud"
+  },
+
+  {
+    "Quote": "Si alguien dice que la perfección no existe, es porque no me conoce.",
+    "Author": "Un narcisista"
+  },
+
+  {
+    "Quote": "El poder es como un explosivo: o se maneja con cuidado, o estalla.",
+    "Author": "Enrique Tierno Galván"
+  },
+
+  {
+    "Quote": "La prepotencia cerrará las puertas que tu inteligencia consiga abrir.",
+    "Author": "Ramón Veloz"
+  },
+
+  {
+    "Quote": "Nada sobre esta tierra puede detener al hombre que posee la correcta actitud mental para lograr su meta. Nada sobre esta tierra puede ayudar al hombre con la incorrecta actitud mental.",
+    "Author": "Thomas Jefferson"
+  },
+
+  {
+    "Quote": "Si quieres cambiar al mundo cámbiate a ti mismo.",
+    "Author": "Mahatma Ghandhi"
+  },
+
+  {
+    "Quote": "El secreto de la sabiduría, del poder y del conocimiento es la humildad.",
+    "Author": "Ernest Hemingway"
+  },
+
+  {
+    "Quote": "El hombre más poderoso es el que es dueño de sí mismo.",
+    "Author": "Séneca"
+  },
+
+  {
+    "Quote": "No es valiente el que no tiene miedo sino el que sabe conquistarlo.",
+    "Author": "Nelson Mandela"
+  },
+
+  {
+    "Quote": "De lo que tengo miedo es de tu miedo.",
+    "Author": "William Shakespeare"
+  },
+
+  {
+    "Quote": "No hace falta conocer el peligro para tener miedo; de hecho, los peligros desconocidos son los que inspiran más temor.",
+    "Author": "Alejandro Dumas"
+  },
+
+  {
+    "Quote": "La confianza en sí mismo es el primer secreto del éxito.",
+    "Author": "Emerson"
+  },
+
+  {
+    "Quote": "El tigre no pierde el sueño por la opinión de las ovejas.",
+    "Author": "Proverbio oriental"
+  },
+
+  {
+    "Quote": "Si tu mal tiene remedio, ¿por qué te quejas? Si no lo tiene, ¿por qué te quejas?",
+    "Author": "Proverbio oriental"
+  },
+
+  {
+    "Quote": "Los obstáculos te parecerán grandes o pequeños dependiendo de que tú seas grande o pequeño.",
+    "Author": "Orison Swett Marden"
+  },
+
+  {
+    "Quote": "El pesimismo nunca ha ganado ninguna batalla.",
+    "Author": "Dwight D. Eisenhower"
+  },
+
+  {
+    "Quote": "Este es un mundo de acción, no de quejas y lamentos.",
+    "Author": "Charles Dickens"
+  },
+
+  {
+    "Quote": "Mi consejo es siempre el mismo: comience a pensar positivamente o terminará boicoteándose a usted mismo.",
+    "Author": "Donald Trump"
+  },
+
+  {
+    "Quote": "Los campeones no se hacen en gimnasios, están hechos de algo inmaterial que tienen muy dentro de ellos. Es un deseo, un sueño, una visión..",
+    "Author": "Muhammad Ali"
+  },
+
+  {
+    "Quote": "La ansiedad es un arroyito de temor que corre por la mente. Si se le alimenta puede convertirse en un torrente que arrastrará todos nuestros pensamientos.",
+    "Author": "A. Roche"
+  },
+
+  {
+    "Quote": "Busca dentro de ti la solución de todos los problemas, hasta aquellos que creas más exteriores y materiales.",
+    "Author": "Amado Nervo"
+  },
+
+  {
+    "Quote": "Libérate de la ansiedad, piensa que lo que debe ser, será, y sucederá naturalmente.",
+    "Author": "Facundo Cabral"
+  },
+
+  {
+    "Quote": "La catástrofe que tanto te preocupa, a menudo resulta ser menos horrible en la realidad de lo que fue en tu imaginación.",
+    "Author": "Wayne W. Dyer"
+  },
+
+  {
+    "Quote": "Si tu problema tiene solución, ¿por qué te afliges?",
+    "Author": "Proverbio chino"
+  },
+
+  {
+    "Quote": "La persona sádica es tan dependiente de la sumisa como ésta de aquella: ninguna de las dos puede vivir sin la otra.",
+    "Author": "Erich Fromm"
+  },
+
+  {
+    "Quote": "La pasión de dominar es la más terrible de todas las enfermedades del espíritu humano.",
+    "Author": "Voltaire"
+  },
+
+  {
+    "Quote": "Si tu jefe es un sádico tienes un gran problema. En ese caso, despide a tu jefe y busca un trabajo nuevo.",
+    "Author": "Donald Trump"
+  },
+
+  {
+    "Quote": "Dios aprieta pero no ahorca, ni cae en el sadismo.",
+    "Author": "Roberto Fontanarrosa"
+  },
+
+  {
+    "Quote": "Te respetarán aunque no te amen, porque necesitan tu diferencia.",
+    "Author": "Bernardo Stamateas"
+  },
+
+  {
+    "Quote": "No soy la única, pero aun así soy alguien. No puede hacer todo, pero aun así puede hacer algo; y solo porque no lo puedo hacer todo, no renunciaré a hacer lo que sí puedo.",
+    "Author": "Helen Keller"
+  },
+
+  {
+    "Quote": "La omnipotencia ha hecho del león un animal del desierto.",
+    "Author": "Valeriu Butulescu"
+  },
+
+  {
+    "Quote": "De todos es errar; solo del necio perseverar en el error.",
+    "Author": "Cicerón"
+  },
+
+  {
+    "Quote": "La acción expresa prioridades.",
+    "Author": "Mahatma Gandhi"
+  },
+
+  {
+    "Quote": "El líder capaz entrena a su suplente, el cual puede delegar a voluntad cualquier detalle de su posición. Solo de esta manera un líder se multiplica y se prepara para estar en muchos lugares y dar atención a muchas cosas al mismo tiempo.",
+    "Author": "Napoleón Hill"
+  },
+
+  {
+    "Quote": "La felicidad humana generalmente no se logra con grandes golpes de suerte, que pueden ocurrir pocas veces, sino con pequeñas cosas que ocurren todos los días.",
+    "Author": "Benjamín Franklin"
+  },
+
+  {
+    "Quote": "Las ideas audaces son como las piezas del ajedrez que avanzan hacia adelante. Pueden ser vencidas, pero también pueden iniciar una partida victoriosa.",
+    "Author": "Goethe"
+  },
+
+  {
+    "Quote": "Las coherencias tontas son la obsesión de las mentes ruines.",
+    "Author": "Ralph Waldo Emerson"
+  },
+
+  {
+    "Quote": "Quien no es dueño de su pensamiento no es dueño de sus actos.",
+    "Author": "Víctor Hugo"
+  },
+
+  {
+    "Quote": "El mundo que hemos creado es un producto de nuestro pensamiento. No puede cambiar sin cambiar nuestra forma de pensar.",
+    "Author": "Albert Einstein"
+  },
+
+  {
+    "Quote": "Si la gente nos oyera los pensamientos, pocos escaparíamos de estar encerrados por locos.",
+    "Author": "Jacinto Benavente"
+  },
+
+  {
+    "Quote": "Al que le gusta pecar, le gusta pelear; el que abre mucho la boca, busca que se la rompan.",
+    "Author": "Proverbios"
+  },
+
+  {
+    "Quote": "Disfrutar de todos los placeres es insensato; evitarlos, insensible.",
+    "Author": "Plutarco"
+  },
+
+  {
+    "Quote": "Gran descanso es estar libre de culpa.",
+    "Author": "Cicerón"
+  },
+
+  {
+    "Quote": "La culpa no está en el sentimiento, sino en el consentimiento.",
+    "Author": "San Bernardo de Claraval"
+  },
+
+  {
+    "Quote": "Amurallar el propio sufrimiento es arriesgarte a que te devore desde el interior.",
+    "Author": "Frida Kahlo"
+  },
+
+  {
+    "Quote": "Si no está en tus manos cambiar una situación que te produce dolor, siempre podrás escoger la actitud con la que afrontes ese sufrimiento.",
+    "Author": "Viktor Frankl"
+  },
+
+  {
+    "Quote": "El sufrimiento depende no tanto de lo que se padece cuanto de nuestra imaginación, que aumenta nuestros males.",
+    "Author": "Fenelón"
+  },
+
+  {
+    "Quote": "El miedo generalmente se manifiesta de dos maneras: a través de la agresividad o a través de la sumisión.",
+    "Author": "Paulo Coehlo"
+  },
+
+  {
+    "Quote": "Igual virtud es moderarse en el gozo que moderarse en el dolor.",
+    "Author": "Séneca"
+  },
+
+  {
+    "Quote": "El sufrir merece respeto, el someterse es despreciable.",
+    "Author": "Víctor Hugo"
+  },
+
+  {
+    "Quote": "Toda la felicidad que la humanidad puede alcanzar está, no en el placer, sino en el descanso del dolor.",
+    "Author": "John Dryden"
+  },
+
+  {
+    "Quote": "La timidez es una condición ajena al corazón, una categoría, una condición que desemboca en la soledad.",
+    "Author": "Pablo Neruda"
+  },
+
+  {
+    "Quote": "Esperar duele. Olvidar duele. Pero el peor de los sufrimientos es no saber qué decisión tomar.",
+    "Author": "Paulo Coelho"
+  },
+
+  {
+    "Quote": "La mejor victoria es aquella en la que ganan todos.",
+    "Author": "Salomón"
+  },
+
+  {
+    "Quote": "Los hechos no dejan de existir porque se los ignore.",
+    "Author": "Aldous Huxley"
+  },
+
+  {
+    "Quote": "La gente puede decidir racionalmente que las relaciones prolongadas ocupan demasiado tiempo y esfuerzo y que preferiría hacer otro tipo de cosas. Pero la mayoría de la gente tiene miedo al rechazo.",
+    "Author": "Albert Ellis"
+  },
+
+  {
+    "Quote": "Ningún hombre puede sentirse cómodo sin tener su propia aprobación.",
+    "Author": "Mark Twain"
+  },
+
+  {
+    "Quote": "Solía ser indeciso, ahora no estoy seguro.",
+    "Author": "Woody Allen"
+  },
+
+  {
+    "Quote": "¿Qué soledad es más solitaria que la desconfianza?.",
+    "Author": "George Eliot"
+  },
+
+  {
+    "Quote": "Piense usted que siempre es más noble engañarse alguna vez que desconfiar siempre.",
+    "Author": "Jacinto Benavente"
+  },
+
+  {
+    "Quote": "Confiar en todos es insensato; pero no confiar en nadie es torpeza.",
+    "Author": "Juvenal"
+  },
+
+  {
+    "Quote": "Mi madre me adoró hasta la muerte y yo pienso hacer lo mismo con esta niña.",
+    "Author": "Tracy Hogg"
+  },
+
+  {
+    "Quote": "Hasta los más insignficantes ritos del diario vivir son importantes para el alma.",
+    "Author": "Tomás Moro"
+  },
+
+  {
+    "Quote": "Sé tu propio palacio o el mundo será tu prisión.",
+    "Author": "John Donne"
+  },
+
+  {
+    "Quote": "El único deber es el deber de divertirse terriblemente.",
+    "Author": "Oscar Wilde"
+  },
+
+  {
+    "Quote": "Las gotas de lluvia horadan la piedra no por la violencia sino por la caída constante.",
+    "Author": "Lucrecio"
+  },
+
+  {
+    "Quote": "La verdadera educación consiste en obtener lo mejor de uno mismo.",
+    "Author": "Mahatma Gandhi"
+  },
+
+  {
+    "Quote": "Quien solo busca el aplauso de los demás pone su felicidad en manos ajenas.",
+    "Author": "Oliver Goldsmith"
+  },
+
+  {
+    "Quote": "Los mosquitos mueren entre aplausos.",
+    "Author": "Woody Allen"
+  },
+
+  {
+    "Quote": "Corred el riesgo de ser diferentes, pero aprended a hacerlo sin llamar la atención.",
+    "Author": "Paulo Coehlo"
+  },
+
+  {
+    "Quote": "Ni deprimido por el fracaso ni seducido por los aplausos.",
+    "Author": "Gustav Mahler"
+  },
+
+  {
+    "Quote": "Para poco ha nacido quien aguarda el reconocimiento de sus contemporáneos.",
+    "Author": "Séneca"
+  },
+
+  {
+    "Quote": "Ser quienes somos y convertirnos en lo mejor que somos capaces de ser es la única meta de la vida.",
+    "Author": "Robert Louis Stevenson"
+  },
+
+  {
+    "Quote": "En realidad son nuestras decisiones las que determinan lo que podemos llegar a ser, mucho más que nuestras habilidades.",
+    "Author": "J. K. Rowling"
+  },
+
+  {
+    "Quote": "No conozco la clave del éxito pero la clave del fracaso es tratar de complacer a todo el mundo.",
+    "Author": "Woody Allen"
+  },
+
+  {
+    "Quote": "Acepta los riesgos, toda la vida no es sino una oportunidad. El hombre que llega más lejos es, generalmente, el que quiere y se atreve a hacerlo.",
+    "Author": "Dale Carnegie"
+  },
+
+  {
+    "Quote": "Todo lo que escuchamos es una opinión, no un hecho. Todo lo que vemos es una perspectiva, no es la verdad.",
+    "Author": "Marco Aurelio"
+  },
+
+  {
+    "Quote": "Cuando crees en ti mismo, eres libre para enfocarte en mejorar y alcanzar tu potencial.",
+    "Author": "John Maxwell"
   }
 ]

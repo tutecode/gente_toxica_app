@@ -1,9 +1,5 @@
-
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
-
 
 //TextStyle headingAppBar = TextStyle(
 
@@ -22,9 +18,23 @@ TextStyle authorsHome = TextStyle(
   color: Colors.black,
 );
 
-///listView_home
+///navigation_page
 TextStyle listViewHome = TextStyle(
   //textScaleFactor: 1.5,
   fontFamily: 'RobotoSlab Regular',
 );
 
+///El Triangulador
+TextStyle triangulador = TextStyle(
+  fontFamily: "RobotoMono Regular",
+  color: Colors.black,
+);
+
+TextStyle boldItalic = TextStyle(
+  fontFamily: "RobotoMono BoldItalic",
+  fontStyle: FontStyle.italic,
+  fontWeight: FontWeight.w700,
+  //fontStyle: FontStyle.italic,
+  color: Colors.black,
+  //fontStyle: FontStyle.italic
+);
