@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/triangulador_actitudes_sanas.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/triangulador_definicion.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/triangulador_personas.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/utils/text_styles.dart';
 
 //TODO: sound_doctrine/lib/navigations/navigation_page.dart
@@ -34,7 +35,7 @@ const kNavigation = <NavigationCategory>[
       ),
       NavigationPageItem(
         title: '● Personas que intervienen',
-        route: TrianguladorActitudes(),
+        route: TrianguladorPersonas(),
         routeName: '.../routes/triangulador_personas',
       ),
       NavigationPageItem(
@@ -656,15 +657,23 @@ class MyHomePage extends StatelessWidget {
           style: listViewHome,
         ),
         trailing: trialing == null ? null : Icon(trialing),
-        onTap: () => Navigator.push(
+        onTap: () => /*Navigator.push(
           context,
           MaterialPageRoute(
             builder: (context) => (nav.route),
+            */
             //Navigator.of(context).pushNamed(nav.routeName),
-          ),
-        ),
+            ///Animation_1
+            Navigator.of(context).push(_createRoute(nav))
       );
+            //),
+        //),
+      //);
     }
+
+
+
+
 
     Widget _myExpansion(NavigationCategory navCat) {
       return ExpansionTile(
@@ -684,6 +693,25 @@ class MyHomePage extends StatelessWidget {
 
     return ListView(
       children: kNavigation.map(_myExpansion).toList(),
+    );
+  }
+
+  ///Animation_1
+  Route _createRoute(NavigationPageItem nav) {
+    return PageRouteBuilder(
+      pageBuilder: (context, animation, secondaryAnimation) => nav.route,
+      transitionsBuilder: (context, animation, secondaryAnimation, child) {
+        var begin = Offset(0.0, 1.0);
+        var end = Offset.zero;
+        var curve = Curves.ease;
+
+        var tween = Tween(begin: begin, end: end).chain(CurveTween(curve: curve));
+
+        return SlideTransition(
+          position: animation.drive(tween),
+          child: child,
+        );
+      },
     );
   }
 }

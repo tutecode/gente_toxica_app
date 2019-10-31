@@ -81,6 +81,10 @@ flutter:
         - asset: assets/fonts/RobotoMono-MediumItalic.ttf
           weight: 500
           style: italic
+    - family: RobotoMono Bold
+      fonts:
+        - asset: assets/fonts/RobotoMono-Bold.ttf
+          weight: 700
     - family: RobotoMono BoldItalic
       fonts:
         - asset: assets/fonts/RobotoMono-BoldItalic.ttf

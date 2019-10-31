@@ -24,17 +24,21 @@ TextStyle listViewHome = TextStyle(
   fontFamily: 'RobotoSlab Regular',
 );
 
-///El Triangulador
-TextStyle triangulador = TextStyle(
+///.../pages/routes
+TextStyle monoRegular = TextStyle(
   fontFamily: "RobotoMono Regular",
   color: Colors.black,
 );
 
-TextStyle boldItalic = TextStyle(
+TextStyle monoBoldItalic = TextStyle(
   fontFamily: "RobotoMono BoldItalic",
   fontStyle: FontStyle.italic,
   fontWeight: FontWeight.w700,
-  //fontStyle: FontStyle.italic,
   color: Colors.black,
-  //fontStyle: FontStyle.italic
+);
+
+TextStyle monoBold = TextStyle(
+  fontFamily: "RobotoMono Bold",
+  fontWeight: FontWeight.w700,
+  color: Colors.black,
 );

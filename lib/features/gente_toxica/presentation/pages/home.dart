@@ -135,7 +135,7 @@ class HomePageState extends State<HomePage> {
                                       children: <Widget>[
                                         ///Quotes
                                         Text(
-                                          "" + quote[_index]['Quote'],
+                                          quote[_index]['Quote'],
                                           textScaleFactor: 1.1,
                                           textAlign: TextAlign.center,
                                           style: quotesHome,
@@ -211,7 +211,7 @@ class HomePageState extends State<HomePage> {
 
           ///Second Part
           Expanded(
-            flex: 6,
+            flex: 7,
             child: Container(
               padding: EdgeInsets.only(top: 12.0),
               ///ListView

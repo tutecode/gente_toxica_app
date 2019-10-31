@@ -2,24 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/utils/text_styles.dart';
 
-/*
-class TrianguladorDefinicion extends StatelessWidget{
-  @override
-  Widget build(BuildContext context) {
-    // TODO: implement build
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Definición'),
-      ),
-      body: Center(
-        child: Text('Hola'),
-      )
-    );
-  }
-
-}
-*/
-
 class TrianguladorDefinicion extends StatelessWidget {
   const TrianguladorDefinicion({Key key}) : super(key: key);
 
@@ -39,9 +21,12 @@ class TrianguladorDefinicion extends StatelessWidget {
                 textScaleFactor: 1.4,
                 text: TextSpan(
                   text: 'La ',
-                  style: triangulador,
+                  style: monoRegular,
                   children: <TextSpan>[
-                    TextSpan(text: 'triangulación', style: boldItalic),
+                    TextSpan(
+                      text: 'triangulación',
+                      style: monoBoldItalic,
+                    ),
                     TextSpan(
                       text:
                           ' es el acto de contarle a un tercero un mensaje que '
@@ -54,7 +39,7 @@ class TrianguladorDefinicion extends StatelessWidget {
                           'no se comunica directamente con otro miembro de la familia, '
                           'pero sí lo hace con una tercera persona para que intervenga '
                           'en un asunto.',
-                      style: triangulador,
+                      style: monoRegular,
                     ),
                   ],
                 ),
