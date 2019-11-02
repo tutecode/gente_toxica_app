@@ -1,7 +1,3 @@
-
-
-
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/utils/text_styles.dart';
@@ -20,7 +16,7 @@ class TrianguladorActitudes extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Container(
-              padding: EdgeInsets.only(left: 10, top: 10, bottom: 0, right: 10),
+              padding: EdgeInsets.only(left: 10, top: 10, bottom: 10, right: 10),
               child: RichText(
                 textScaleFactor: 1.4,
                 text: TextSpan(

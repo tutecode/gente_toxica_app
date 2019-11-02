@@ -94,6 +94,11 @@ flutter:
       fonts:
         - asset: assets/fonts/RobotoSlab-Regular.ttf
           weight: 400
+    - family: RobotoMono Italic
+      fonts:
+        - asset: assets/fonts/RobotoMono-Italic.ttf
+          weight: 400
+          style: italic
     - family: Raleway
       fonts:
         #- asset: assets/fonts/Raleway-Regular.ttf

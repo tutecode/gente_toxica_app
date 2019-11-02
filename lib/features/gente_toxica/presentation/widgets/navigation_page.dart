@@ -1,5 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/frustrador_actitudes.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/frustrador_definicion.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/frustrador_hijos_sanos.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/frustrador_rasgos.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/narcisista_definicion.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/narcisista_hijos_sanos.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/narcisista_parejas.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/narcisista_rasgos.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/triangulador_actitudes_sanas.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/triangulador_definicion.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/triangulador_personas.dart';
@@ -52,22 +60,22 @@ const kNavigation = <NavigationCategory>[
     navigations: <NavigationPageItem>[
       NavigationPageItem(
         title: '● Definición',
-        route: TrianguladorDefinicion(),
+        route: FrustradorDefinicion(),
         routeName: '.../routes/frustrador_definicion',
       ),
       NavigationPageItem(
         title: '● Rasgos',
-        route: TrianguladorDefinicion(),
+        route: FrustradorRasgos(),
         routeName: '.../routes/frustrador_rasgos',
       ),
       NavigationPageItem(
         title: '● Actitudes frente a la frustración',
-        route: TrianguladorDefinicion(),
+        route: FrustradorActitudes(),
         routeName: '.../routes/frustrador_actitudes',
       ),
       NavigationPageItem(
         title: '● Criando hijos sanos',
-        route: TrianguladorDefinicion(),
+        route: FrustradorHijosSanos(),
         routeName: '.../routes/frustrador_hijos_sanos',
       ),
     ],
@@ -78,22 +86,22 @@ const kNavigation = <NavigationCategory>[
     navigations: <NavigationPageItem>[
       NavigationPageItem(
         title: '● Definición',
-        route: TrianguladorDefinicion(),
+        route: NarcisistaDefinicion(),
         routeName: '.../routes/narcisista_definicion',
       ),
       NavigationPageItem(
         title: '● Rasgos',
-        route: TrianguladorDefinicion(),
+        route: NarcisistaRasgos(),
         routeName: '.../routes/narcisista_rasgos',
       ),
       NavigationPageItem(
         title: '● Parejas del narcisista',
-        route: TrianguladorDefinicion(),
+        route: NarcisistaParejas(),
         routeName: '.../routes/narcisista_parejas',
       ),
       NavigationPageItem(
         title: '● Criando hijos sanos',
-        route: TrianguladorDefinicion(),
+        route: NarcisistaHijosSanos(),
         routeName: '.../routes/narcisista_hijos_sanos',
       ),
       NavigationPageItem(
@@ -649,7 +657,7 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     ListTile _myNavigation(NavigationPageItem nav,
-        {IconData trialing: Icons.keyboard_arrow_right}) {
+        {IconData trialing: Icons.keyboard_arrow_down}) {
       return ListTile(
         title: Text(
           nav.title,
@@ -670,10 +678,6 @@ class MyHomePage extends StatelessWidget {
         //),
       //);
     }
-
-
-
-
 
     Widget _myExpansion(NavigationCategory navCat) {
       return ExpansionTile(

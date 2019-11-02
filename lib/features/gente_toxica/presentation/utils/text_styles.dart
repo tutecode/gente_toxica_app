@@ -42,3 +42,9 @@ TextStyle monoBold = TextStyle(
   fontWeight: FontWeight.w700,
   color: Colors.black,
 );
+
+TextStyle monoItalic = TextStyle(
+  fontFamily: "RobotoMono Italic",
+  color: Colors.black,
+  fontStyle: FontStyle.italic,
+);
