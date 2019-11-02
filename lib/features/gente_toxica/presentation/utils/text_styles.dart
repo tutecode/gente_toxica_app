@@ -24,6 +24,11 @@ TextStyle listViewHome = TextStyle(
   fontFamily: 'RobotoSlab Regular',
 );
 
+TextStyle titleAppBar = TextStyle(
+  //textScaleFactor: 1.5,
+  fontFamily: 'RobotoSlab Regular',
+);
+
 ///.../pages/routes
 TextStyle monoRegular = TextStyle(
   fontFamily: "RobotoMono Regular",

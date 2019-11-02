@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/utils/constants.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/utils/text_styles.dart';
 
 class TrianguladorActitudes extends StatelessWidget {
@@ -9,18 +10,20 @@ class TrianguladorActitudes extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Definición'),
+        title: Text('Actitudes sanas',
+            style: titleAppBar),
       ),
       body: SingleChildScrollView(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Container(
-              padding: EdgeInsets.only(left: 10, top: 10, bottom: 10, right: 10),
+              padding: kMargin,
               child: RichText(
-                textScaleFactor: 1.4,
+                textScaleFactor: kTextScale,
                 text: TextSpan(
-                  text: 'Para resolver cualquier situación conflictiva hay tres actitudes que siempre debemos tener en cuenta:',
+                  text: 'Para resolver cualquier situación conflictiva hay '
+                      'tres actitudes que siempre debemos tener en cuenta:',
                   style: monoRegular,
                   children: <TextSpan>[
                     TextSpan(
@@ -29,7 +32,8 @@ class TrianguladorActitudes extends StatelessWidget {
                     ),
                     TextSpan(
                       text:
-                      ' El objetivo debe ser solucionar el conflicto. Si esto no está claro, nada servirá.',
+                      ' El objetivo debe ser solucionar el conflicto. '
+                          'Si esto no está claro, nada servirá.',
                       style: monoRegular,
                     ),
                     TextSpan(
@@ -47,12 +51,16 @@ class TrianguladorActitudes extends StatelessWidget {
                     ),
                     TextSpan(
                       text:
-                      ' Si se designa a una persona para que cumpla explícitamente el rol de facilitar que dos partes entiendan no hay manipulacón, porque el objetivo es resolver un tema que se nos escapa de las manos.',
+                      ' Si se designa a una persona para que cumpla '
+                          'explícitamente el rol de facilitar que dos partes '
+                          'entiendan no hay manipulacón, porque el objetivo es '
+                          'resolver un tema que se nos escapa de las manos.',
                       style: monoRegular,
                     ),
                     TextSpan(
                       text:
-                      '\n\nCuando se recurre expresamente a un intermediario pueden ocurrir dos cosas:',
+                      '\n\nCuando se recurre expresamente a un intermediario'
+                          ' pueden ocurrir dos cosas:',
                       style: monoRegular,
                     ),
                     TextSpan(
@@ -61,7 +69,8 @@ class TrianguladorActitudes extends StatelessWidget {
                     ),
                     TextSpan(
                       text:
-                      ' En este caso tenemos la alegría de haberlo manejado correctamente.',
+                      ' En este caso tenemos la alegría de haberlo'
+                          ' manejado correctamente.',
                       style: monoRegular,
                     ),
                     TextSpan(

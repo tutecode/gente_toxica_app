@@ -4,10 +4,25 @@ import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/frustrador_definicion.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/frustrador_hijos_sanos.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/frustrador_rasgos.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/miedoso_adolescencia.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/miedoso_definicion.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/miedoso_hijos_adolescencia.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/miedoso_hijos_infancia.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/miedoso_infancia.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/miedoso_poder.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/miedoso_rasgos.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/miedoso_venciendo.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/narcisista_actitudes.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/narcisista_definicion.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/narcisista_hijos_sanos.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/narcisista_parejas.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/narcisista_rasgos.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/prepotente_definicion.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/prepotente_impotencia.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/prepotente_poder_cambio.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/prepotente_poder_sanamente.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/prepotente_rasgos.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/prepotente_valoracion.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/triangulador_actitudes_sanas.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/triangulador_definicion.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/triangulador_personas.dart';
@@ -106,7 +121,7 @@ const kNavigation = <NavigationCategory>[
       ),
       NavigationPageItem(
         title: '● Actitudes frente a él',
-        route: TrianguladorDefinicion(),
+        route: NarcisistaActitudes(),
         routeName: '.../routes/narcisista_actitudes',
       ),
     ],
@@ -118,32 +133,32 @@ const kNavigation = <NavigationCategory>[
     navigations: <NavigationPageItem>[
       NavigationPageItem(
         title: '● Definición',
-        route: TrianguladorDefinicion(),
+        route: PrepotenteDefinicion(),
         routeName: '.../routes/prepotente_definicion',
       ),
       NavigationPageItem(
         title: '● Rasgos',
-        route: TrianguladorDefinicion(),
+        route: PrepotenteRasgos(),
         routeName: '.../routes/prepotente_rasgos',
       ),
       NavigationPageItem(
         title: '● La impotencia',
-        route: TrianguladorDefinicion(),
+        route: PrepotenteImpotencia(),
         routeName: '.../routes/prepotente_impotencia',
       ),
       NavigationPageItem(
         title: '● El poder del cambio',
-        route: TrianguladorDefinicion(),
+        route: PrepotentePoderCambio(),
         routeName: '.../routes/prepotente_poder_cambio',
       ),
       NavigationPageItem(
         title: '● Manejar poder sanamente',
-        route: TrianguladorDefinicion(),
+        route: PrepotentePoderSanamente(),
         routeName: '.../routes/prepotente_poder_sanamente',
       ),
       NavigationPageItem(
         title: '● Valoracion realista',
-        route: TrianguladorDefinicion(),
+        route: PrepotenteValoracion(),
         routeName: '.../routes/prepotente_valoracion',
       ),
     ],
@@ -154,42 +169,42 @@ const kNavigation = <NavigationCategory>[
     navigations: <NavigationPageItem>[
       NavigationPageItem(
         title: '● Definición',
-        route: TrianguladorDefinicion(),
+        route: MiedosoDefinicion(),
         routeName: '.../routes/miedoso_definicion',
       ),
       NavigationPageItem(
         title: '● Rasgos',
-        route: TrianguladorDefinicion(),
+        route: MiedosoRasgos(),
         routeName: '.../routes/miedoso_rasgos',
       ),
       NavigationPageItem(
         title: '● Miedos de la infancia',
-        route: TrianguladorDefinicion(),
+        route: MiedosoInfancia(),
         routeName: '.../routes/miedoso_infancia',
       ),
       NavigationPageItem(
         title: '● Criando hijos sin miedo',
-        route: TrianguladorDefinicion(),
-        routeName: '.../routes/miedoso_hijos_adolescencia',
+        route: MiedosoHijosInfancia(),
+        routeName: '.../routes/miedoso_hijos_infancia',
       ),
       NavigationPageItem(
         title: '● Miedos en la adolescencia',
-        route: TrianguladorDefinicion(),
+        route: MiedosoAdolescencia(),
         routeName: '.../routes/miedoso_adolescencia',
       ),
       NavigationPageItem(
         title: '● Criando hijos sin miedo',
-        route: TrianguladorDefinicion(),
+        route: MiedosoHijosAdolescencia(),
         routeName: '.../routes/miedoso_hijos_adolescencia',
       ),
       NavigationPageItem(
         title: '● El poder frente al miedo',
-        route: TrianguladorDefinicion(),
+        route: MiedosoPoder(),
         routeName: '.../routes/miedoso_poder',
       ),
       NavigationPageItem(
         title: '● Venciendo el miedo',
-        route: TrianguladorDefinicion(),
+        route: MiedosoVenciendo(),
         routeName: '.../routes/miedoso_venciendo',
       ),
     ],
@@ -200,27 +215,27 @@ const kNavigation = <NavigationCategory>[
     navigations: <NavigationPageItem>[
       NavigationPageItem(
         title: '● Definición',
-        route: TrianguladorDefinicion(),
+        route: NegativoDefinicion(),
         routeName: '.../routes/negativo_definicion',
       ),
       NavigationPageItem(
         title: '● Rasgos',
-        route: TrianguladorDefinicion(),
+        route: NegativoRasgos(),
         routeName: '.../routes/negativo_rasgos',
       ),
       NavigationPageItem(
         title: '● Cómo actúan',
-        route: TrianguladorDefinicion(),
+        route: NegativoComoActuan(),
         routeName: '.../routes/negativo_como_actuan',
       ),
       NavigationPageItem(
         title: '● Actitudes frente al negativo',
-        route: TrianguladorDefinicion(),
+        route: NegativoActitudes(),
         routeName: '.../routes/negativo_actitudes',
       ),
       NavigationPageItem(
         title: '● Vive en positivo',
-        route: TrianguladorDefinicion(),
+        route: NegativoVivePositivo(),
         routeName: '.../routes/negativo_vive_positivo',
       ),
     ],
@@ -231,32 +246,32 @@ const kNavigation = <NavigationCategory>[
     navigations: <NavigationPageItem>[
       NavigationPageItem(
         title: '● Definición',
-        route: TrianguladorDefinicion(),
+        route: AnsiosoDefinicion(),
         routeName: '.../routes/ansioso_definicion',
       ),
       NavigationPageItem(
         title: '● Detectar la ansiedad',
-        route: TrianguladorDefinicion(),
+        route: AnsiosoDetectarAnsiedad(),
         routeName: '.../routes/ansioso_detectar_ansiedad',
       ),
       NavigationPageItem(
         title: '● La preocupación',
-        route: TrianguladorDefinicion(),
+        route: AnsiosoPreocupacion(),
         routeName: '.../routes/ansioso_preocupacion',
       ),
       NavigationPageItem(
         title: '● ¿Por qué nos preocupamos',
-        route: TrianguladorDefinicion(),
+        route: AnsiosoNosPreocupamos(),
         routeName: '.../routes/ansioso_nos_preocupamos',
       ),
       NavigationPageItem(
         title: '● Libres de la preocupación',
-        route: TrianguladorDefinicion(),
+        route: AnsiosoLibresPreocupacion(),
         routeName: '.../routes/ansioso_libres_preocupacion',
       ),
       NavigationPageItem(
         title: '● Libres de la ansiedad',
-        route: TrianguladorDefinicion(),
+        route: AnsiosoLibresAnsiedad(),
         routeName: '.../routes/ansioso_libres_ansiedad',
       ),
     ],

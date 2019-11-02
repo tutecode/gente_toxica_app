@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/utils/constants.dart';
 
+/*
 class About extends StatelessWidget {
   const About({Key key}) : super(key: key);
 
@@ -61,3 +62,4 @@ class About extends StatelessWidget {
     );
   }
 }
+*/

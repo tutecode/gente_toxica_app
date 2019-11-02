@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/utils/constants.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/utils/text_styles.dart';
 
 class FrustradorDefinicion extends StatelessWidget {
@@ -16,9 +17,9 @@ class FrustradorDefinicion extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Container(
-              padding: EdgeInsets.only(left: 10, top: 10, bottom: 10, right: 10),
+              padding: kMargin,
               child: RichText(
-                textScaleFactor: 1.4,
+                textScaleFactor: kTextScale,
                 text: TextSpan(
                   text: 'Una persona que no pudo lograr sus objetivos en la vida, '
                       'que no alcanzó sus sueños, inconscientemente intentará boicotearte '
