@@ -10,7 +10,8 @@ class MiedosoPoder extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Poder y miedo'),
+        title: Text('Poder y miedo',
+            style: titleAppBar),
       ),
       body: SingleChildScrollView(
         child: Column(

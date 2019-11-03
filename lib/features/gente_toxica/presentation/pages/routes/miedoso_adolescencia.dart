@@ -22,11 +22,9 @@ class MiedosoAdolescencia extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
+                  text: 'Los adolescentes tienen miedo a:',
+                  style: monoRegular,
                   children: <TextSpan>[
-                    TextSpan(
-                      text: 'Los adolescentes tienen miedo a:',
-                      style: monoRegular,
-                    ),
                     TextSpan(
                       text: '\n\n 1. No saber quiénes son, no poseer identidad.',
                       style: monoItalic,

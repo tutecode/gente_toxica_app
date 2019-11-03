@@ -10,7 +10,8 @@ class PrepotenteRasgos extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Rasgos'),
+        title: Text('Rasgos',
+            style: titleAppBar),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -21,14 +22,12 @@ class PrepotenteRasgos extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
+                  text:
+                  ' ● Hay personas que tienen el corazón enfermo pero ni ellos lo saben… '
+                      'hasta que tienen poder. '
+                      'Cuando tienen un poco de poder, se vuelven déspotas.',
+                  style: monoRegular,
                   children: <TextSpan>[
-                    TextSpan(
-                      text:
-                          ' ● Hay personas que tienen el corazón enfermo pero ni ellos lo saben… '
-                          'hasta que tienen poder. '
-                          'Cuando tienen un poco de poder, se vuelven déspotas.',
-                      style: monoRegular,
-                    ),
                     TextSpan(
                       text: '\n\n ● Hay personas que tienen poder y '
                           'lo transforman en prepotencia porque piensan que '

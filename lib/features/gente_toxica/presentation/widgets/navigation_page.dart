@@ -1,5 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/ansioso_definicion.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/ansioso_detectar_ansiedad.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/ansioso_libres_ansiedad.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/ansioso_libres_preocupacion.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/ansioso_nos_preocupamos.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/ansioso_preocupacion.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/frustrador_actitudes.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/frustrador_definicion.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/frustrador_hijos_sanos.dart';
@@ -17,12 +23,26 @@ import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/narcisista_hijos_sanos.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/narcisista_parejas.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/narcisista_rasgos.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/negativo_actitudes.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/negativo_como_actuan.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/negativo_definicion.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/negativo_rasgos.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/negativo_vive_positivo.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/omnipotente_definicion.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/omnipotente_importante.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/omnipotente_libres.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/omnipotente_priorizar.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/omnipotente_rasgos.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/prepotente_definicion.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/prepotente_impotencia.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/prepotente_poder_cambio.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/prepotente_poder_sanamente.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/prepotente_rasgos.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/prepotente_valoracion.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/sadico_chivo_expiatorio.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/sadico_definicion.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/sadico_libres_sadismo.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/sadico_rasgos.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/triangulador_actitudes_sanas.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/triangulador_definicion.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/triangulador_personas.dart';
@@ -282,48 +302,22 @@ const kNavigation = <NavigationCategory>[
     navigations: <NavigationPageItem>[
       NavigationPageItem(
         title: '● Definición',
-        route: TrianguladorDefinicion(),
+        route: SadicoDefinicion(),
         routeName: '.../routes/sadico_definicion',
       ),
       NavigationPageItem(
         title: '● Rasgos',
-        route: TrianguladorDefinicion(),
+        route: SadicoRasgos(),
         routeName: '.../routes/sadico_rasgos',
       ),
       NavigationPageItem(
         title: '● El chivo expiatorio',
-        route: TrianguladorDefinicion(),
+        route: SadicoChivoExpiatorio(),
         routeName: '.../routes/sadico_chivo_expiatorio',
       ),
       NavigationPageItem(
         title: '● Libres del sadismo',
-        route: TrianguladorDefinicion(),
-        routeName: '.../routes/sadico_libres_sadismo',
-      ),
-    ],
-  ),
-  //TODO: "El Sádico"
-  NavigationCategory(
-    head: 'El Sádico',
-    navigations: <NavigationPageItem>[
-      NavigationPageItem(
-        title: '● Definición',
-        route: TrianguladorDefinicion(),
-        routeName: '.../routes/sadico_definicion',
-      ),
-      NavigationPageItem(
-        title: '● Rasgos',
-        route: TrianguladorDefinicion(),
-        routeName: '.../routes/sadico_rasgos',
-      ),
-      NavigationPageItem(
-        title: '● El chivo expiatorio',
-        route: TrianguladorDefinicion(),
-        routeName: '.../routes/sadico_chivo_expiatorio',
-      ),
-      NavigationPageItem(
-        title: '● Libres del sadismo',
-        route: TrianguladorDefinicion(),
+        route: SadicoLibresSadismo(),
         routeName: '.../routes/sadico_libres_sadismo',
       ),
     ],
@@ -334,27 +328,27 @@ const kNavigation = <NavigationCategory>[
     navigations: <NavigationPageItem>[
       NavigationPageItem(
         title: '● Definición',
-        route: TrianguladorDefinicion(),
+        route: OmnipotenteDefinicion(),
         routeName: '.../routes/omnipotente_definicion',
       ),
       NavigationPageItem(
         title: '● Rasgos',
-        route: TrianguladorDefinicion(),
+        route: OmnipotenteRasgos(),
         routeName: '.../routes/omnipotente_rasgos',
       ),
       NavigationPageItem(
         title: '● Libres de la omnipotencia',
-        route: TrianguladorDefinicion(),
+        route: OmnipotenteLibres(),
         routeName: '.../routes/omnipotente_libres',
       ),
       NavigationPageItem(
         title: '● Aprender a priorizar',
-        route: TrianguladorDefinicion(),
+        route: OmnipotentePriorizar(),
         routeName: '.../routes/omnipotente_priorizar',
       ),
       NavigationPageItem(
         title: '●   Lo que verdaderamente importa',
-        route: TrianguladorDefinicion(),
+        route: OmnipotenteImportante(),
         routeName: '.../routes/omnipotente_importante',
       ),
     ],

@@ -11,7 +11,8 @@ class TrianguladorPersonas extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Personas que intervienen',
-            style: titleAppBar),
+            style: titleAppBar,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -38,7 +39,7 @@ class TrianguladorPersonas extends StatelessWidget {
                       style: monoRegular,
                     ),
                     TextSpan(
-                        text: '\n ● El que quiere manipular.',
+                        text: '\n\n ● El que quiere manipular.',
                         style: monoBold,
                     ),
                     TextSpan(

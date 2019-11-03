@@ -10,7 +10,8 @@ class NarcisistaRasgos extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Rasgos'),
+        title: Text('Rasgos',
+            style: titleAppBar),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -21,11 +22,9 @@ class NarcisistaRasgos extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
+                  text: ' ● Dice de sí mismo: "Soy grandioso"',
+                  style: monoBold,
                   children: <TextSpan>[
-                    TextSpan(
-                      text: ' ● Dice de sí mismo: "Soy grandioso"',
-                      style: monoBold,
-                    ),
                     TextSpan(
                       text: '\n\n ● No tiene empatía',
                       style: monoBold,

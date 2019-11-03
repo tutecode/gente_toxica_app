@@ -10,7 +10,7 @@ class MiedosoRasgos extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Manejando poder',
+        title: Text('Rasgos',
             style: titleAppBar),
       ),
       body: SingleChildScrollView(
@@ -22,12 +22,10 @@ class MiedosoRasgos extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
+                  text: ' ● Se sienten observados mientras comparten '
+                      'alguna actividad en grupo.',
+                  style: monoRegular,
                   children: <TextSpan>[
-                    TextSpan(
-                      text: ' ● Se sienten observados mientras comparten '
-                          'alguna actividad en grupo.',
-                      style: monoRegular,
-                    ),
                     TextSpan(
                       text: '\n\n ● No quieren hablar en público, '
                           'hacen todo lo posible por pasar desapercibidos.',

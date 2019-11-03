@@ -10,7 +10,8 @@ class NarcisistaDefinicion extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Definición'),
+        title: Text('Definición',
+            style: titleAppBar),
       ),
       body: SingleChildScrollView(
         child: Column(

@@ -10,7 +10,8 @@ class NarcisistaActitudes extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Actitudes sanas'),
+        title: Text('Actitudes sanas',
+            style: titleAppBar),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -21,11 +22,9 @@ class NarcisistaActitudes extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
+                  text: 'Intentar mostrarle sus errores',
+                  style: monoItalic,
                   children: <TextSpan>[
-                    TextSpan(
-                      text: 'Intentar mostrarle sus errores',
-                      style: monoItalic,
-                    ),
                     TextSpan(
                       text: '\n\nSi el',
                       style: monoRegular,
@@ -56,7 +55,7 @@ class NarcisistaActitudes extends StatelessWidget {
                       style: monoRegular,
                     ),
                     TextSpan(
-                      text: '\n\n Todos somos valiosos. '
+                      text: '\n\nTodos somos valiosos. '
                           'Todos fuimos creados con un potencial ilimitado '
                           'que necesitamos aprender a desarrollar, '
                           'con un propósito de vida por descubrir y '

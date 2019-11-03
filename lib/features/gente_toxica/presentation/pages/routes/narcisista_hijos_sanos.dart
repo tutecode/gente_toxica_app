@@ -10,7 +10,7 @@ class NarcisistaHijosSanos extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Rasgos'),
+        title: Text('Criando hijos sanos', style: titleAppBar),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -21,38 +21,47 @@ class NarcisistaHijosSanos extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
+                  text:
+                      '¿Qué podemos hacer los padres para construir la estima de nuestros hijos, '
+                      'para que no se crean Superman pero tampoco el último de la fila?',
+                  style: monoRegular,
                   children: <TextSpan>[
                     TextSpan(
-                      text: ' ● Dice de sí mismo: "Soy grandioso"',
-                      style: monoBold,
+                      text: '\n\n ● Ser ejemplo:',
+                      style: monoItalic,
                     ),
                     TextSpan(
-                      text: '\n\n ● No tiene empatía',
-                      style: monoBold,
+                      text:
+                          ' Para los hijos siempre es más importante lo que ellos '
+                          'ven en nosotros que cualquier cosa que les podamos decir.',
+                      style: monoRegular,
                     ),
                     TextSpan(
-                      text: '\n\n ● "Vende" su grandeza',
-                      style: monoBold,
+                      text: '\n\n ● Valorarlos:',
+                      style: monoItalic,
                     ),
                     TextSpan(
-                      text: '\n\n ● Vende "seducción impaciente"',
-                      style: monoBold,
+                      text: ' A todos nos gusta que nos afirmen y nos validen. '
+                          'La valoración se transforma en seguridad.',
+                      style: monoRegular,
                     ),
                     TextSpan(
-                      text: '\n\n ● Es superficial',
-                      style: monoBold,
+                      text: '\n\n ● Transmitir responsabilidad:',
+                      style: monoItalic,
                     ),
                     TextSpan(
-                      text: '\n\n ● No tiene autocrítica',
-                      style: monoBold,
+                      text: ' En la agenda de nuestros hijos tiene que '
+                          'haber responsabilidades acordes a la edad.',
+                      style: monoRegular,
                     ),
                     TextSpan(
-                      text: '\n\n ● No planifica un futuro de largo alcance',
-                      style: monoBold,
+                      text: '\n\n ● Enseñar que error no es sinónimo de fracaso:',
+                      style: monoItalic,
                     ),
                     TextSpan(
-                      text: '\n\n ● Es envidioso',
-                      style: monoBold,
+                      text: ' De lo contrario, es posible que para evitar '
+                          'deprimirse lo nieguen y se conviertan en narcisistas.',
+                      style: monoRegular,
                     ),
                   ],
                 ),

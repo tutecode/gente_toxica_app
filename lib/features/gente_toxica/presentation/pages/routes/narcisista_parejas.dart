@@ -10,7 +10,8 @@ class NarcisistaParejas extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Parejas del Narcisista'),
+        title: Text('Parejas del Narcisista',
+            style: titleAppBar),
       ),
       body: SingleChildScrollView(
         child: Column(

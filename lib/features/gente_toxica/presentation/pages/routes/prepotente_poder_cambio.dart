@@ -10,7 +10,7 @@ class PrepotentePoderCambio extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('El Poder del Cambio',
+        title: Text('El poder del cambio',
             style: titleAppBar),
       ),
       body: SingleChildScrollView(
@@ -22,11 +22,9 @@ class PrepotentePoderCambio extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
+                  text: ' ● Todo cambio que no cambie la mente, no es un cambio.',
+                  style: monoRegular,
                   children: <TextSpan>[
-                    TextSpan(
-                      text: ' ● Todo cambio que no cambie la mente, no es un cambio.',
-                      style: monoRegular,
-                    ),
                     TextSpan(
                       text: '\n\n ● Todo cambio que no cambie nuestra manera de pensar, '
                           'no es un cambio. Del mismo modo que no podemos ponernos un traje encima de otro, '

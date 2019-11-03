@@ -21,13 +21,11 @@ class PrepotenteImpotencia extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
+                  text: '¿Qué es la prepotencia? Es el mal uso del poder. '
+                      'El poder no es bueno ni malo, es como un martillo. '
+                      'Lo usas para lastimar a alguien o para clavar un clavo.',
+                  style: monoRegular,
                   children: <TextSpan>[
-                    TextSpan(
-                      text: '¿Qué es la prepotencia? Es el mal uso del poder. '
-                          'El poder no es bueno ni malo, es como un martillo. '
-                          'Lo usas para lastimar a alguien o para clavar un clavo.',
-                      style: monoRegular,
-                    ),
                     TextSpan(
                       text: ' El poder no corrompe. '
                           'Será tal como sea el corazón de quien lo manipula.',

@@ -10,7 +10,7 @@ class PrepotentePoderSanamente extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Manejando Poder',
+        title: Text('Manejando poder',
             style: titleAppBar),
       ),
       body: SingleChildScrollView(

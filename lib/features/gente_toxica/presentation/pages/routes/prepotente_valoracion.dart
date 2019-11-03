@@ -10,7 +10,10 @@ class PrepotenteValoracion extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Valorándome', style: titleAppBar),
+        title: Text(
+          'Valorándome',
+          style: titleAppBar,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
