@@ -28,6 +28,14 @@ import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/negativo_definicion.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/negativo_rasgos.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/negativo_vive_positivo.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/obsesivo_actitudes_sanas.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/obsesivo_como_piensan.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/obsesivo_compulsivo.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/obsesivo_definicion.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/obsesivo_no_todo_es_obsesi%C3%B3n.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/obsesivo_que_hago.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/obsesivo_rasgos.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/obsesivo_rasgos_compulsivo.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/omnipotente_definicion.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/omnipotente_importante.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/omnipotente_libres.dart';
@@ -359,42 +367,42 @@ const kNavigation = <NavigationCategory>[
     navigations: <NavigationPageItem>[
       NavigationPageItem(
         title: 'Definición',
-        route: TrianguladorDefinicion(),
+        route: ObsesivoDefinicion(),
         routeName: '.../routes/obsesivo_definicion',
       ),
       NavigationPageItem(
         title: 'Rasgos',
-        route: TrianguladorDefinicion(),
+        route: ObsesivoRasgos(),
         routeName: '.../routes/obsesivo_rasgos',
       ),
       NavigationPageItem(
         title: 'El obsesivo-compulsivo',
-        route: TrianguladorDefinicion(),
+        route: ObsesivoCompulsivo(),
         routeName: '.../routes/obsesivo_compulsivo',
       ),
       NavigationPageItem(
-        title: 'Priorizando',
-        route: TrianguladorDefinicion(),
-        routeName: '.../routes/obsesivo_priorizando',
+        title: 'Rasgos compulsivo',
+        route: ObsesivoRasgosCompulsivo(),
+        routeName: '.../routes/obsesivo_rasgos_compulsivo',
       ),
       NavigationPageItem(
         title: '¿Cómo piensan?',
-        route: TrianguladorDefinicion(),
+        route: ObsesivoComoPiensan(),
         routeName: '.../routes/obsesivo_como_piensan',
       ),
       NavigationPageItem(
         title: 'No todo es obsesión',
-        route: TrianguladorDefinicion(),
+        route: ObsesivoNoTodoEsObsesion(),
         routeName: '.../routes/obsesivo_no_todo_es_obsesión',
       ),
       NavigationPageItem(
         title: '¿Qué hago?',
-        route: TrianguladorDefinicion(),
+        route: ObsesivoQueHago(),
         routeName: '.../routes/obsesivo_que_hago',
       ),
       NavigationPageItem(
         title: 'Actitudes sanas',
-        route: TrianguladorDefinicion(),
+        route: ObsesivoActitudesSanas(),
         routeName: '.../routes/obsesivo_actitudes_sanas',
       ),
     ],
