@@ -23,6 +23,7 @@ import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/frustrador_definicion.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/frustrador_hijos_sanos.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/frustrador_rasgos.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/histrionico_actitudes.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/histrionico_definicion.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/histrionico_mujeres_vs_hombres.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/histrionico_personajes.dart';
