@@ -3,14 +3,14 @@ import 'package:flutter/material.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/utils/constants.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/utils/text_styles.dart';
 
-class EvitadorCreencias extends StatelessWidget {
-  const EvitadorCreencias({Key key}) : super(key: key);
+class EvitadorActitudesSanas extends StatelessWidget {
+  const EvitadorActitudesSanas({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: Text('Creencias', style: titleAppBar)
+          title: Text('Actitudes sanas', style: titleAppBar)
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -22,60 +22,42 @@ class EvitadorCreencias extends StatelessWidget {
                 textScaleFactor: kTextScale,
                 text: TextSpan(
                   text:
-                  'El evitador tiene «creencias automáticas», '
-                      'pensamientos o fantasías arraigados en su mente que tal vez '
-                      '¡ni siquiera sabe que están allí! Veamos algunos ejemplos:',
+                  'Si en tu vida diaria interactúas o convives con un evitador tóxico, debes saber que, a pesar de todos sus rasgos negativos, esa persona es capaz de lograr buenos resultados, sobre todo en un grupo. Así pues, es recomendable explotar y hacer buen uso de sus puntos fuertes. Estos son algunos de ellos:',
                   style: monoRegular,
                   children: <TextSpan>[
                     TextSpan(
                       text:
-                      '\n\n ● «Soy socialmente inepto e inadecuado».',
+                      '\n\n ● Permite la creatividad de aquellos que lo rodean, es como el entrenador de un equipo deportivo.',
                       style: monoRegular,
                     ),
                     TextSpan(
                       text:
-                      '\n\n ● «Soy un perdedor».',
+                      '\n\n ● Es capaz de ver tanto el árbol como el bosque.',
                       style: monoRegular,
                     ),
                     TextSpan(
                       text:
-                      '\n\n ● «Soy aburrido, nadie quiere estar conmigo».',
+                      '\n\n ● Le gusta trabajar en equipo. Por el contrario, le desagrada la gente que juega sola.',
                       style: monoRegular,
                     ),
                     TextSpan(
                       text:
-                      '\n\n ● «Si me conocen de verdad, todos me rechazarán».',
+                      '\n\n ● Llega más lento que el resto, pero cuando lo hace está seguro, ya que ensaya todos los escenarios posibles (A, B y C) antes de salir a la palestra.',
                       style: monoRegular,
                     ),
                     TextSpan(
                       text:
-                      '\n\n ● «Pensarán que soy débil».',
+                      '\n\n ● Tiene capacidad de reflexión. Prepara la logística (pero mandará a otros a realizar el trabajo y ganar). No le gustan las improvisaciones.',
                       style: monoRegular,
                     ),
                     TextSpan(
                       text:
-                      '\n\n ● «Seguro que ahora que le conté esto, '
-                          'pensará que no sirvo para nada».',
+                      '\n\n ● Es un buen estratega.',
                       style: monoRegular,
                     ),
                     TextSpan(
                       text:
-                      '\n\n ● «Un día me levantaré y todo estará bien».',
-                      style: monoRegular,
-                    ),
-                    TextSpan(
-                      text:
-                      '\n\n ● «Si no hago caso del problema, desaparecerá».',
-                      style: monoRegular,
-                    ),
-                    TextSpan(
-                      text:
-                      '\n\n ● «Voy a fallar… ¡mejor no lo hago!».',
-                      style: monoRegular,
-                    ),
-                    TextSpan(
-                      text:
-                      '\n\n ● «Me siento defectuoso».',
+                      '\n\n ● Es cognitivo, es decir, está más enfocado al conocimiento.',
                       style: monoRegular,
                     ),
                   ],

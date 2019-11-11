@@ -6,10 +6,38 @@ import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/ansioso_libres_preocupacion.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/ansioso_nos_preocupamos.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/ansioso_preocupacion.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_actitudes'
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_actitudes'
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_actitudes'
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_actitudes'
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_actitudes'
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_actitudes'
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_actitudes'
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_actitudes'
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_actitudes'
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_actitudes'
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_actitudes'
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_actitudes'
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_actitudes'
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_actitudes_sanas.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_como_decisiones.dart';.dart';.dart';.dart';.dart';.dart';.dart';.dart';.dart';.dart';.dart';.dart';.dart';.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_creencias.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_definicion.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_pq_evitan.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_que_evitan.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_rasgos.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_toma_decisiones.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/frustrador_actitudes.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/frustrador_definicion.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/frustrador_hijos_sanos.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/frustrador_rasgos.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/masoquista_actitudes.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/masoquista_castigo.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/masoquista_criando_adolescentes.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/masoquista_criando_hijos.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/masoquista_definicion.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/masoquista_empieza_a_vivir.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/masoquista_rasgos.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/miedoso_adolescencia.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/miedoso_definicion.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/miedoso_hijos_adolescencia.dart';
@@ -41,6 +69,11 @@ import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/omnipotente_libres.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/omnipotente_priorizar.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/omnipotente_rasgos.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/peleador_actitudes.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/peleador_definicion.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/peleador_enfado.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/peleador_mitos.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/peleador_rasgos.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/prepotente_definicion.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/prepotente_impotencia.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/prepotente_poder_cambio.dart';
@@ -413,27 +446,27 @@ const kNavigation = <NavigationCategory>[
     navigations: <NavigationPageItem>[
       NavigationPageItem(
         title: '● Definición',
-        route: TrianguladorDefinicion(),
+        route: PeleadorDefinicion(),
         routeName: '.../routes/peleador_definicion',
       ),
       NavigationPageItem(
         title: '● Rasgos',
-        route: TrianguladorDefinicion(),
+        route: PeleadorRasgos(),
         routeName: '.../routes/peleador_rasgos',
       ),
       NavigationPageItem(
         title: '● Mitos sobre el enfado',
-        route: TrianguladorDefinicion(),
+        route: PeleadorMitos(),
         routeName: '.../routes/peleador_mitos',
       ),
       NavigationPageItem(
         title: '● El enfado',
-        route: TrianguladorDefinicion(),
+        route: PeleadorEnfado(),
         routeName: '.../routes/peleador_enfado',
       ),
       NavigationPageItem(
         title: '● Actitudes sanas',
-        route: TrianguladorDefinicion(),
+        route: PeleadorActitudes(),
         routeName: '.../routes/peleador_actitudes',
       ),
     ],
@@ -444,37 +477,37 @@ const kNavigation = <NavigationCategory>[
     navigations: <NavigationPageItem>[
       NavigationPageItem(
         title: '● Definición',
-        route: TrianguladorDefinicion(),
+        route: MasoquistaDefinicion(),
         routeName: '.../routes/masoquista_definicion',
       ),
       NavigationPageItem(
         title: '● Rasgos',
-        route: TrianguladorDefinicion(),
+        route: MasoquistaRasgos(),
         routeName: '.../routes/masoquista_rasgos',
       ),
       NavigationPageItem(
         title: '● Actitudes sanas',
-        route: TrianguladorDefinicion(),
+        route: MasoquistaActitudes(),
         routeName: '.../routes/masoquista_actitudes',
       ),
       NavigationPageItem(
         title: '● Criando hijos sanos',
-        route: TrianguladorDefinicion(),
+        route: MasoquistaCriandoHijos(),
         routeName: '.../routes/masoquista_criando_hijos',
       ),
       NavigationPageItem(
         title: '● Criando adolescentes sanos',
-        route: TrianguladorDefinicion(),
+        route: MasoquistaCriandoAdolescentes(),
         routeName: '.../routes/masoquista_criando_adolescentes',
       ),
       NavigationPageItem(
         title: '● No al castigo',
-        route: TrianguladorDefinicion(),
+        route: MasoquistaCastigo(),
         routeName: '.../routes/masoquista_castigo',
       ),
       NavigationPageItem(
         title: '● ¡Empieza a vivir!',
-        route: TrianguladorDefinicion(),
+        route: MasoquistaEmpiezaAVivir(),
         routeName: '.../routes/masoquista_empieza_a_vivir',
       ),
     ],
@@ -485,42 +518,42 @@ const kNavigation = <NavigationCategory>[
     navigations: <NavigationPageItem>[
       NavigationPageItem(
         title: '● Definición',
-        route: TrianguladorDefinicion(),
+        route: EvitadorDefinicion(),
         routeName: '.../routes/evitador_definicion',
       ),
       NavigationPageItem(
         title: '● Rasgos',
-        route: TrianguladorDefinicion(),
+        route: EvitadorRasgos(),
         routeName: '.../routes/evitador_rasgos',
       ),
       NavigationPageItem(
         title: '● Creencias automáticas',
-        route: TrianguladorDefinicion(),
+        route: EvitadorCreencias(),
         routeName: '.../routes/evitador_creencias',
       ),
       NavigationPageItem(
         title: '● ¿Qué evitan?',
-        route: TrianguladorDefinicion(),
+        route: EvitadorQueEvitan(),
         routeName: '.../routes/evitador_que_evitan',
       ),
       NavigationPageItem(
         title: '● ¿Por qué evitan?',
-        route: TrianguladorDefinicion(),
+        route: EvitadorPqEvitan(),
         routeName: '.../routes/evitador_pq_evitan',
       ),
       NavigationPageItem(
         title: '● Actitudes sanas',
-        route: TrianguladorDefinicion(),
+        route: EvitadorActitudesSanas(),
         routeName: '.../routes/evitador_actitudes',
       ),
       NavigationPageItem(
         title: '● Tomas de decisiones',
-        route: TrianguladorDefinicion(),
+        route: EvitadorTomaDecisiones(),
         routeName: '.../routes/evitador_toma_decisiones',
       ),
       NavigationPageItem(
         title: '● ¿Cómo tomar decisiones',
-        route: TrianguladorDefinicion(),
+        route: EvitadorComoDecisiones(),
         routeName: '.../routes/evitador_como_decisiones',
       ),
     ],
