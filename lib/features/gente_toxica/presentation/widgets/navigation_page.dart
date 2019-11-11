@@ -19,6 +19,13 @@ import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_que_evitan.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_rasgos.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_toma_decisiones.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/felpudo_abona_tu_arbol.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/felpudo_actitudes.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/felpudo_adolescencia_autoconcepto.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/felpudo_amargura.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/felpudo_autoconcepto.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/felpudo_definicion.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/felpudo_ninez_autoconcepto.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/frustrador_actitudes.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/frustrador_definicion.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/frustrador_hijos_sanos.dart';
@@ -660,37 +667,37 @@ const kNavigation = <NavigationCategory>[
     navigations: <NavigationPageItem>[
       NavigationPageItem(
         title: '● Definición',
-        route: TrianguladorDefinicion(),
+        route: FelpudoDefinicion(),
         routeName: '.../routes/felpudo_definicion',
       ),
       NavigationPageItem(
         title: '● Librarnos de la amargura',
-        route: TrianguladorDefinicion(),
+        route: FelpudoAmargura(),
         routeName: '.../routes/felpudo_amargura',
       ),
       NavigationPageItem(
         title: '● El autoconcepto',
-        route: TrianguladorDefinicion(),
+        route: FelpudoAutoconcepto(),
         routeName: '.../routes/felpudo_autoconcepto',
       ),
       NavigationPageItem(
         title: '● Autoconcepto niñez',
-        route: TrianguladorDefinicion(),
-        routeName: '.../routes/felpudo_niñez_autoconcepto',
+        route: FelpudoNinezAutoconcepto(),
+        routeName: '.../routes/felpudo_ninez_autoconcepto',
       ),
       NavigationPageItem(
         title: '● Autoconcepto adolescencia',
-        route: TrianguladorDefinicion(),
+        route: FelpudoAdolescenciaAutoconcepto(),
         routeName: '.../routes/felpudo_adolescencia_autoconcepto',
       ),
       NavigationPageItem(
         title: '● Actitudes sanas',
-        route: TrianguladorDefinicion(),
+        route: FelpudoActitudes(),
         routeName: '.../routes/felpudo_actitudes',
       ),
       NavigationPageItem(
         title: '● Abona tu árbol',
-        route: TrianguladorDefinicion(),
+        route: FelpudoAbonaTuArbol(),
         routeName: '.../routes/felpudo_abona_tu_arbol',
       ),
     ],
