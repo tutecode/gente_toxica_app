@@ -6,21 +6,13 @@ import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/ansioso_libres_preocupacion.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/ansioso_nos_preocupamos.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/ansioso_preocupacion.dart';
-import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_actitudes'
-import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_actitudes'
-import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_actitudes'
-import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_actitudes'
-import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_actitudes'
-import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_actitudes'
-import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_actitudes'
-import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_actitudes'
-import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_actitudes'
-import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_actitudes'
-import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_actitudes'
-import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_actitudes'
-import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_actitudes'
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/asfixiador_actitudes.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/asfixiador_cuidado_vs_control.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/asfixiador_definicion.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/asfixiador_libres.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/asfixiador_victimas.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_actitudes_sanas.dart';
-import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_como_decisiones.dart';.dart';.dart';.dart';.dart';.dart';.dart';.dart';.dart';.dart';.dart';.dart';.dart';.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_como_decisiones.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_creencias.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_definicion.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/evitador_pq_evitan.dart';
@@ -31,6 +23,10 @@ import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/frustrador_definicion.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/frustrador_hijos_sanos.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/frustrador_rasgos.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/histrionico_definicion.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/histrionico_mujeres_vs_hombres.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/histrionico_personajes.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/histrionico_rasgos.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/masoquista_actitudes.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/masoquista_castigo.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/masoquista_criando_adolescentes.dart';
@@ -69,6 +65,11 @@ import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/omnipotente_libres.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/omnipotente_priorizar.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/omnipotente_rasgos.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/paranoico_confianza_inteligente.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/paranoico_definicion.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/paranoico_liderazgo.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/paranoico_que_piensan.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/paranoico_rasgos.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/peleador_actitudes.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/peleador_definicion.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/peleador_enfado.dart';
@@ -87,6 +88,7 @@ import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/triangulador_actitudes_sanas.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/triangulador_definicion.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes/triangulador_personas.dart';
+
 import 'package:gente_toxica_app/features/gente_toxica/presentation/utils/text_styles.dart';
 
 //TODO: sound_doctrine/lib/navigations/navigation_page.dart
@@ -564,27 +566,27 @@ const kNavigation = <NavigationCategory>[
     navigations: <NavigationPageItem>[
       NavigationPageItem(
         title: '● Definición',
-        route: TrianguladorDefinicion(),
+        route: ParanoicoDefinicion(),
         routeName: '.../routes/paranoico_definicion',
       ),
       NavigationPageItem(
         title: '● Rasgos',
-        route: TrianguladorDefinicion(),
+        route: ParanoicoRasgos(),
         routeName: '.../routes/paranoico_rasgos',
       ),
       NavigationPageItem(
         title: '● ¿Qué piensan?',
-        route: TrianguladorDefinicion(),
+        route: ParanoicoQuePiensan(),
         routeName: '.../routes/paranoico_que_piensan',
       ),
       NavigationPageItem(
         title: '● El liderazgo',
-        route: TrianguladorDefinicion(),
+        route: ParanoicoLiderazgo(),
         routeName: '.../routes/paranoico_liderazgo',
       ),
       NavigationPageItem(
         title: '● Confianza inteligente',
-        route: TrianguladorDefinicion(),
+        route: ParanoicoConfianzaInteligente(),
         routeName: '.../routes/paranoico_confianza_inteligente',
       ),
     ],
@@ -595,27 +597,27 @@ const kNavigation = <NavigationCategory>[
     navigations: <NavigationPageItem>[
       NavigationPageItem(
         title: '● Definición',
-        route: TrianguladorDefinicion(),
+        route: AsfixiadorDefinicion(),
         routeName: '.../routes/asfixiador_definicion',
       ),
       NavigationPageItem(
         title: '● Cuidado vs Control',
-        route: TrianguladorDefinicion(),
+        route: AsfixiadorCuidadoVsControl(),
         routeName: '.../routes/asfixiador_cuidado_vs_control',
       ),
       NavigationPageItem(
         title: '● Actitudes sanas',
-        route: TrianguladorDefinicion(),
+        route: AsfixiadorActitudes(),
         routeName: '.../routes/asfixiador_actitudes',
       ),
       NavigationPageItem(
         title: '● Víctimas del asfixiador',
-        route: TrianguladorDefinicion(),
+        route: AsfixiadorVictimas(),
         routeName: '.../routes/asfixiador_victimas',
       ),
       NavigationPageItem(
         title: '● Libres de la asfixia',
-        route: TrianguladorDefinicion(),
+        route: AsfixiadorLibres(),
         routeName: '.../routes/asfixiador_libres',
       ),
     ],
@@ -626,27 +628,27 @@ const kNavigation = <NavigationCategory>[
     navigations: <NavigationPageItem>[
       NavigationPageItem(
         title: '● Definición',
-        route: TrianguladorDefinicion(),
+        route: HistrionicoDefinicion(),
         routeName: '.../routes/histrionico_definicion',
       ),
       NavigationPageItem(
         title: '● Rasgos',
-        route: TrianguladorDefinicion(),
+        route: HistrionicoRasgos(),
         routeName: '.../routes/histrionico_rasgos',
       ),
       NavigationPageItem(
         title: '● Mujeres vs Hombres',
-        route: TrianguladorDefinicion(),
+        route: HistrionicoMujeresVsHombres(),
         routeName: '.../routes/histrionico_mujeres_vs_hombres',
       ),
       NavigationPageItem(
         title: '● Personajes tóxicos',
-        route: TrianguladorDefinicion(),
+        route: HistrionicoPersonajes(),
         routeName: '.../routes/histrionico_personajes',
       ),
       NavigationPageItem(
         title: '● Actitudes sanas',
-        route: TrianguladorDefinicion(),
+        route: HistrionicoActitudes(),
         routeName: '.../routes/histrionico_actitudes',
       ),
     ],

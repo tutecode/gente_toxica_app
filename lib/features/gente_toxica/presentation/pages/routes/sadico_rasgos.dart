@@ -22,11 +22,9 @@ class SadicoRasgos extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
+                  text: '\n\n ● Disfruta viendo sufrir a los demás.',
+                  style: monoBold,
                   children: <TextSpan>[
-                    TextSpan(
-                      text: '\n\n ● Disfruta viendo sufrir a los demás.',
-                      style: monoBold,
-                    ),
                     TextSpan(
                       text: 'Aunque parezca increíble, '
                           'el sádico siente placer al comprobar que causa sufrimiento.',
