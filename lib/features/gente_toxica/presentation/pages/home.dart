@@ -1,12 +1,12 @@
-
 import 'dart:convert';
 import 'dart:math';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/pages/routes_sidebar/autor.dart';
+import 'package:gente_toxica_app/features/gente_toxica/presentation/utils/constants.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/utils/text_styles.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/widgets/navigation_page.dart';
 import 'package:share/share.dart';
-
 
 class Home extends StatelessWidget {
   const Home({Key key}) : super(key: key);
@@ -36,6 +36,7 @@ class HomePage extends StatefulWidget {
 
 class HomePageState extends State<HomePage> {
   List data;
+
   //var _index;
 
   ///New
@@ -75,10 +76,7 @@ class HomePageState extends State<HomePage> {
         elevation: 0,
         title: Text(
           'Home',
-          style: TextStyle(
-            fontWeight: FontWeight.bold,
-            fontSize: 30,
-          ),
+          style: titleAppBar,
         ),
         actions: <Widget>[
           IconButton(
@@ -89,6 +87,83 @@ class HomePageState extends State<HomePage> {
             color: Colors.grey,
           ),
         ],
+      ),
+      drawer: Drawer(
+        child: ListView(
+          padding: EdgeInsets.zero,
+          children: <Widget>[
+            DrawerHeader(
+              child: Center(
+                child: Column(
+                  children: <Widget>[
+                    kIconToxic,
+                    SizedBox(height: 15,),
+                    Text(
+                      '¿Cómo son los que te hacen mal para sentirse bien?',
+                      style: listViewHome,
+                      textAlign: TextAlign.center,
+                      textScaleFactor: 1.2,
+                    ),
+                  ],
+                ),
+              ),
+              decoration: BoxDecoration(
+                color: Colors.yellow[500],
+              ),
+            ),
+            ListTile(
+              title: Text('Autor', style: listViewHome, textScaleFactor: 1.3),
+              trailing: Icon(Icons.person),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Autor()),
+                );
+              },
+            ),
+            ListTile(
+              title: Text('Síguenos', style: listViewHome, textScaleFactor: 1.3),
+              trailing: kIconInstagram,
+              onTap: () {
+
+              },
+            ),
+            ListTile(
+              title: Text('Califícanos', style: listViewHome, textScaleFactor: 1.3),
+              trailing: Icon(Icons.rate_review),
+              onTap: () {
+                // Actualiza el estado de la aplicación
+                // ...
+              },
+            ),
+            ListTile(
+              title: Text('Compartir app', style: listViewHome, textScaleFactor: 1.3),
+              trailing: Icon(Icons.share),
+              onTap: () {
+                /*
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => ),
+                );*/
+              },
+            ),
+            ListTile(
+              title: Text('Donaciones', style: listViewHome, textScaleFactor: 1.3),
+              trailing: kIconDonate,
+              onTap: () {
+                // Actualiza el estado de la aplicación
+                // ...
+              },
+            ),
+            ListTile(
+              title: Text('Contáctanos', style: listViewHome, textScaleFactor: 1.3),
+              trailing: kIconDonate,
+              onTap: () {
+                //email tuteapps....
+              },
+            ),
+          ],
+        ),
       ),
 
       //body: //SingleChildScrollView(
@@ -143,6 +218,7 @@ class HomePageState extends State<HomePage> {
                                         SizedBox(
                                           height: 10,
                                         ),
+
                                         ///Author
                                         Text(
                                           "-" + quote[_index]['Author'],
@@ -154,6 +230,7 @@ class HomePageState extends State<HomePage> {
                                     ),
                                   ),
                                 ),
+
                                 ///Button
                                 Align(
                                   alignment: Alignment.bottomRight,
@@ -174,6 +251,7 @@ class HomePageState extends State<HomePage> {
                                     ),
                                   ),
                                 ),
+
                                 ///Button
                                 Align(
                                   alignment: Alignment.bottomLeft,
@@ -214,6 +292,7 @@ class HomePageState extends State<HomePage> {
             flex: 7,
             child: Container(
               padding: EdgeInsets.only(top: 12.0),
+
               ///ListView
               child: MyHomePage(),
               decoration: BoxDecoration(

@@ -22,6 +22,7 @@ TextStyle authorsHome = TextStyle(
 TextStyle listViewHome = TextStyle(
   //textScaleFactor: 1.5,
   fontFamily: 'RobotoSlab Regular',
+  color: Colors.black,
 );
 
 TextStyle titleAppBar = TextStyle(

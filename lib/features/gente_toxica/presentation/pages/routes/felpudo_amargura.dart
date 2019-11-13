@@ -28,7 +28,7 @@ class FelpudoAmargura extends StatelessWidget {
                   style: monoRegular,
                   children: <TextSpan>[
                     TextSpan(
-                      text: ' Debemos transformar los recuerdos tristes en aprendizaje.',
+                      text: '\n\nDebemos transformar los recuerdos tristes en aprendizaje.',
                       style: monoBoldItalic,
                     ),
                     TextSpan(

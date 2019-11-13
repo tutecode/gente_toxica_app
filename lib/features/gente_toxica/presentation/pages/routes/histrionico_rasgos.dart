@@ -23,7 +23,7 @@ class HistrionicoRasgos extends StatelessWidget {
                 textScaleFactor: kTextScale,
                 text: TextSpan(
                   text: 'Veamos cuáles son las características del histriónico:',
-                  style: monoBold,
+                  style: monoRegular,
                   children: <TextSpan>[
                     TextSpan(
                       text: '\n\n ● Busca llamar todo el tiempo la atención.',
