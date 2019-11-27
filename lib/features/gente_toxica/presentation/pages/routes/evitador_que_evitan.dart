@@ -10,8 +10,13 @@ class EvitadorQueEvitan extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: Text('¿Qué evitan?', style: titleAppBar)
-      ),
+          backgroundColor: Colors.yellow[500],
+          elevation: 0,
+          title: Text(
+            '¿Qué evitan?',
+            style: titleAppBar,
+            textScaleFactor: 1.0,
+          )),
       body: SingleChildScrollView(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -22,17 +27,16 @@ class EvitadorQueEvitan extends StatelessWidget {
                 textScaleFactor: kTextScale,
                 text: TextSpan(
                   text:
-                  '¿Qué cosas suelen evitar las personas con este rasgo de personalidad tóxica?',
+                      '¿Qué cosas suelen evitar las personas con este rasgo de personalidad tóxica?',
                   style: monoRegular,
                   children: <TextSpan>[
                     TextSpan(
-                      text:
-                      '\n\n ● Evitan los conflictos.',
+                      text: '\n\n ● Evitan los conflictos.',
                       style: monoBold,
                     ),
                     TextSpan(
                       text:
-                      '\n\nTanto en un grupo del que participan (de estudio, de trabajo, etc.) '
+                          '\n\nTanto en un grupo del que participan (de estudio, de trabajo, etc.) '
                           'como en una relación personal, '
                           'evitan por todos los medios el conflicto por la tensión que les genera. '
                           '¿Por qué lo hacen? Porque tienen dificultades para '
@@ -49,13 +53,12 @@ class EvitadorQueEvitan extends StatelessWidget {
                       style: monoRegular,
                     ),
                     TextSpan(
-                      text:
-                      '\n\n ● Evitan la exposición.',
+                      text: '\n\n ● Evitan la exposición.',
                       style: monoBold,
                     ),
                     TextSpan(
                       text:
-                      '\n\nSu timidez los lleva a tener un perfil muy bajo. '
+                          '\n\nSu timidez los lleva a tener un perfil muy bajo. '
                           'Son calculadores y medidos en sus acciones y evitan ser figuras, '
                           'aunque permiten tener protagonismo a los demás. '
                           'No desean el primer lugar y no tienen problema en colaborar para que otros brillen. '
@@ -70,23 +73,21 @@ class EvitadorQueEvitan extends StatelessWidget {
                       style: monoRegular,
                     ),
                     TextSpan(
-                      text:
-                      '\n\n ● Evitan ciertas emociones.',
+                      text: '\n\n ● Evitan ciertas emociones.',
                       style: monoBold,
                     ),
                     TextSpan(
                       text:
-                      '\n\nNo pueden tolerar los sentimientos negativos. Además de ejercer la evitación a nivel social, lo hacen a nivel emocional y cognitivo. De esta manera, cuando tienen un pensamiento o sentimiento que los hace sentir mal, cambian de tema o se ponen a hacer otra cosa que los distraiga. Evaden las emociones incómodas. Por eso, suelen ser prudentes y meditan mucho las cosas antes de pasar a la acción.',
+                          '\n\nNo pueden tolerar los sentimientos negativos. Además de ejercer la evitación a nivel social, lo hacen a nivel emocional y cognitivo. De esta manera, cuando tienen un pensamiento o sentimiento que los hace sentir mal, cambian de tema o se ponen a hacer otra cosa que los distraiga. Evaden las emociones incómodas. Por eso, suelen ser prudentes y meditan mucho las cosas antes de pasar a la acción.',
                       style: monoRegular,
                     ),
                     TextSpan(
-                      text:
-                      '\n\n ● Evitan la intimidad.',
+                      text: '\n\n ● Evitan la intimidad.',
                       style: monoBold,
                     ),
                     TextSpan(
                       text:
-                      '\n\nA causa de su baja autoestima, se sienten vacíos y solos. Como consecuencia tienen poca relación con los demás, ya que tratan de evitar la intimidad, emocional o física, a toda costa.Cuando conocen a alguien, tratan de agradar a esa persona, aunque sin llegar a ser seductores como los psicópatas. Son amigos leales y siempre ponen el foco en la familia.',
+                          '\n\nA causa de su baja autoestima, se sienten vacíos y solos. Como consecuencia tienen poca relación con los demás, ya que tratan de evitar la intimidad, emocional o física, a toda costa.Cuando conocen a alguien, tratan de agradar a esa persona, aunque sin llegar a ser seductores como los psicópatas. Son amigos leales y siempre ponen el foco en la familia.',
                       style: monoRegular,
                     ),
                   ],

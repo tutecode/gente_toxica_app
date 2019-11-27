@@ -10,8 +10,13 @@ class MiedosoPoder extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Poder y miedo',
-            style: titleAppBar),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Poder y miedo',
+          style: titleAppBar,
+          textScaleFactor: 1.0,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -35,7 +40,7 @@ class MiedosoPoder extends StatelessWidget {
                     ),
                     TextSpan(
                       text:
-                      ' Poder es la capacidad de actuar; cordialidad es la '
+                          ' Poder es la capacidad de actuar; cordialidad es la '
                           'actitud positiva de que ese poder no se usará para '
                           'causar daño sino para bendecir. Poder y cordialidad. '
                           'La gente ama, respeta y sigue a los líderes con esas cualidades.'
@@ -48,7 +53,7 @@ class MiedosoPoder extends StatelessWidget {
                     ),
                     TextSpan(
                       text:
-                      ' Este tipo de personas, que tienen poder pero en lugar de '
+                          ' Este tipo de personas, que tienen poder pero en lugar de '
                           'cordialidad tienen hostilidad, son peligrosos, '
                           'dan miedo.',
                       style: monoRegular,
@@ -59,7 +64,7 @@ class MiedosoPoder extends StatelessWidget {
                     ),
                     TextSpan(
                       text:
-                      ' En este tercer nivel se encuentra el débil que es cordial. '
+                          ' En este tercer nivel se encuentra el débil que es cordial. '
                           'Es la persona queno tiene poder porque no estudió ni '
                           'se preparó bien para una profesión, '
                           'pero que trata bien a los demás. '
@@ -73,8 +78,7 @@ class MiedosoPoder extends StatelessWidget {
                       style: monoBold,
                     ),
                     TextSpan(
-                      text:
-                      ' Aquí está la persona débil que además es hostil, '
+                      text: ' Aquí está la persona débil que además es hostil, '
                           'no tiene poder y te agrede. '
                           'No sabe nada, no demuestra capacidad para nada y '
                           'además te insulta. Esas personas provocan mucha rabia.',
@@ -82,13 +86,13 @@ class MiedosoPoder extends StatelessWidget {
                     ),
                     TextSpan(
                       text:
-                      '\n\nPor todo esto, unas relaciones interpersonales sanas serán '
+                          '\n\nPor todo esto, unas relaciones interpersonales sanas serán '
                           'aquellas que tienen: PODER + CAPACIDAD + CORDIALIDAD',
                       style: monoRegular,
                     ),
                     TextSpan(
                       text:
-                      '\n\n¿Por qué es útil saberlo? Porque no basta con que nos '
+                          '\n\n¿Por qué es útil saberlo? Porque no basta con que nos '
                           'vaya bien en lo económico, o con tener experiencia o '
                           'la capacidad de estudiar, también es necesario tener el deseo y '
                           'la habilidad de tratar bien al otro. Porque cuanto más '

@@ -10,7 +10,12 @@ class FrustradorDefinicion extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Definición'),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Definición',
+          textScaleFactor: 1.0,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -21,7 +26,8 @@ class FrustradorDefinicion extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
-                  text: 'Una persona que no pudo lograr sus objetivos en la vida, '
+                  text:
+                      'Una persona que no pudo lograr sus objetivos en la vida, '
                       'que no alcanzó sus sueños, inconscientemente intentará boicotearte '
                       'y decirte que todo lo que emprendas te saldrá mal. '
                       'Como él se siente frustrado, no puede ver lo bueno y '

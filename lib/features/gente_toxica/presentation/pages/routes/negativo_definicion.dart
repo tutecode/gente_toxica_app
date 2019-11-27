@@ -10,8 +10,13 @@ class NegativoDefinicion extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Definición',
-            style: titleAppBar),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Definición',
+          style: titleAppBar,
+          textScaleFactor: 1.0,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -22,7 +27,8 @@ class NegativoDefinicion extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
-                  text: 'La negatividad es una forma tóxica de ver la vida que atrae '
+                  text:
+                      'La negatividad es una forma tóxica de ver la vida que atrae '
                       '«eso que la persona tanto teme». '
                       'Y esta actitud afecta tanto al que la tiene (al que tildan de «mal rollo») '
                       'como a aquellos que están a su alrededor y querrán alejarse de él.'

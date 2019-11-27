@@ -10,8 +10,13 @@ class HistrionicoDefinicion extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Definición',
-            style: titleAppBar),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Definición',
+          style: titleAppBar,
+          textScaleFactor: 1.0,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -22,12 +27,13 @@ class HistrionicoDefinicion extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
-                  text: 'El trastorno histriónico de la personalidad (THP) está definido por la Asociación Americana de Psiquiatría como el desorden de la personalidad caracterizado por un patrón de excesiva búsqueda de atención, que generalmente comienza en la edad temprana adulta, incluyendo un comportamiento seductor inapropiado y una excesiva necesidad de aprobación. Los sujetos histriónicos son muy animados, dramáticos, vivaces, entusiastas y coquetos.',
+                  text:
+                      'El trastorno histriónico de la personalidad (THP) está definido por la Asociación Americana de Psiquiatría como el desorden de la personalidad caracterizado por un patrón de excesiva búsqueda de atención, que generalmente comienza en la edad temprana adulta, incluyendo un comportamiento seductor inapropiado y una excesiva necesidad de aprobación. Los sujetos histriónicos son muy animados, dramáticos, vivaces, entusiastas y coquetos.',
                   style: monoRegular,
                   children: <TextSpan>[
                     TextSpan(
                       text:
-                      '\n\nEl THP forma parte del grupo dramático de los desordenes de personalidad. Las personas con THP tienen una gran necesidad de atención, realizan apariciones inapropiadas y llamativas, expresan sus emociones de forma intensa o excesiva y pueden ser fácilmente influenciadas por otras personas. Conductas asociadas incluyen egocentrismo, hedonismo, deseo continuo de apreciación y comportamiento manipulador persistente para conseguir sus propios objetivos.',
+                          '\n\nEl THP forma parte del grupo dramático de los desordenes de personalidad. Las personas con THP tienen una gran necesidad de atención, realizan apariciones inapropiadas y llamativas, expresan sus emociones de forma intensa o excesiva y pueden ser fácilmente influenciadas por otras personas. Conductas asociadas incluyen egocentrismo, hedonismo, deseo continuo de apreciación y comportamiento manipulador persistente para conseguir sus propios objetivos.',
                       style: monoRegular,
                     ),
                   ],

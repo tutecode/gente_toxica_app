@@ -10,8 +10,13 @@ class AnsiosoDetectarAnsiedad extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Detectar la ansiedad',
-            style: titleAppBar),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Detectar la ansiedad',
+          style: titleAppBar,
+          textScaleFactor: 1.0,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -38,11 +43,13 @@ class AnsiosoDetectarAnsiedad extends StatelessWidget {
                       style: monoRegular,
                     ),
                     TextSpan(
-                      text: '\n\n ● La ansiedad ante un acontecimiento inminente.',
+                      text:
+                          '\n\n ● La ansiedad ante un acontecimiento inminente.',
                       style: monoBold,
                     ),
                     TextSpan(
-                      text: ' Si es domingo y tienes que hacer un examen el viernes, '
+                      text:
+                          ' Si es domingo y tienes que hacer un examen el viernes, '
                           'necesitarás distribuir la energía a lo largo de toda la '
                           'semana para no caer en una ansiedad tóxica.',
                       style: monoRegular,
@@ -53,7 +60,7 @@ class AnsiosoDetectarAnsiedad extends StatelessWidget {
                     ),
                     TextSpan(
                       text:
-                      ' Tenemos que gastar la ansiedad en otras actividades'
+                          ' Tenemos que gastar la ansiedad en otras actividades'
                           ' para poder afrontar esa situación que nos genera tensión. '
                           'Como ya citamos, la ansiedad puede resultar «horrible»,'
                           ' pero nunca «terrible». '
@@ -66,7 +73,7 @@ class AnsiosoDetectarAnsiedad extends StatelessWidget {
                     ),
                     TextSpan(
                       text:
-                      ' A menudo sucede que nos gusta comer dulces y a la vez '
+                          ' A menudo sucede que nos gusta comer dulces y a la vez '
                           'queremos adelgazar; o elegimos fumar y'
                           ' a la vez deseamos estar saludables. '
                           'La única manera de salir de esa encrucijada '
@@ -79,7 +86,7 @@ class AnsiosoDetectarAnsiedad extends StatelessWidget {
                     ),
                     TextSpan(
                       text:
-                      ' ¡No hay respuestas inteligentes a preguntas sin respuestas!',
+                          ' ¡No hay respuestas inteligentes a preguntas sin respuestas!',
                       style: monoRegular,
                     ),
                     TextSpan(
@@ -88,7 +95,7 @@ class AnsiosoDetectarAnsiedad extends StatelessWidget {
                     ),
                     TextSpan(
                       text:
-                      ' A ciertas personas les atrae la adrenalina por las '
+                          ' A ciertas personas les atrae la adrenalina por las '
                           'asociaciones que se generan. Supongamos que un joven '
                           'tiene ansiedad porque quiere invitar a una chica a salir. '
                           'Si le habla y ella le dice que sí, '

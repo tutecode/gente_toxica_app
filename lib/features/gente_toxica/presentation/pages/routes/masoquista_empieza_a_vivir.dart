@@ -10,8 +10,12 @@ class MasoquistaEmpiezaAVivir extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Empezar a vivir',
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Empezar a vivir',
           style: titleAppBar,
+          textScaleFactor: 1.0,
         ),
       ),
       body: SingleChildScrollView(
@@ -23,7 +27,8 @@ class MasoquistaEmpiezaAVivir extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
-                  text: 'Muchas personas pasan toda la vida pidiendo felicidad para los demás, '
+                  text:
+                      'Muchas personas pasan toda la vida pidiendo felicidad para los demás, '
                       'deseos para las demás, viven pensando en los demás, '
                       'pero nunca piensan en sí mismas. '
                       'Pasan y viven su vida esperando que los demás disfruten, '
@@ -31,7 +36,8 @@ class MasoquistaEmpiezaAVivir extends StatelessWidget {
                   style: monoRegular,
                   children: <TextSpan>[
                     TextSpan(
-                      text: '\n\nHay personas que no saben controlar la desilusión y '
+                      text:
+                          '\n\nHay personas que no saben controlar la desilusión y '
                           'no utilizan aquello a lo que permiten acceder a su pensamiento. '
                           'No saben utilizar ni administrar el combustible, '
                           'la energía de la que disponen para ir a por sus sueños cada día. '

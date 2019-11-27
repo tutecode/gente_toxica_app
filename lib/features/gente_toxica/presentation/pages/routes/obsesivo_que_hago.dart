@@ -10,7 +10,13 @@ class ObsesivoQueHago extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('¿Qué hago?'),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          '¿Qué hago?',
+          style: titleAppBar,
+          textScaleFactor: 1.0,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -21,7 +27,8 @@ class ObsesivoQueHago extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
-                  text: '¿Qué debemos hacer con esos pensamientos que invaden y '
+                  text:
+                      '¿Qué debemos hacer con esos pensamientos que invaden y '
                       'atrapan nuestra mente causándonos angustia y depresión? '
                       'Steven Hayes nos señala tres comportamientos posibles, '
                       'los dos primeros que no funcionan y el tercero que sí funciona.',
@@ -62,7 +69,8 @@ class ObsesivoQueHago extends StatelessWidget {
                       style: monoBold,
                     ),
                     TextSpan(
-                      text: '\n\nNo tenemos que luchar para que los pensamientos '
+                      text:
+                          '\n\nNo tenemos que luchar para que los pensamientos '
                           'negativos se vayan ni tenemos que distraernos para evitarlos, '
                           'sólo necesitamos observarlos como si fuesen un cuadro en exposición. '
                           'Aceptamos que están allí, pero sabemos que',

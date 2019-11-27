@@ -10,7 +10,10 @@ class PrepotenteImpotencia extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('La impotencia', style: titleAppBar),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text('La impotencia', style: titleAppBar,
+          textScaleFactor: 1.0,),
       ),
       body: SingleChildScrollView(
         child: Column(

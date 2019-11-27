@@ -10,8 +10,13 @@ class PrepotenteRasgos extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Rasgos',
-            style: titleAppBar),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Rasgos',
+          style: titleAppBar,
+          textScaleFactor: 1.0,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -23,7 +28,7 @@ class PrepotenteRasgos extends StatelessWidget {
                 textScaleFactor: kTextScale,
                 text: TextSpan(
                   text:
-                  ' ● Hay personas que tienen el corazón enfermo pero ni ellos lo saben… '
+                      ' ● Hay personas que tienen el corazón enfermo pero ni ellos lo saben… '
                       'hasta que tienen poder. '
                       'Cuando tienen un poco de poder, se vuelven déspotas.',
                   style: monoRegular,

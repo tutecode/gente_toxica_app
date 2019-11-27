@@ -10,8 +10,13 @@ class Autor extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Autor',
-            style: titleAppBar),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Autor',
+          style: titleAppBar,
+          textScaleFactor: 1.0,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -22,7 +27,8 @@ class Autor extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
-                  text: 'Bernardo Stamateas nacido en el barrio porteño de Floresta '
+                  text:
+                      'Bernardo Stamateas nacido en el barrio porteño de Floresta '
                       'y de ascendencia griega, tiene habilidad para el ajedrez, '
                       'el clarinete y el saxofón. Luego de cursar la secundaria en '
                       'los colegios Larroque y Mariano Moreno estudió Licenciatura '

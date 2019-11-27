@@ -10,8 +10,13 @@ class AnsiosoNosPreocupamos extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('¿Preocuparse?',
-            style: titleAppBar),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          '¿Preocuparse?',
+          style: titleAppBar,
+          textScaleFactor: 1.0,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -22,7 +27,8 @@ class AnsiosoNosPreocupamos extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
-                  text: 'Nos preocupamos porque la cultura nos enseña a preocuparnos. '
+                  text:
+                      'Nos preocupamos porque la cultura nos enseña a preocuparnos. '
                       'La preocupación es un proceso de imitación.'
                       ' Hay tres asociaciones erradas con respecto a la preocupación:',
                   style: monoRegular,
@@ -32,7 +38,8 @@ class AnsiosoNosPreocupamos extends StatelessWidget {
                       style: monoBold,
                     ),
                     TextSpan(
-                      text: '\n\nAlguien dice: «Vivo preocupado por mi trabajo», '
+                      text:
+                          '\n\nAlguien dice: «Vivo preocupado por mi trabajo», '
                           'y al instante todos responden: '
                           '«¡Qué responsable es!». La persona se enferma, '
                           'se estresa, ¡pero es responsable!',
@@ -43,7 +50,8 @@ class AnsiosoNosPreocupamos extends StatelessWidget {
                       style: monoBold,
                     ),
                     TextSpan(
-                      text: '\n\nSe cree que la persona que se preocupa demasiado lo hace porque realmente ama. '
+                      text:
+                          '\n\nSe cree que la persona que se preocupa demasiado lo hace porque realmente ama. '
                           'Que una madre o un padre no duerma en toda la noche pensando en su hijo es visto como una señal de amor. '
                           'La gente asocia el hecho de preocuparse y pensar todo el día en alguien con amor.',
                       style: monoRegular,
@@ -54,7 +62,7 @@ class AnsiosoNosPreocupamos extends StatelessWidget {
                     ),
                     TextSpan(
                       text:
-                      '\n\nHay gente que vive preocupada porque cree que así será capaz de prevenir algo más grave. '
+                          '\n\nHay gente que vive preocupada porque cree que así será capaz de prevenir algo más grave. '
                           'Así son los hipocondríacos, los que van al médico y se hacen chequeos todos los meses '
                           '«por si apareciera alguna enfermedad, así la puedo tratar a tiempo».',
                       style: monoRegular,

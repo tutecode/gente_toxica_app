@@ -123,17 +123,17 @@ const kNavigation = <NavigationCategory>[
     head: 'El Triangulador',
     navigations: <NavigationPageItem>[
       NavigationPageItem(
-        title: '● Definición',
+        title: 'Definición',
         route: TrianguladorDefinicion(),
         routeName: '.../routes/triangulador_deficion',
       ),
       NavigationPageItem(
-        title: '● Personas que intervienen',
+        title: 'Personas que intervienen',
         route: TrianguladorPersonas(),
         routeName: '.../routes/triangulador_personas',
       ),
       NavigationPageItem(
-        title: '● Actitudes Sanas',
+        title: 'Actitudes Sanas',
         route: TrianguladorActitudes(),
         routeName: '.../routes/triangulador_actitudes_sanas',
       ),
@@ -145,22 +145,22 @@ const kNavigation = <NavigationCategory>[
     //icon: Icon(Icons.extension),
     navigations: <NavigationPageItem>[
       NavigationPageItem(
-        title: '● Definición',
+        title: 'Definición',
         route: FrustradorDefinicion(),
         routeName: '.../routes/frustrador_definicion',
       ),
       NavigationPageItem(
-        title: '● Rasgos',
+        title: 'Rasgos',
         route: FrustradorRasgos(),
         routeName: '.../routes/frustrador_rasgos',
       ),
       NavigationPageItem(
-        title: '● Actitudes frente a la frustración',
+        title: 'Actitudes frente a la frustración',
         route: FrustradorActitudes(),
         routeName: '.../routes/frustrador_actitudes',
       ),
       NavigationPageItem(
-        title: '● Criando hijos sanos',
+        title: 'Criando hijos sanos',
         route: FrustradorHijosSanos(),
         routeName: '.../routes/frustrador_hijos_sanos',
       ),
@@ -171,27 +171,27 @@ const kNavigation = <NavigationCategory>[
     head: 'El Narcisista',
     navigations: <NavigationPageItem>[
       NavigationPageItem(
-        title: '● Definición',
+        title: 'Definición',
         route: NarcisistaDefinicion(),
         routeName: '.../routes/narcisista_definicion',
       ),
       NavigationPageItem(
-        title: '● Rasgos',
+        title: 'Rasgos',
         route: NarcisistaRasgos(),
         routeName: '.../routes/narcisista_rasgos',
       ),
       NavigationPageItem(
-        title: '● Parejas del narcisista',
+        title: 'Parejas del narcisista',
         route: NarcisistaParejas(),
         routeName: '.../routes/narcisista_parejas',
       ),
       NavigationPageItem(
-        title: '● Criando hijos sanos',
+        title: 'Criando hijos sanos',
         route: NarcisistaHijosSanos(),
         routeName: '.../routes/narcisista_hijos_sanos',
       ),
       NavigationPageItem(
-        title: '● Actitudes frente a él',
+        title: 'Actitudes frente a él',
         route: NarcisistaActitudes(),
         routeName: '.../routes/narcisista_actitudes',
       ),
@@ -203,32 +203,32 @@ const kNavigation = <NavigationCategory>[
     //icon: Icon(Icons.extension),
     navigations: <NavigationPageItem>[
       NavigationPageItem(
-        title: '● Definición',
+        title: 'Definición',
         route: PrepotenteDefinicion(),
         routeName: '.../routes/prepotente_definicion',
       ),
       NavigationPageItem(
-        title: '● Rasgos',
+        title: 'Rasgos',
         route: PrepotenteRasgos(),
         routeName: '.../routes/prepotente_rasgos',
       ),
       NavigationPageItem(
-        title: '● La impotencia',
+        title: 'La impotencia',
         route: PrepotenteImpotencia(),
         routeName: '.../routes/prepotente_impotencia',
       ),
       NavigationPageItem(
-        title: '● El poder del cambio',
+        title: 'El poder del cambio',
         route: PrepotentePoderCambio(),
         routeName: '.../routes/prepotente_poder_cambio',
       ),
       NavigationPageItem(
-        title: '● Manejar poder sanamente',
+        title: 'Manejar poder sanamente',
         route: PrepotentePoderSanamente(),
         routeName: '.../routes/prepotente_poder_sanamente',
       ),
       NavigationPageItem(
-        title: '● Valoracion realista',
+        title: 'Valoracion realista',
         route: PrepotenteValoracion(),
         routeName: '.../routes/prepotente_valoracion',
       ),
@@ -239,42 +239,42 @@ const kNavigation = <NavigationCategory>[
     head: 'El Miedoso',
     navigations: <NavigationPageItem>[
       NavigationPageItem(
-        title: '● Definición',
+        title: 'Definición',
         route: MiedosoDefinicion(),
         routeName: '.../routes/miedoso_definicion',
       ),
       NavigationPageItem(
-        title: '● Rasgos',
+        title: 'Rasgos',
         route: MiedosoRasgos(),
         routeName: '.../routes/miedoso_rasgos',
       ),
       NavigationPageItem(
-        title: '● Miedos de la infancia',
+        title: 'Miedos de la infancia',
         route: MiedosoInfancia(),
         routeName: '.../routes/miedoso_infancia',
       ),
       NavigationPageItem(
-        title: '● Criando hijos sin miedo',
+        title: 'Criando hijos sin miedo',
         route: MiedosoHijosInfancia(),
         routeName: '.../routes/miedoso_hijos_infancia',
       ),
       NavigationPageItem(
-        title: '● Miedos en la adolescencia',
+        title: 'Miedos en la adolescencia',
         route: MiedosoAdolescencia(),
         routeName: '.../routes/miedoso_adolescencia',
       ),
       NavigationPageItem(
-        title: '● Criando hijos sin miedo',
+        title: 'Criando hijos sin miedo',
         route: MiedosoHijosAdolescencia(),
         routeName: '.../routes/miedoso_hijos_adolescencia',
       ),
       NavigationPageItem(
-        title: '● El poder frente al miedo',
+        title: 'El poder frente al miedo',
         route: MiedosoPoder(),
         routeName: '.../routes/miedoso_poder',
       ),
       NavigationPageItem(
-        title: '● Venciendo el miedo',
+        title: 'Venciendo el miedo',
         route: MiedosoVenciendo(),
         routeName: '.../routes/miedoso_venciendo',
       ),
@@ -285,27 +285,27 @@ const kNavigation = <NavigationCategory>[
     head: 'El Negativo',
     navigations: <NavigationPageItem>[
       NavigationPageItem(
-        title: '● Definición',
+        title: 'Definición',
         route: NegativoDefinicion(),
         routeName: '.../routes/negativo_definicion',
       ),
       NavigationPageItem(
-        title: '● Rasgos',
+        title: 'Rasgos',
         route: NegativoRasgos(),
         routeName: '.../routes/negativo_rasgos',
       ),
       NavigationPageItem(
-        title: '● Cómo actúan',
+        title: 'Cómo actúan',
         route: NegativoComoActuan(),
         routeName: '.../routes/negativo_como_actuan',
       ),
       NavigationPageItem(
-        title: '● Actitudes frente al negativo',
+        title: 'Actitudes frente al negativo',
         route: NegativoActitudes(),
         routeName: '.../routes/negativo_actitudes',
       ),
       NavigationPageItem(
-        title: '● Vive en positivo',
+        title: 'Vive en positivo',
         route: NegativoVivePositivo(),
         routeName: '.../routes/negativo_vive_positivo',
       ),
@@ -316,32 +316,32 @@ const kNavigation = <NavigationCategory>[
     head: 'El Ansioso',
     navigations: <NavigationPageItem>[
       NavigationPageItem(
-        title: '● Definición',
+        title: 'Definición',
         route: AnsiosoDefinicion(),
         routeName: '.../routes/ansioso_definicion',
       ),
       NavigationPageItem(
-        title: '● Detectar la ansiedad',
+        title: 'Detectar la ansiedad',
         route: AnsiosoDetectarAnsiedad(),
         routeName: '.../routes/ansioso_detectar_ansiedad',
       ),
       NavigationPageItem(
-        title: '● La preocupación',
+        title: 'La preocupación',
         route: AnsiosoPreocupacion(),
         routeName: '.../routes/ansioso_preocupacion',
       ),
       NavigationPageItem(
-        title: '● ¿Por qué nos preocupamos',
+        title: '¿Por qué nos preocupamos?',
         route: AnsiosoNosPreocupamos(),
         routeName: '.../routes/ansioso_nos_preocupamos',
       ),
       NavigationPageItem(
-        title: '● Libres de la preocupación',
+        title: 'Libres de la preocupación',
         route: AnsiosoLibresPreocupacion(),
         routeName: '.../routes/ansioso_libres_preocupacion',
       ),
       NavigationPageItem(
-        title: '● Libres de la ansiedad',
+        title: 'Libres de la ansiedad',
         route: AnsiosoLibresAnsiedad(),
         routeName: '.../routes/ansioso_libres_ansiedad',
       ),
@@ -352,22 +352,22 @@ const kNavigation = <NavigationCategory>[
     head: 'El Sádico',
     navigations: <NavigationPageItem>[
       NavigationPageItem(
-        title: '● Definición',
+        title: 'Definición',
         route: SadicoDefinicion(),
         routeName: '.../routes/sadico_definicion',
       ),
       NavigationPageItem(
-        title: '● Rasgos',
+        title: 'Rasgos',
         route: SadicoRasgos(),
         routeName: '.../routes/sadico_rasgos',
       ),
       NavigationPageItem(
-        title: '● El chivo expiatorio',
+        title: 'El chivo expiatorio',
         route: SadicoChivoExpiatorio(),
         routeName: '.../routes/sadico_chivo_expiatorio',
       ),
       NavigationPageItem(
-        title: '● Libres del sadismo',
+        title: 'Libres del sadismo',
         route: SadicoLibresSadismo(),
         routeName: '.../routes/sadico_libres_sadismo',
       ),
@@ -378,27 +378,27 @@ const kNavigation = <NavigationCategory>[
     head: 'El Omnipotente',
     navigations: <NavigationPageItem>[
       NavigationPageItem(
-        title: '● Definición',
+        title: 'Definición',
         route: OmnipotenteDefinicion(),
         routeName: '.../routes/omnipotente_definicion',
       ),
       NavigationPageItem(
-        title: '● Rasgos',
+        title: 'Rasgos',
         route: OmnipotenteRasgos(),
         routeName: '.../routes/omnipotente_rasgos',
       ),
       NavigationPageItem(
-        title: '● Libres de la omnipotencia',
+        title: 'Libres de la omnipotencia',
         route: OmnipotenteLibres(),
         routeName: '.../routes/omnipotente_libres',
       ),
       NavigationPageItem(
-        title: '● Aprender a priorizar',
+        title: 'Aprender a priorizar',
         route: OmnipotentePriorizar(),
         routeName: '.../routes/omnipotente_priorizar',
       ),
       NavigationPageItem(
-        title: '●   Lo que verdaderamente importa',
+        title: 'Lo que verdaderamente importa',
         route: OmnipotenteImportante(),
         routeName: '.../routes/omnipotente_importante',
       ),
@@ -455,27 +455,27 @@ const kNavigation = <NavigationCategory>[
     head: 'El Peleador',
     navigations: <NavigationPageItem>[
       NavigationPageItem(
-        title: '● Definición',
+        title: 'Definición',
         route: PeleadorDefinicion(),
         routeName: '.../routes/peleador_definicion',
       ),
       NavigationPageItem(
-        title: '● Rasgos',
+        title: 'Rasgos',
         route: PeleadorRasgos(),
         routeName: '.../routes/peleador_rasgos',
       ),
       NavigationPageItem(
-        title: '● Mitos sobre el enfado',
+        title: 'Mitos sobre el enfado',
         route: PeleadorMitos(),
         routeName: '.../routes/peleador_mitos',
       ),
       NavigationPageItem(
-        title: '● El enfado',
+        title: 'El enfado',
         route: PeleadorEnfado(),
         routeName: '.../routes/peleador_enfado',
       ),
       NavigationPageItem(
-        title: '● Actitudes sanas',
+        title: 'Actitudes sanas',
         route: PeleadorActitudes(),
         routeName: '.../routes/peleador_actitudes',
       ),
@@ -486,37 +486,37 @@ const kNavigation = <NavigationCategory>[
     head: 'El Masoquista',
     navigations: <NavigationPageItem>[
       NavigationPageItem(
-        title: '● Definición',
+        title: 'Definición',
         route: MasoquistaDefinicion(),
         routeName: '.../routes/masoquista_definicion',
       ),
       NavigationPageItem(
-        title: '● Rasgos',
+        title: 'Rasgos',
         route: MasoquistaRasgos(),
         routeName: '.../routes/masoquista_rasgos',
       ),
       NavigationPageItem(
-        title: '● Actitudes sanas',
+        title: 'Actitudes sanas',
         route: MasoquistaActitudes(),
         routeName: '.../routes/masoquista_actitudes',
       ),
       NavigationPageItem(
-        title: '● Criando hijos sanos',
+        title: 'Criando hijos sanos',
         route: MasoquistaCriandoHijos(),
         routeName: '.../routes/masoquista_criando_hijos',
       ),
       NavigationPageItem(
-        title: '● Criando adolescentes sanos',
+        title: 'Criando adolescentes sanos',
         route: MasoquistaCriandoAdolescentes(),
         routeName: '.../routes/masoquista_criando_adolescentes',
       ),
       NavigationPageItem(
-        title: '● No al castigo',
+        title: 'No al castigo',
         route: MasoquistaCastigo(),
         routeName: '.../routes/masoquista_castigo',
       ),
       NavigationPageItem(
-        title: '● ¡Empieza a vivir!',
+        title: '¡Empieza a vivir!',
         route: MasoquistaEmpiezaAVivir(),
         routeName: '.../routes/masoquista_empieza_a_vivir',
       ),
@@ -527,42 +527,42 @@ const kNavigation = <NavigationCategory>[
     head: 'El Evitador',
     navigations: <NavigationPageItem>[
       NavigationPageItem(
-        title: '● Definición',
+        title: 'Definición',
         route: EvitadorDefinicion(),
         routeName: '.../routes/evitador_definicion',
       ),
       NavigationPageItem(
-        title: '● Rasgos',
+        title: 'Rasgos',
         route: EvitadorRasgos(),
         routeName: '.../routes/evitador_rasgos',
       ),
       NavigationPageItem(
-        title: '● Creencias automáticas',
+        title: 'Creencias automáticas',
         route: EvitadorCreencias(),
         routeName: '.../routes/evitador_creencias',
       ),
       NavigationPageItem(
-        title: '● ¿Qué evitan?',
+        title: '¿Qué evitan?',
         route: EvitadorQueEvitan(),
         routeName: '.../routes/evitador_que_evitan',
       ),
       NavigationPageItem(
-        title: '● ¿Por qué evitan?',
+        title: '¿Por qué evitan?',
         route: EvitadorPqEvitan(),
         routeName: '.../routes/evitador_pq_evitan',
       ),
       NavigationPageItem(
-        title: '● Actitudes sanas',
+        title: 'Actitudes sanas',
         route: EvitadorActitudesSanas(),
         routeName: '.../routes/evitador_actitudes',
       ),
       NavigationPageItem(
-        title: '● Tomas de decisiones',
+        title: 'Tomas de decisiones',
         route: EvitadorTomaDecisiones(),
         routeName: '.../routes/evitador_toma_decisiones',
       ),
       NavigationPageItem(
-        title: '● ¿Cómo tomar decisiones',
+        title: '¿Cómo tomar decisiones',
         route: EvitadorComoDecisiones(),
         routeName: '.../routes/evitador_como_decisiones',
       ),
@@ -573,27 +573,27 @@ const kNavigation = <NavigationCategory>[
     head: 'El Paranoico',
     navigations: <NavigationPageItem>[
       NavigationPageItem(
-        title: '● Definición',
+        title: 'Definición',
         route: ParanoicoDefinicion(),
         routeName: '.../routes/paranoico_definicion',
       ),
       NavigationPageItem(
-        title: '● Rasgos',
+        title: 'Rasgos',
         route: ParanoicoRasgos(),
         routeName: '.../routes/paranoico_rasgos',
       ),
       NavigationPageItem(
-        title: '● ¿Qué piensan?',
+        title: '¿Qué piensan?',
         route: ParanoicoQuePiensan(),
         routeName: '.../routes/paranoico_que_piensan',
       ),
       NavigationPageItem(
-        title: '● El liderazgo',
+        title: 'El liderazgo',
         route: ParanoicoLiderazgo(),
         routeName: '.../routes/paranoico_liderazgo',
       ),
       NavigationPageItem(
-        title: '● Confianza inteligente',
+        title: 'Confianza inteligente',
         route: ParanoicoConfianzaInteligente(),
         routeName: '.../routes/paranoico_confianza_inteligente',
       ),
@@ -604,27 +604,27 @@ const kNavigation = <NavigationCategory>[
     head: 'El Asfixiador',
     navigations: <NavigationPageItem>[
       NavigationPageItem(
-        title: '● Definición',
+        title: 'Definición',
         route: AsfixiadorDefinicion(),
         routeName: '.../routes/asfixiador_definicion',
       ),
       NavigationPageItem(
-        title: '● Cuidado vs Control',
+        title: 'Cuidado vs Control',
         route: AsfixiadorCuidadoVsControl(),
         routeName: '.../routes/asfixiador_cuidado_vs_control',
       ),
       NavigationPageItem(
-        title: '● Actitudes sanas',
+        title: 'Actitudes sanas',
         route: AsfixiadorActitudes(),
         routeName: '.../routes/asfixiador_actitudes',
       ),
       NavigationPageItem(
-        title: '● Víctimas del asfixiador',
+        title: 'Víctimas del asfixiador',
         route: AsfixiadorVictimas(),
         routeName: '.../routes/asfixiador_victimas',
       ),
       NavigationPageItem(
-        title: '● Libres de la asfixia',
+        title: 'Libres de la asfixia',
         route: AsfixiadorLibres(),
         routeName: '.../routes/asfixiador_libres',
       ),
@@ -635,27 +635,27 @@ const kNavigation = <NavigationCategory>[
     head: 'El Histriónico',
     navigations: <NavigationPageItem>[
       NavigationPageItem(
-        title: '● Definición',
+        title: 'Definición',
         route: HistrionicoDefinicion(),
         routeName: '.../routes/histrionico_definicion',
       ),
       NavigationPageItem(
-        title: '● Rasgos',
+        title: 'Rasgos',
         route: HistrionicoRasgos(),
         routeName: '.../routes/histrionico_rasgos',
       ),
       NavigationPageItem(
-        title: '● Mujeres vs Hombres',
+        title: 'Mujeres vs Hombres',
         route: HistrionicoMujeresVsHombres(),
         routeName: '.../routes/histrionico_mujeres_vs_hombres',
       ),
       NavigationPageItem(
-        title: '● Personajes tóxicos',
+        title: 'Personajes tóxicos',
         route: HistrionicoPersonajes(),
         routeName: '.../routes/histrionico_personajes',
       ),
       NavigationPageItem(
-        title: '● Actitudes sanas',
+        title: 'Actitudes sanas',
         route: HistrionicoActitudes(),
         routeName: '.../routes/histrionico_actitudes',
       ),
@@ -666,37 +666,37 @@ const kNavigation = <NavigationCategory>[
     head: 'El Felpudo',
     navigations: <NavigationPageItem>[
       NavigationPageItem(
-        title: '● Definición',
+        title: 'Definición',
         route: FelpudoDefinicion(),
         routeName: '.../routes/felpudo_definicion',
       ),
       NavigationPageItem(
-        title: '● Librarnos de la amargura',
+        title: 'Librarnos de la amargura',
         route: FelpudoAmargura(),
         routeName: '.../routes/felpudo_amargura',
       ),
       NavigationPageItem(
-        title: '● El autoconcepto',
+        title: 'El autoconcepto',
         route: FelpudoAutoconcepto(),
         routeName: '.../routes/felpudo_autoconcepto',
       ),
       NavigationPageItem(
-        title: '● Autoconcepto niñez',
+        title: 'Autoconcepto niñez',
         route: FelpudoNinezAutoconcepto(),
         routeName: '.../routes/felpudo_ninez_autoconcepto',
       ),
       NavigationPageItem(
-        title: '● Autoconcepto adolescencia',
+        title: 'Autoconcepto adolescencia',
         route: FelpudoAdolescenciaAutoconcepto(),
         routeName: '.../routes/felpudo_adolescencia_autoconcepto',
       ),
       NavigationPageItem(
-        title: '● Actitudes sanas',
+        title: 'Actitudes sanas',
         route: FelpudoActitudes(),
         routeName: '.../routes/felpudo_actitudes',
       ),
       NavigationPageItem(
-        title: '● Abona tu árbol',
+        title: 'Abona tu árbol',
         route: FelpudoAbonaTuArbol(),
         routeName: '.../routes/felpudo_abona_tu_arbol',
       ),
@@ -719,27 +719,22 @@ class MyHomePage extends StatelessWidget {
     ListTile _myNavigation(NavigationPageItem nav,
         {IconData trialing: Icons.keyboard_arrow_down}) {
       return ListTile(
-        title: Text(
-          nav.title,
-          textScaleFactor: 1.2,
-          style: listViewHome,
-        ),
-        trailing: trialing == null ? null : Icon(trialing),
-        onTap: () => /*Navigator.push(
-          context,
-          MaterialPageRoute(
-            builder: (context) => (nav.route),
-            */
-            //Navigator.of(context).pushNamed(nav.routeName),
-            ///Animation_1
-            Navigator.of(context).push(_createRoute(nav))
-      );
-            //),
-        //),
-      //);
+
+          ///subtitles
+          title: Text(
+            nav.title,
+            textScaleFactor: 1.0,
+            style: expansionTileText,
+          ),
+          trailing: trialing == null ? null : Icon(trialing),
+          onTap: () =>
+
+              ///Animation_1
+              Navigator.of(context).push(_createRoute(nav)));
     }
 
     Widget _myExpansion(NavigationCategory navCat) {
+      ///first tile
       return ExpansionTile(
         //leading: navCat.icon,
         leading: CircleAvatar(
@@ -748,7 +743,7 @@ class MyHomePage extends StatelessWidget {
         ),
         title: Text(
           navCat.head,
-          textScaleFactor: 1.5,
+          textScaleFactor: 1.2,
           style: listViewHome,
         ),
         children: navCat.navigations.map(_myNavigation).toList(),
@@ -769,7 +764,8 @@ class MyHomePage extends StatelessWidget {
         var end = Offset.zero;
         var curve = Curves.ease;
 
-        var tween = Tween(begin: begin, end: end).chain(CurveTween(curve: curve));
+        var tween =
+            Tween(begin: begin, end: end).chain(CurveTween(curve: curve));
 
         return SlideTransition(
           position: animation.drive(tween),

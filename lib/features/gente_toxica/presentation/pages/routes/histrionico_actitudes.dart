@@ -10,8 +10,13 @@ class HistrionicoActitudes extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Personajes tóxicos',
-            style: titleAppBar),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Personajes tóxicos',
+          style: titleAppBar,
+          textScaleFactor: 1.0,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -22,7 +27,8 @@ class HistrionicoActitudes extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
-                  text: '¿Qué hacer en cada caso cuando esos rasgos definen la personalidad? '
+                  text:
+                      '¿Qué hacer en cada caso cuando esos rasgos definen la personalidad? '
                       '\n\nEl histriónico:'
                       '\n\nSi el histriónico es el jefe:',
                   style: monoRegular,
@@ -42,15 +48,18 @@ class HistrionicoActitudes extends StatelessWidget {
                       style: monoRegular,
                     ),
                     TextSpan(
-                      text: '\n\n ● Afirmar: «Eres muy bueno en lo que haces, por eso creciste».',
+                      text:
+                          '\n\n ● Afirmar: «Eres muy bueno en lo que haces, por eso creciste».',
                       style: monoRegular,
                     ),
                     TextSpan(
-                      text: '\n\n ● Hay que tratarlos con un poco de afecto, pero con distancia: así serán leales. Siempre hay que mostrarles que es el líder quien posee la autoridad.',
+                      text:
+                          '\n\n ● Hay que tratarlos con un poco de afecto, pero con distancia: así serán leales. Siempre hay que mostrarles que es el líder quien posee la autoridad.',
                       style: monoRegular,
                     ),
                     TextSpan(
-                      text: '\n\nComo vemos, las relaciones interpersonales con personas histriónicas suelen ser tormentosas e insatisfactorias. Son percibidos por los demás como superficiales, carentes de autenticidad, exigentes y abiertamente dependientes. Sus pensamientos parecen carecer de profundidad o autenticidad.',
+                      text:
+                          '\n\nComo vemos, las relaciones interpersonales con personas histriónicas suelen ser tormentosas e insatisfactorias. Son percibidos por los demás como superficiales, carentes de autenticidad, exigentes y abiertamente dependientes. Sus pensamientos parecen carecer de profundidad o autenticidad.',
                       style: monoRegular,
                     ),
                   ],

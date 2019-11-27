@@ -10,8 +10,11 @@ class ParanoicoRasgos extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
         title: Text('Rasgos',
-            style: titleAppBar),
+            style: titleAppBar,
+          textScaleFactor: 1.0,),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -23,7 +26,7 @@ class ParanoicoRasgos extends StatelessWidget {
                 textScaleFactor: kTextScale,
                 text: TextSpan(
                   text: 'El paranoico tiene tres creencias principales:',
-                  style: monoBold,
+                  style: monoRegular,
                   children: <TextSpan>[
                     TextSpan(
                       text: '\n\n ● No se puede confiar en los demás.',

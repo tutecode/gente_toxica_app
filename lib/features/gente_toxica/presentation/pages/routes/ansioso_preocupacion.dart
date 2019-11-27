@@ -10,8 +10,13 @@ class AnsiosoLibresPreocupacion extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Despreocupándonos',
-            style: titleAppBar),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Despreocupándonos',
+          style: titleAppBar,
+          textScaleFactor: 1.0,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -22,7 +27,8 @@ class AnsiosoLibresPreocupacion extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
-                  text: '¿Qué podemos hacer para no ser esclavos de la preocupación?',
+                  text:
+                      '¿Qué podemos hacer para no ser esclavos de la preocupación?',
                   style: monoRegular,
                   children: <TextSpan>[
                     TextSpan(
@@ -30,7 +36,8 @@ class AnsiosoLibresPreocupacion extends StatelessWidget {
                       style: monoBold,
                     ),
                     TextSpan(
-                      text: '\n\nPara priorizar las preocupaciones podemos crear listas.'
+                      text:
+                          '\n\nPara priorizar las preocupaciones podemos crear listas.'
                           ' Las listas de preocupaciones son una herramienta útil a'
                           ' la hora de afrontar los problemas y comenzar a resolverlos. '
                           'La idea de estas listas es enumerar las preocupaciones y '
@@ -44,7 +51,8 @@ class AnsiosoLibresPreocupacion extends StatelessWidget {
                       style: monoBold,
                     ),
                     TextSpan(
-                      text: '\n\nUna vez que priorizamos tenemos que pensar cómo '
+                      text:
+                          '\n\nUna vez que priorizamos tenemos que pensar cómo '
                           'resolver los problemas que enumeramos. '
                           'Al hacerlo, la toxicidad disminuirá en gran medida.'
                           ' Es necesario que invirtamos bien el tiempo.'

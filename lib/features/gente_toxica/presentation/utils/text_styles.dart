@@ -25,6 +25,12 @@ TextStyle listViewHome = TextStyle(
   color: Colors.black,
 );
 
+TextStyle expansionTileText = TextStyle(
+  //textScaleFactor: 1.5,
+  fontFamily: 'RobotoSlab Light',
+  color: Colors.black,
+);
+
 TextStyle titleAppBar = TextStyle(
   //textScaleFactor: 1.5,
   fontFamily: 'RobotoSlab Regular',

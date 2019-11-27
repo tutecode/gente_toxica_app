@@ -10,8 +10,13 @@ class EvitadorCreencias extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: Text('Creencias', style: titleAppBar)
-      ),
+          backgroundColor: Colors.yellow[500],
+          elevation: 0,
+          title: Text(
+            'Creencias',
+            style: titleAppBar,
+            textScaleFactor: 1.0,
+          )),
       body: SingleChildScrollView(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -21,61 +26,53 @@ class EvitadorCreencias extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
-                  text:
-                  'El evitador tiene «creencias automáticas», '
+                  text: 'El evitador tiene «creencias automáticas», '
                       'pensamientos o fantasías arraigados en su mente que tal vez '
                       '¡ni siquiera sabe que están allí! Veamos algunos ejemplos:',
                   style: monoRegular,
                   children: <TextSpan>[
                     TextSpan(
-                      text:
-                      '\n\n ● «Soy socialmente inepto e inadecuado».',
+                      text: '\n\n ● «Soy socialmente inepto e inadecuado».',
+                      style: monoRegular,
+                    ),
+                    TextSpan(
+                      text: '\n\n ● «Soy un perdedor».',
                       style: monoRegular,
                     ),
                     TextSpan(
                       text:
-                      '\n\n ● «Soy un perdedor».',
+                          '\n\n ● «Soy aburrido, nadie quiere estar conmigo».',
                       style: monoRegular,
                     ),
                     TextSpan(
                       text:
-                      '\n\n ● «Soy aburrido, nadie quiere estar conmigo».',
+                          '\n\n ● «Si me conocen de verdad, todos me rechazarán».',
                       style: monoRegular,
                     ),
                     TextSpan(
-                      text:
-                      '\n\n ● «Si me conocen de verdad, todos me rechazarán».',
+                      text: '\n\n ● «Pensarán que soy débil».',
                       style: monoRegular,
                     ),
                     TextSpan(
-                      text:
-                      '\n\n ● «Pensarán que soy débil».',
-                      style: monoRegular,
-                    ),
-                    TextSpan(
-                      text:
-                      '\n\n ● «Seguro que ahora que le conté esto, '
+                      text: '\n\n ● «Seguro que ahora que le conté esto, '
                           'pensará que no sirvo para nada».',
                       style: monoRegular,
                     ),
                     TextSpan(
-                      text:
-                      '\n\n ● «Un día me levantaré y todo estará bien».',
+                      text: '\n\n ● «Un día me levantaré y todo estará bien».',
                       style: monoRegular,
                     ),
                     TextSpan(
                       text:
-                      '\n\n ● «Si no hago caso del problema, desaparecerá».',
+                          '\n\n ● «Si no hago caso del problema, desaparecerá».',
                       style: monoRegular,
                     ),
                     TextSpan(
-                      text:
-                      '\n\n ● «Voy a fallar… ¡mejor no lo hago!».',
+                      text: '\n\n ● «Voy a fallar… ¡mejor no lo hago!».',
                       style: monoRegular,
                     ),
                     TextSpan(
-                      text:
-                      '\n\n ● «Me siento defectuoso».',
+                      text: '\n\n ● «Me siento defectuoso».',
                       style: monoRegular,
                     ),
                   ],

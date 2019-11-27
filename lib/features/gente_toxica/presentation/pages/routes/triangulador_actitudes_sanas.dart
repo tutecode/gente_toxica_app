@@ -10,8 +10,13 @@ class TrianguladorActitudes extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Actitudes sanas',
-            style: titleAppBar),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Actitudes sanas',
+          style: titleAppBar,
+          textScaleFactor: 1.0,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -31,8 +36,7 @@ class TrianguladorActitudes extends StatelessWidget {
                       style: monoBold,
                     ),
                     TextSpan(
-                      text:
-                      ' El objetivo debe ser solucionar el conflicto. '
+                      text: ' El objetivo debe ser solucionar el conflicto. '
                           'Si esto no está claro, nada servirá.',
                       style: monoRegular,
                     ),
@@ -41,8 +45,7 @@ class TrianguladorActitudes extends StatelessWidget {
                       style: monoBold,
                     ),
                     TextSpan(
-                      text:
-                      ' De lo contrario, el problema no se resuelve.',
+                      text: ' De lo contrario, el problema no se resuelve.',
                       style: monoRegular,
                     ),
                     TextSpan(
@@ -50,8 +53,7 @@ class TrianguladorActitudes extends StatelessWidget {
                       style: monoBold,
                     ),
                     TextSpan(
-                      text:
-                      ' Si se designa a una persona para que cumpla '
+                      text: ' Si se designa a una persona para que cumpla '
                           'explícitamente el rol de facilitar que dos partes '
                           'entiendan no hay manipulacón, porque el objetivo es '
                           'resolver un tema que se nos escapa de las manos.',
@@ -59,7 +61,7 @@ class TrianguladorActitudes extends StatelessWidget {
                     ),
                     TextSpan(
                       text:
-                      '\n\nCuando se recurre expresamente a un intermediario'
+                          '\n\nCuando se recurre expresamente a un intermediario'
                           ' pueden ocurrir dos cosas:',
                       style: monoRegular,
                     ),
@@ -68,8 +70,7 @@ class TrianguladorActitudes extends StatelessWidget {
                       style: monoBold,
                     ),
                     TextSpan(
-                      text:
-                      ' En este caso tenemos la alegría de haberlo'
+                      text: ' En este caso tenemos la alegría de haberlo'
                           ' manejado correctamente.',
                       style: monoRegular,
                     ),
@@ -79,13 +80,13 @@ class TrianguladorActitudes extends StatelessWidget {
                     ),
                     TextSpan(
                       text:
-                      ' Aquí conviene cortar la relación y seguir adelante con '
+                          ' Aquí conviene cortar la relación y seguir adelante con '
                           'la satisfacción de haber actuado correctamente.',
                       style: monoRegular,
                     ),
                     TextSpan(
                       text:
-                      '\n\nNunca debemos reaccionar por la emocionalidad del otro. '
+                          '\n\nNunca debemos reaccionar por la emocionalidad del otro. '
                           'Evitemos caer en una guerra de emociones en la que no se '
                           'puede resolver nada. Lo mejor siempre es pensar: '
                           '"¿Cuál es el problema?".',
@@ -93,7 +94,7 @@ class TrianguladorActitudes extends StatelessWidget {
                     ),
                     TextSpan(
                       text:
-                      '\n\nSi quieren utilizarte como ariete en una situación '
+                          '\n\nSi quieren utilizarte como ariete en una situación '
                           'en la que el vínculo afectivo es alto, por ejemplo, '
                           'si te hablan mal de un familiar, tu actitud debe ser '
                           'explicitar el juego y decir: "No me corresponde a mí '
@@ -110,7 +111,7 @@ class TrianguladorActitudes extends StatelessWidget {
                     ),
                     TextSpan(
                       text:
-                      '\n\nOtra actitud posible es escuchar al que te habla mal '
+                          '\n\nOtra actitud posible es escuchar al que te habla mal '
                           'de un ser querido, pero no "comprar" su discurso, '
                           'no salir a atacar o a "golpear" a nadie. Oír y punto.',
                       style: monoRegular,

@@ -7,25 +7,7 @@ import 'package:gente_toxica_app/features/gente_toxica/presentation/utils/consta
 import 'package:gente_toxica_app/features/gente_toxica/presentation/utils/text_styles.dart';
 import 'package:gente_toxica_app/features/gente_toxica/presentation/widgets/navigation_page.dart';
 import 'package:share/share.dart';
-
-class Home extends StatelessWidget {
-  const Home({Key key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      theme: new ThemeData(
-        brightness: Brightness.light,
-        primaryColor: Colors.white,
-        //Changing this will change the color of the TabBar
-        accentColor: Colors.cyan[600],
-      ),
-      //routes: kAppRoutingTable,
-      home: HomePage(),
-    );
-  }
-}
+import 'package:url_launcher/url_launcher.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -37,8 +19,6 @@ class HomePage extends StatefulWidget {
 class HomePageState extends State<HomePage> {
   List data;
 
-  //var _index;
-
   ///New
   Random random = new Random();
   int _index = 0;
@@ -48,37 +28,35 @@ class HomePageState extends State<HomePage> {
     setState(() => _index = random.nextInt(93));
   }
 
-  /*
-  @override
-  void initState() {
-    super.initState();
-    _random();
-  }
-  */
-
-  /*
-  void _random() {
-    setState(
-      () {
-        _index = Random(_index).nextInt(93);
-        ///NumberPhrase: 93
-      },
-    );
-  }
-  */
-
   @override
   Widget build(BuildContext context) {
+
+    _launchURL(String url) async {
+      if (await canLaunch(url)) {
+        await launch(url);
+      } else {
+        throw 'Could not launch $url';
+      }
+    }
+
+    sendEmail(String address) async {
+      if (await canLaunch('mailto:$address')) {
+        await launch('mailto:$address');
+      } else {
+        throw 'Could not launch mailto:$address';
+      }
+    }
+
     return Scaffold(
       //TODO: AppBar
       appBar: AppBar(
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.yellow[500],
         elevation: 0,
         title: Text(
           'Home',
-          style: titleAppBar,
+          style: titleAppBar, textScaleFactor: 1.0,
         ),
-        actions: <Widget>[
+        /*actions: <Widget>[
           IconButton(
             icon: Icon(Icons.search),
             onPressed: () {
@@ -86,7 +64,7 @@ class HomePageState extends State<HomePage> {
             },
             color: Colors.grey,
           ),
-        ],
+        ],*/
       ),
       drawer: Drawer(
         child: ListView(
@@ -112,7 +90,7 @@ class HomePageState extends State<HomePage> {
               ),
             ),
             ListTile(
-              title: Text('Autor', style: listViewHome, textScaleFactor: 1.3),
+              title: Text('Sobre el autor', style: listViewHome, textScaleFactor: 1.3),
               trailing: Icon(Icons.person),
               onTap: () {
                 Navigator.push(
@@ -124,42 +102,25 @@ class HomePageState extends State<HomePage> {
             ListTile(
               title: Text('Síguenos', style: listViewHome, textScaleFactor: 1.3),
               trailing: kIconInstagram,
-              onTap: () {
-
-              },
+              onTap: () => _launchURL(INSTAGRAM_URL),
             ),
             ListTile(
               title: Text('Califícanos', style: listViewHome, textScaleFactor: 1.3),
               trailing: Icon(Icons.rate_review),
-              onTap: () {
-                // Actualiza el estado de la aplicación
-                // ...
-              },
+              onTap: () => _launchURL(GOOGLEPLAY_URL),
             ),
             ListTile(
               title: Text('Compartir app', style: listViewHome, textScaleFactor: 1.3),
               trailing: Icon(Icons.share),
               onTap: () {
-                /*
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => ),
-                );*/
-              },
-            ),
-            ListTile(
-              title: Text('Donaciones', style: listViewHome, textScaleFactor: 1.3),
-              trailing: kIconDonate,
-              onTap: () {
-                // Actualiza el estado de la aplicación
-                // ...
+                Share.share(GOOGLEPLAY_URL);
               },
             ),
             ListTile(
               title: Text('Contáctanos', style: listViewHome, textScaleFactor: 1.3),
-              trailing: kIconDonate,
+              trailing: Icon(Icons.email),
               onTap: () {
-                //email tuteapps....
+                sendEmail('tuteapps@gmail.com');
               },
             ),
           ],
@@ -174,12 +135,12 @@ class HomePageState extends State<HomePage> {
         children: <Widget>[
           ///First Part
           Expanded(
-            flex: 3,
+            flex: 4,
             child: Container(
               //color: Colors.white,
               alignment: Alignment.center,
               decoration: BoxDecoration(
-                color: Colors.blue[50],
+                color: Colors.yellow[500],
                 borderRadius: BorderRadius.only(
                   bottomLeft: Radius.circular(35.0),
                   bottomRight: Radius.circular(35.0),
@@ -200,7 +161,7 @@ class HomePageState extends State<HomePage> {
                                 Center(
                                   child: Container(
                                     padding:
-                                        EdgeInsets.only(left: 20, right: 20),
+                                        EdgeInsets.only(left: 20, right: 20, bottom: 20),
                                     alignment: Alignment.center,
                                     child: Column(
                                       mainAxisAlignment:
@@ -211,7 +172,7 @@ class HomePageState extends State<HomePage> {
                                         ///Quotes
                                         Text(
                                           quote[_index]['Quote'],
-                                          textScaleFactor: 1.1,
+                                          textScaleFactor: 1.2,
                                           textAlign: TextAlign.center,
                                           style: quotesHome,
                                         ),
@@ -289,7 +250,7 @@ class HomePageState extends State<HomePage> {
 
           ///Second Part
           Expanded(
-            flex: 7,
+            flex: 6,
             child: Container(
               padding: EdgeInsets.only(top: 12.0),
 

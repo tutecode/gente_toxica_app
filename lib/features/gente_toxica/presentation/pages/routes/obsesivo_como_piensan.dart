@@ -10,7 +10,9 @@ class ObsesivoComoPiensan extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('¿Cómo piensa?'),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text('¿Cómo piensa?', textScaleFactor: 1.0,),
       ),
       body: SingleChildScrollView(
         child: Column(

@@ -10,7 +10,11 @@ class ObsesivoRasgos extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Rasgos'),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text('Rasgos',
+          style: titleAppBar,
+          textScaleFactor: 1.0,),
       ),
       body: SingleChildScrollView(
         child: Column(

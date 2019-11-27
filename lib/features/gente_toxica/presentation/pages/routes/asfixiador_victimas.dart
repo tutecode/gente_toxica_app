@@ -10,8 +10,13 @@ class AsfixiadorVictimas extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Víctimas del asfixiador',
-            style: titleAppBar),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Víctimas del asfixiador',
+          style: titleAppBar,
+          textScaleFactor: 1.0,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -22,7 +27,8 @@ class AsfixiadorVictimas extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
-                  text: 'Eugene Griessman titula uno de los capítulos de Maneje su tiempo: «No permita que los demás le hagan perder el tiempo». Allí explica que con ciertas personas se puede hablar con franqueza. Si alguien nos trae un problema permanente, aconseja esperar hasta la siguiente ocasión y anticiparle a la persona qué tiempo le podemos dedicar: «Tengo quince minutos a las cuatro en punto». Si la persona llega a tiempo, ya a las 4:16, decirle algo como: «¿Crees que podríamos continuar este tema en otra ocasión? Estoy haciendo malabarismos con varios asuntos pendientes, y no sería justo prestarte atención así…». Por teléfono, a veces también es necesario anticiparse: «¡Hola! Sólo tengo un minuto para ti ahora mismo, discúlpame, si es muy urgente…». Transmite siempre tu sentido de urgencia con amabilidad. ¿Sientes que estás siendo víctima de alguien asfixiante? Decídete a aprovechar tu vida y tu tiempo al máximo, tal como tú lo determines, y a ponerle límites claros a esa persona. ¡Tienes derecho a ser libre!',
+                  text:
+                      'Eugene Griessman titula uno de los capítulos de Maneje su tiempo: «No permita que los demás le hagan perder el tiempo». Allí explica que con ciertas personas se puede hablar con franqueza. Si alguien nos trae un problema permanente, aconseja esperar hasta la siguiente ocasión y anticiparle a la persona qué tiempo le podemos dedicar: «Tengo quince minutos a las cuatro en punto». Si la persona llega a tiempo, ya a las 4:16, decirle algo como: «¿Crees que podríamos continuar este tema en otra ocasión? Estoy haciendo malabarismos con varios asuntos pendientes, y no sería justo prestarte atención así…». Por teléfono, a veces también es necesario anticiparse: «¡Hola! Sólo tengo un minuto para ti ahora mismo, discúlpame, si es muy urgente…». Transmite siempre tu sentido de urgencia con amabilidad. ¿Sientes que estás siendo víctima de alguien asfixiante? Decídete a aprovechar tu vida y tu tiempo al máximo, tal como tú lo determines, y a ponerle límites claros a esa persona. ¡Tienes derecho a ser libre!',
                   style: monoRegular,
                 ),
               ),

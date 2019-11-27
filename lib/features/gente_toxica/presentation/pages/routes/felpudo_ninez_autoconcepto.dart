@@ -10,8 +10,13 @@ class FelpudoNinezAutoconcepto extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Autoconcepto niñez',
-            style: titleAppBar),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Autoconcepto niñez',
+          style: titleAppBar,
+          textScaleFactor: 1.0,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -22,7 +27,8 @@ class FelpudoNinezAutoconcepto extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
-                  text: 'En la niñez, especialmente en la escuela primaria, empezamos a construir este autoconcepto que es en primer lugar físico. El niño descubre cómo es su cuerpo, para qué es capaz, para qué no es capaz. Después en el colegio descubre para qué cosas es intelectualmente capaz y para cuáles no; y cómo se lleva con los compañeros. Por eso es tan importante cómo tratamos a nuestros hijos, porque ellos están construyendo su autoconcepto. Los padres tenemos que crear un clima de amor, de paz, de seguridad, para que nuestros hijos estén bien.',
+                  text:
+                      'En la niñez, especialmente en la escuela primaria, empezamos a construir este autoconcepto que es en primer lugar físico. El niño descubre cómo es su cuerpo, para qué es capaz, para qué no es capaz. Después en el colegio descubre para qué cosas es intelectualmente capaz y para cuáles no; y cómo se lleva con los compañeros. Por eso es tan importante cómo tratamos a nuestros hijos, porque ellos están construyendo su autoconcepto. Los padres tenemos que crear un clima de amor, de paz, de seguridad, para que nuestros hijos estén bien.',
                   style: monoRegular,
                 ),
               ),

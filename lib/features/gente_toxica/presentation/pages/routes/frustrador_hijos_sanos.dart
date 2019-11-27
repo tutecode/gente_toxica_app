@@ -10,7 +10,12 @@ class FrustradorHijosSanos extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Criando hijos sanos'),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Criando hijos sanos',
+          textScaleFactor: 1.0,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -32,7 +37,7 @@ class FrustradorHijosSanos extends StatelessWidget {
                     ),
                     TextSpan(
                       text:
-                      '\n\nLos adultos sabemos que la vida no nos da todo lo que deseamos. '
+                          '\n\nLos adultos sabemos que la vida no nos da todo lo que deseamos. '
                           'Sin embargo, los niños que fueron sobreprotegidos, '
                           'que siempre recibieron todo lo que esperaban, '
                           'los que crecieron sin conocer la frustración, '
@@ -42,12 +47,12 @@ class FrustradorHijosSanos extends StatelessWidget {
                       style: monoRegular,
                     ),
                     TextSpan(
-                      text: '\n\n ● No hacer por ellos lo que ellos mismos pueden hacer.',
+                      text:
+                          '\n\n ● No hacer por ellos lo que ellos mismos pueden hacer.',
                       style: monoBold,
                     ),
                     TextSpan(
-                      text:
-                      '\n\nSi tu hijo se cae, no lo levantes, '
+                      text: '\n\nSi tu hijo se cae, no lo levantes, '
                           'deja que intente hacerlo por sus propios medios. '
                           'Cuando tenga dificultades, no intervengas de inmediato, '
                           'deja que resuelva solo su problema.',
@@ -59,7 +64,7 @@ class FrustradorHijosSanos extends StatelessWidget {
                     ),
                     TextSpan(
                       text:
-                      '\n\nLa palabra disciplina proviene del latín y significa «enseñanza», '
+                          '\n\nLa palabra disciplina proviene del latín y significa «enseñanza», '
                           '«educación». Los padres somos maestros de nuestros hijos, '
                           'por eso es importante que les marquemos límites claros y '
                           'razonables y les expliquemos el porqué de los mismos.',
@@ -71,7 +76,7 @@ class FrustradorHijosSanos extends StatelessWidget {
                     ),
                     TextSpan(
                       text:
-                      '\n\nSe comprobó que quienes pudieron posponer su deseo '
+                          '\n\nSe comprobó que quienes pudieron posponer su deseo '
                           'tuvieron más éxito en el logro de sus sueños.',
                       style: monoRegular,
                     ),
@@ -80,8 +85,7 @@ class FrustradorHijosSanos extends StatelessWidget {
                       style: monoBold,
                     ),
                     TextSpan(
-                      text:
-                      '\n\nAunque un «no» les parezca injusto, '
+                      text: '\n\nAunque un «no» les parezca injusto, '
                           'podemos enseñarles a nuestros hijos que ese «no» los '
                           'hará personas más justas en el futuro: '
                           'es importante que aprendan que el otro también tiene derechos.',
@@ -92,14 +96,13 @@ class FrustradorHijosSanos extends StatelessWidget {
                       style: monoBold,
                     ),
                     TextSpan(
-                      text:
-                      '\n\nFelicita a tu hijo con palabras de aprobación '
+                      text: '\n\nFelicita a tu hijo con palabras de aprobación '
                           'haciendo hincapié en el esfuerzo y no en el resultado.',
                       style: monoRegular,
                     ),
                     TextSpan(
                       text:
-                      '\n\nCriando hijos sanos con respecto a la frustración, '
+                          '\n\nCriando hijos sanos con respecto a la frustración, '
                           'estaremos ayudando a crear una sociedad más libre de tóxicos. '
                           '¡No lo olvidemos! Es por ti, por mí, por tus hijos y '
                           'por las futuras generaciones.',

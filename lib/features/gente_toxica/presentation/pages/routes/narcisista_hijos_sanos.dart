@@ -10,7 +10,13 @@ class NarcisistaHijosSanos extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Criando hijos sanos', style: titleAppBar),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Criando hijos sanos',
+          style: titleAppBar,
+          textScaleFactor: 1.0,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -55,7 +61,8 @@ class NarcisistaHijosSanos extends StatelessWidget {
                       style: monoRegular,
                     ),
                     TextSpan(
-                      text: '\n\n ● Enseñar que error no es sinónimo de fracaso:',
+                      text:
+                          '\n\n ● Enseñar que error no es sinónimo de fracaso:',
                       style: monoItalic,
                     ),
                     TextSpan(

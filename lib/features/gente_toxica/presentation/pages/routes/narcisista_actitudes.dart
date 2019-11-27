@@ -10,8 +10,13 @@ class NarcisistaActitudes extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Actitudes sanas',
-            style: titleAppBar),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Actitudes sanas',
+          style: titleAppBar,
+          textScaleFactor: 1.0,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -34,7 +39,8 @@ class NarcisistaActitudes extends StatelessWidget {
                       style: monoItalic,
                     ),
                     TextSpan(
-                      text: ' lo recomendable es que no brilles o sobresalgas demasiado. '
+                      text:
+                          ' lo recomendable es que no brilles o sobresalgas demasiado. '
                           'No le presentes tus propias ideas creativas, '
                           'haz de modo que parezca que surgieron de él. '
                           'Dale a menudo una dosis de admiración: "Jefe, '

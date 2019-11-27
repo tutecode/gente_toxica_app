@@ -10,7 +10,13 @@ class FelpudoActitudes extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Actitudes sanas', style: titleAppBar),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Actitudes sanas',
+          style: titleAppBar,
+          textScaleFactor: 1.0,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -41,7 +47,8 @@ class FelpudoActitudes extends StatelessWidget {
                       style: monoBold,
                     ),
                     TextSpan(
-                      text: '\n\nCuando reconocemos en qué somos buenos, en qué somos mediocres y en qué somos malos, no tenemos problema en dejarnos corregir. Cuando alguien viene y me dice: «Bernardo, eres un desastre para el inglés», no me enfado, no se me ponen los pelos de punta. ¿Por qué? Porque ya lo vi antes, de manera que puedo trabajar en eso para mejorarlo, invirtiendo más tiempo para aprender más. Dicen que el eslabón más débil en la cadena es el más fuerte porque la rompe. Cuando yo puedo reconocer mis áreas débiles y mis áreas mediocres, me dejo corregir y puedo crecer. ¿Por qué puedo crecer? Porque la historia de mi vida no se ha terminado, el libro de mi vida se va a escribir hasta mi último suspiro.',
+                      text:
+                          '\n\nCuando reconocemos en qué somos buenos, en qué somos mediocres y en qué somos malos, no tenemos problema en dejarnos corregir. Cuando alguien viene y me dice: «Bernardo, eres un desastre para el inglés», no me enfado, no se me ponen los pelos de punta. ¿Por qué? Porque ya lo vi antes, de manera que puedo trabajar en eso para mejorarlo, invirtiendo más tiempo para aprender más. Dicen que el eslabón más débil en la cadena es el más fuerte porque la rompe. Cuando yo puedo reconocer mis áreas débiles y mis áreas mediocres, me dejo corregir y puedo crecer. ¿Por qué puedo crecer? Porque la historia de mi vida no se ha terminado, el libro de mi vida se va a escribir hasta mi último suspiro.',
                       style: monoRegular,
                     )
                   ],

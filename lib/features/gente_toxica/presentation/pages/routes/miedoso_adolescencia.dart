@@ -10,8 +10,13 @@ class MiedosoAdolescencia extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Miedos en los jóvenes',
-            style: titleAppBar),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Miedos en los jóvenes',
+          style: titleAppBar,
+          textScaleFactor: 1.0,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -26,11 +31,13 @@ class MiedosoAdolescencia extends StatelessWidget {
                   style: monoRegular,
                   children: <TextSpan>[
                     TextSpan(
-                      text: '\n\n 1. No saber quiénes son, no poseer identidad.',
+                      text:
+                          '\n\n 1. No saber quiénes son, no poseer identidad.',
                       style: monoItalic,
                     ),
                     TextSpan(
-                      text: '\n\n 2. No saber quiénes son, no poseer identidad.',
+                      text:
+                          '\n\n 2. No saber quiénes son, no poseer identidad.',
                       style: monoItalic,
                     ),
                     TextSpan(
@@ -38,7 +45,8 @@ class MiedosoAdolescencia extends StatelessWidget {
                       style: monoItalic,
                     ),
                     TextSpan(
-                      text: ' (cuando se ven incapaces recurren a la droga y al alcohol).',
+                      text:
+                          ' (cuando se ven incapaces recurren a la droga y al alcohol).',
                       style: monoRegular,
                     ),
                   ],

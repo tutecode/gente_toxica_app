@@ -10,8 +10,12 @@ class EvitadorDefinicion extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Definición',
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Definición',
           style: titleAppBar,
+          textScaleFactor: 1.0,
         ),
       ),
       body: SingleChildScrollView(
@@ -23,7 +27,8 @@ class EvitadorDefinicion extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
-                  text: '«¿Le hablo o no le hablo?». «¿Tú qué harías en mi lugar?». '
+                  text:
+                      '«¿Le hablo o no le hablo?». «¿Tú qué harías en mi lugar?». '
                       '«No sé qué hacer…». «¡Mejor lo dejo para más adelante!». '
                       '¿Alguna vez has dicho o escuchado alguna de estas frases? '
                       'Son los dichos o pensamientos típicos de un evitador, '

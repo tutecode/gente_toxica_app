@@ -10,8 +10,13 @@ class MiedosoRasgos extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Rasgos',
-            style: titleAppBar),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Rasgos',
+          style: titleAppBar,
+          textScaleFactor: 1.0,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -41,11 +46,13 @@ class MiedosoRasgos extends StatelessWidget {
                       style: monoRegular,
                     ),
                     TextSpan(
-                      text: '\n\n ● Evitan saludar a personas famosas o de autoridad.',
+                      text:
+                          '\n\n ● Evitan saludar a personas famosas o de autoridad.',
                       style: monoRegular,
                     ),
                     TextSpan(
-                      text: '\n\n ● Se ruborizan cuando están frente a situaciones que los incomodan.',
+                      text:
+                          '\n\n ● Se ruborizan cuando están frente a situaciones que los incomodan.',
                       style: monoRegular,
                     ),
                     TextSpan(
@@ -65,7 +72,8 @@ class MiedosoRasgos extends StatelessWidget {
                       style: monoRegular,
                     ),
                     TextSpan(
-                      text: '\n\n ● Tienen miedo a ponerle límites a los demás y '
+                      text:
+                          '\n\n ● Tienen miedo a ponerle límites a los demás y '
                           'que por eso dejen de amarlos o los rechacen.',
                       style: monoRegular,
                     ),

@@ -10,8 +10,13 @@ class AsfixiadorLibres extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Libres de la asfixia',
-            style: titleAppBar),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Libres de la asfixia',
+          style: titleAppBar,
+          textScaleFactor: 1.0,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -22,12 +27,13 @@ class AsfixiadorLibres extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
-                  text: 'Valora todas las cosas que hagas como importantes: cada correo electrónico que envíes, cada saludo que des. Cualquier tarea, por pequeña que sea, es importante que la hagas bien. Valora claramente tus habilidades porque todo lo que haces obedece a un plan grande.',
-                  style: monoBoldItalic,
+                  text:
+                      'Valora todas las cosas que hagas como importantes: cada correo electrónico que envíes, cada saludo que des. Cualquier tarea, por pequeña que sea, es importante que la hagas bien. Valora claramente tus habilidades porque todo lo que haces obedece a un plan grande.',
+                  style: monoRegular,
                   children: <TextSpan>[
                     TextSpan(
                       text:
-                      '\n\nPor eso, valora cada cosa que realices, no minimices tus responsabilidades. Cuando así lo haces, ya nadie puede controlarte ni asfixiarte. Sé una persona de «edición limitada». De cada mil vacas Aberdeen Angus nace una vaca roja. ¡Sé una vaca roja!',
+                          '\n\nPor eso, valora cada cosa que realices, no minimices tus responsabilidades. Cuando así lo haces, ya nadie puede controlarte ni asfixiarte. Sé una persona de «edición limitada». De cada mil vacas Aberdeen Angus nace una vaca roja. ¡Sé una vaca roja!',
                       style: monoRegular,
                     ),
                   ],

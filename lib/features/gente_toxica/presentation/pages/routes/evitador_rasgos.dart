@@ -10,8 +10,13 @@ class EvitadorRasgos extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: Text('Rasgos', style: titleAppBar)
-      ),
+          backgroundColor: Colors.yellow[500],
+          elevation: 0,
+          title: Text(
+            'Rasgos',
+            style: titleAppBar,
+            textScaleFactor: 1.0,
+          )),
       body: SingleChildScrollView(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -21,13 +26,11 @@ class EvitadorRasgos extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
-                  text:
-                  '\n\n ● Es indecisa.',
+                  text: '\n\n ● Es indecisa.',
                   style: monoBold,
                   children: <TextSpan>[
                     TextSpan(
-                      text:
-                      ' Evita tomar decisiones y correr riesgos. '
+                      text: ' Evita tomar decisiones y correr riesgos. '
                           'Generalmente no decide nada y pospone cualquier asunto o '
                           'situación que deba resolver hasta que ya no puede seguir haciéndolo. '
                           'Suele ser más lenta que los demás y tiene serias dificultades para '
@@ -41,13 +44,12 @@ class EvitadorRasgos extends StatelessWidget {
                       style: monoRegular,
                     ),
                     TextSpan(
-                      text:
-                      '\n\n ● Es dubitativa.',
+                      text: '\n\n ● Es dubitativa.',
                       style: monoBold,
                     ),
                     TextSpan(
                       text:
-                      ' La duda es un estado de equilibrio del ánimo entre dos decisiones. '
+                          ' La duda es un estado de equilibrio del ánimo entre dos decisiones. '
                           'El intelecto fluctúa entre una y otra, '
                           'sin inclinarse más a un extremo que al otro. '
                           'Hay dos tipos de dudas:',
@@ -55,20 +57,20 @@ class EvitadorRasgos extends StatelessWidget {
                     ),
                     TextSpan(
                       text:
-                      '\n\n 1. La duda reflexiva, que nos lleva a pensar para poder '
+                          '\n\n 1. La duda reflexiva, que nos lleva a pensar para poder '
                           'decidir la mejor opción. Es el nutriente para la acción.',
                       style: monoRegular,
                     ),
                     TextSpan(
                       text:
-                      '\n\n 2. La duda evitativa, que nos lleva a evitar decidir. '
+                          '\n\n 2. La duda evitativa, que nos lleva a evitar decidir. '
                           'Generalmente se da con las pequeñas cosas cotidianas, '
                           'es la manera de dejar para más adelante la toma de decisiones.',
                       style: monoRegular,
                     ),
                     TextSpan(
                       text:
-                      '\n\nToda duda que no lleva a la acción es una duda evitativa; '
+                          '\n\nToda duda que no lleva a la acción es una duda evitativa; '
                           'hace que evitemos soñar, crecer, proyectarnos y decidir. '
                           'Nos lleva a boicotearnos a nosotros mismos.',
                       style: monoRegular,

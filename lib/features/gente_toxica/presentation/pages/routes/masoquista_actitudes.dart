@@ -10,8 +10,13 @@ class MasoquistaActitudes extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: Text('Actitudes sanas', style: titleAppBar)
-      ),
+          backgroundColor: Colors.yellow[500],
+          elevation: 0,
+          title: Text(
+            'Actitudes sanas',
+            style: titleAppBar,
+            textScaleFactor: 1.0,
+          )),
       body: SingleChildScrollView(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -21,21 +26,20 @@ class MasoquistaActitudes extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
-                  text:
-                  'No elegimos las batallas que la vida nos presenta, '
+                  text: 'No elegimos las batallas que la vida nos presenta, '
                       'pero podemos elegir cómo pelearlas. '
                       'Veamos de qué manera hacerlo:',
                   style: monoRegular,
                   children: <TextSpan>[
                     TextSpan(
                       text:
-                      '\n\n ● Situarme en el lugar de la responsabilidad y '
+                          '\n\n ● Situarme en el lugar de la responsabilidad y '
                           'elegir cómo reaccionar.',
                       style: monoBold,
                     ),
                     TextSpan(
                       text:
-                      '\n\n«¿Qué puedo hacer yo frente a esto? ¿Qué voy hacer con esto que me pasa?», '
+                          '\n\n«¿Qué puedo hacer yo frente a esto? ¿Qué voy hacer con esto que me pasa?», '
                           'son las preguntas más poderosas que nos podemos plantear. '
                           'Algunas cosas nos saldrán bien y otras mal, '
                           'pero lo haremos nosotros mismos. '
@@ -49,7 +53,7 @@ class MasoquistaActitudes extends StatelessWidget {
                     ),
                     TextSpan(
                       text:
-                      '\n\nSi parto de la «culpa» pongo el énfasis en el pasado, '
+                          '\n\nSi parto de la «culpa» pongo el énfasis en el pasado, '
                           'me siento mal y no me hago responsable para crecer. '
                           'Quedo en «soy causante de esto y punto». '
                           'Situarme en la responsabilidad es: estar en el presente, '
@@ -58,7 +62,7 @@ class MasoquistaActitudes extends StatelessWidget {
                     ),
                     TextSpan(
                       text:
-                      '\n\n 1. El culpable mira el pasado (lo que hizo mal). '
+                          '\n\n 1. El culpable mira el pasado (lo que hizo mal). '
                           'El responsable mira el futuro, lo que puede hacer.'
                           '\n\n 2. El culpable mira el problema. '
                           'El responsable, la reparación.'
@@ -67,19 +71,17 @@ class MasoquistaActitudes extends StatelessWidget {
                       style: monoRegular,
                     ),
                     TextSpan(
-                      text:
-                      '\n\nNo busquemos el culpable, busquemos la causa. '
+                      text: '\n\nNo busquemos el culpable, busquemos la causa. '
                           'La queja no sirve, sino ver qué hacer a partir de ahora.',
                       style: monoRegular,
                     ),
                     TextSpan(
-                      text:
-                      '\n\n ● No poner las limitaciones en el otro.',
+                      text: '\n\n ● No poner las limitaciones en el otro.',
                       style: monoBold,
                     ),
                     TextSpan(
                       text:
-                      '\n\nNunca la explicación de lo que nos sucede empieza por el otro. '
+                          '\n\nNunca la explicación de lo que nos sucede empieza por el otro. '
                           'Claro que el otro puede condicionarme, pero no puede decidir por mí. '
                           'No vale decir: «No, porque mi papá…»; «No, porque mi mujer». '
                           'No es el «otro». Soy «yo». Nosotros somos el primer punto de responsabilidad. '
@@ -88,12 +90,12 @@ class MasoquistaActitudes extends StatelessWidget {
                     ),
                     TextSpan(
                       text:
-                      '\n\n ● El significado que le otorgue al evento marcará mi reacción ante él.',
+                          '\n\n ● El significado que le otorgue al evento marcará mi reacción ante él.',
                       style: monoBold,
                     ),
                     TextSpan(
                       text:
-                      '\n\nPor ejemplo, las 155 personas que se encontraban a bordo '
+                          '\n\nPor ejemplo, las 155 personas que se encontraban a bordo '
                           'del avión que cayó sobre el río Hudson el 15 de enero '
                           'de 2009 sobrevivieron al accidente. '
                           'Algunos de esos pasajeros no volaron nunca más en su vida, '
@@ -103,12 +105,12 @@ class MasoquistaActitudes extends StatelessWidget {
                     ),
                     TextSpan(
                       text:
-                      '\n\n ● No ser responsable por las decisiones de otros.',
+                          '\n\n ● No ser responsable por las decisiones de otros.',
                       style: monoBold,
                     ),
                     TextSpan(
                       text:
-                      '\n\nNecesitamos entender que no debemos hacernos cargo de lo '
+                          '\n\nNecesitamos entender que no debemos hacernos cargo de lo '
                           'que otras personas deciden, ¡esa es su responsabilidad, '
                           'no la nuestra! Aunque nos «pasen factura» y afirmen: '
                           '«Tú me aconsejaste que lo hiciera» o «Tú me causaste un disgusto», '
@@ -118,13 +120,12 @@ class MasoquistaActitudes extends StatelessWidget {
                       style: monoRegular,
                     ),
                     TextSpan(
-                      text:
-                      '\n\n ● Renunciar a todas las excusas.',
+                      text: '\n\n ● Renunciar a todas las excusas.',
                       style: monoBold,
                     ),
                     TextSpan(
                       text:
-                      '\n\nEl famoso científico George Carver asegura que el 99% de '
+                          '\n\nEl famoso científico George Carver asegura que el 99% de '
                           'los fracasos provienen de personas que tienen el hábito de '
                           'inventar excusas. ¿Sabes cuál es la diferencia entre una '
                           'persona que tiene éxito y otra que no lo tiene? '

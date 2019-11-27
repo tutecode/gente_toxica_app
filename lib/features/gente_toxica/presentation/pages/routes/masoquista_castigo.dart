@@ -10,8 +10,12 @@ class MasoquistaCastigo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('No al castigo',
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'No al castigo',
           style: titleAppBar,
+          textScaleFactor: 1.0,
         ),
       ),
       body: SingleChildScrollView(

@@ -8,8 +8,8 @@
          FlutterApplication and put your custom class here. -->
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:label="gente_toxica_app"
-        android:icon="@mipmap/ic_launcher">
+        android:label="Gente Toxica"
+        android:icon="@mipmap/toxic_ic_launcher">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

@@ -10,8 +10,12 @@ class MasoquistaDefinicion extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Definición',
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Definición',
           style: titleAppBar,
+          textScaleFactor: 1.0,
         ),
       ),
       body: SingleChildScrollView(

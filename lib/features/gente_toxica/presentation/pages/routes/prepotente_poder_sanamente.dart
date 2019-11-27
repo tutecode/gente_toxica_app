@@ -10,8 +10,13 @@ class PrepotentePoderSanamente extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Manejando poder',
-            style: titleAppBar),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Manejando poder',
+          style: titleAppBar,
+          textScaleFactor: 1.0,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -22,7 +27,8 @@ class PrepotentePoderSanamente extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
-                  text: 'Estamos sanos cuando administramos poder de una manera '
+                  text:
+                      'Estamos sanos cuando administramos poder de una manera '
                       'sana y somos potentes. ¿En qué áreas manejamos poder?',
                   style: monoRegular,
                   children: <TextSpan>[
@@ -32,7 +38,7 @@ class PrepotentePoderSanamente extends StatelessWidget {
                     ),
                     TextSpan(
                       text:
-                      ' Tu agenda es un poder. Cuanta más gente conoces, más poder tienes.',
+                          ' Tu agenda es un poder. Cuanta más gente conoces, más poder tienes.',
                       style: monoRegular,
                     ),
                     TextSpan(
@@ -40,13 +46,11 @@ class PrepotentePoderSanamente extends StatelessWidget {
                       style: monoBold,
                     ),
                     TextSpan(
-                      text:
-                      ' Saber es un poder.',
+                      text: ' Saber es un poder.',
                       style: monoRegular,
                     ),
                     TextSpan(
-                      text:
-                      ' Lo que tú sabes es tu conocimiento.',
+                      text: ' Lo que tú sabes es tu conocimiento.',
                       style: monoItalic,
                     ),
                     TextSpan(
@@ -55,7 +59,7 @@ class PrepotentePoderSanamente extends StatelessWidget {
                     ),
                     TextSpan(
                       text:
-                      ' Ser dueño también es un poder. Una cosa es ser un empleado y '
+                          ' Ser dueño también es un poder. Una cosa es ser un empleado y '
                           'otra cosa muy diferente es ser el jefe. '
                           'Procura ser jefe para que puedas poner en marcha la '
                           'capacidad de liderazgo, de creatividad que está en tu interior, '
@@ -68,13 +72,12 @@ class PrepotentePoderSanamente extends StatelessWidget {
                       style: monoBold,
                     ),
                     TextSpan(
-                      text:
-                      ' Más relaciones es poder.',
+                      text: ' Más relaciones es poder.',
                       style: monoItalic,
                     ),
                     TextSpan(
                       text:
-                      ' El poder de estar con el otro, de construir vínculos '
+                          ' El poder de estar con el otro, de construir vínculos '
                           'sanos que nos conectarán con las mejores oportunidades de nuestra vida.',
                       style: monoRegular,
                     ),

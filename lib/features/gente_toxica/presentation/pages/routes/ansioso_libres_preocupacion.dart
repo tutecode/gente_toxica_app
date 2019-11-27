@@ -10,8 +10,13 @@ class AnsiosoPreocupacion extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('La preocupación',
-            style: titleAppBar),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'La preocupación',
+          style: titleAppBar,
+          textScaleFactor: 1.0,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -22,7 +27,8 @@ class AnsiosoPreocupacion extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
-                  text: 'La preocupación es una idea, una situación que no podemos resolver. '
+                  text:
+                      'La preocupación es una idea, una situación que no podemos resolver. '
                       'Esta dispara una ansiedad normal que a su vez nos impulsa a buscar una solución.'
                       ' Cuando intentamos resolver esa preocupación, ese problema, '
                       'y no lo logramos, la ansiedad normal se transforma en ansiedad patológica o angustia. '
@@ -31,7 +37,7 @@ class AnsiosoPreocupacion extends StatelessWidget {
                   style: monoRegular,
                   children: <TextSpan>[
                     TextSpan(
-                      text: '\n ● Ansiedad generalizada'
+                      text: '\n\n ● Ansiedad generalizada'
                           '\n ● Angustia'
                           '\n ● Aislamiento'
                           '\n ● Intranquilidad'

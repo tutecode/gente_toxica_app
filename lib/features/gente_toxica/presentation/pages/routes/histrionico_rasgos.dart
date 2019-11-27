@@ -10,8 +10,13 @@ class HistrionicoRasgos extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Rasgos',
-            style: titleAppBar),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Rasgos',
+          style: titleAppBar,
+          textScaleFactor: 1.0,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -22,7 +27,8 @@ class HistrionicoRasgos extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
-                  text: 'Veamos cuáles son las características del histriónico:',
+                  text:
+                      'Veamos cuáles son las características del histriónico:',
                   style: monoRegular,
                   children: <TextSpan>[
                     TextSpan(
@@ -30,15 +36,18 @@ class HistrionicoRasgos extends StatelessWidget {
                       style: monoBold,
                     ),
                     TextSpan(
-                      text: ' Su búsqueda permanente es ser el centro de atención. El protagonismo absoluto es el aire sin el cual no puede vivir.',
+                      text:
+                          ' Su búsqueda permanente es ser el centro de atención. El protagonismo absoluto es el aire sin el cual no puede vivir.',
                       style: monoRegular,
                     ),
                     TextSpan(
-                      text: '\n\n ● Tiene hambre de aplauso y de reconocimiento.',
+                      text:
+                          '\n\n ● Tiene hambre de aplauso y de reconocimiento.',
                       style: monoBold,
                     ),
                     TextSpan(
-                      text: ' Si la vida es una obra de teatro, el histriónico es el actor y los demás son su público. Deben aplaudir. Necesita la devolución de la imagen. Si no recibe esa devolución se deprime, se aburre. No puede vivir si no hay gente mirándolo. El aplauso tiene que ser unánime.',
+                      text:
+                          ' Si la vida es una obra de teatro, el histriónico es el actor y los demás son su público. Deben aplaudir. Necesita la devolución de la imagen. Si no recibe esa devolución se deprime, se aburre. No puede vivir si no hay gente mirándolo. El aplauso tiene que ser unánime.',
                       style: monoRegular,
                     ),
                     TextSpan(
@@ -46,7 +55,8 @@ class HistrionicoRasgos extends StatelessWidget {
                       style: monoBold,
                     ),
                     TextSpan(
-                      text: ' Seductor, sociable, amistoso y expresivo, el histriónico habla mucho, pero con sus frases grandilocuentes dice poco. Sus conclusiones son simplistas y globales, además de imprecisas. Llama la atención sólo por su aspecto y sus dichos intrascendentes. Cuando tiene que hacer algo no se sienta a pensar, sino que actúa por emoción o intuición.',
+                      text:
+                          ' Seductor, sociable, amistoso y expresivo, el histriónico habla mucho, pero con sus frases grandilocuentes dice poco. Sus conclusiones son simplistas y globales, además de imprecisas. Llama la atención sólo por su aspecto y sus dichos intrascendentes. Cuando tiene que hacer algo no se sienta a pensar, sino que actúa por emoción o intuición.',
                       style: monoRegular,
                     ),
                     TextSpan(
@@ -54,7 +64,8 @@ class HistrionicoRasgos extends StatelessWidget {
                       style: monoBold,
                     ),
                     TextSpan(
-                      text: ' El otro no existe, porque lo considera simplemente «público», un observador, no una persona. No tiene intimidad. Confunde «atención» con «intimidad». Tiene poco mundo interior para compartir. Pasa de una relación a otra y cuando no es el centro de atención sufre ansiedad o depresión.',
+                      text:
+                          ' El otro no existe, porque lo considera simplemente «público», un observador, no una persona. No tiene intimidad. Confunde «atención» con «intimidad». Tiene poco mundo interior para compartir. Pasa de una relación a otra y cuando no es el centro de atención sufre ansiedad o depresión.',
                       style: monoRegular,
                     ),
                     TextSpan(
@@ -62,7 +73,8 @@ class HistrionicoRasgos extends StatelessWidget {
                       style: monoBold,
                     ),
                     TextSpan(
-                      text: ' Experimenta cambios emocionales en poco tiempo, pero no puede ver que se deben al vacío que hay detrás de su imagen de triunfador.',
+                      text:
+                          ' Experimenta cambios emocionales en poco tiempo, pero no puede ver que se deben al vacío que hay detrás de su imagen de triunfador.',
                       style: monoRegular,
                     ),
                   ],

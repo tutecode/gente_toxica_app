@@ -10,8 +10,13 @@ class MiedosoVenciendo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Venciendo el miedo',
-            style: titleAppBar),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Venciendo el miedo',
+          style: titleAppBar,
+          textScaleFactor: 1.0,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -27,15 +32,18 @@ class MiedosoVenciendo extends StatelessWidget {
                   style: monoRegular,
                   children: <TextSpan>[
                     TextSpan(
-                      text: '\n\n ● El poder de creer en mí (el poder personal).',
+                      text:
+                          '\n\n ● El poder de creer en mí (el poder personal).',
                       style: monoBold,
                     ),
                     TextSpan(
-                      text: '\n\n«Yo tengo la capacidad para resolver cualquier problema».',
+                      text:
+                          '\n\n«Yo tengo la capacidad para resolver cualquier problema».',
                       style: monoRegular,
                     ),
                     TextSpan(
-                      text: '\n\n«Yo tengo la capacidad para hacer todo lo que me proponga».',
+                      text:
+                          '\n\n«Yo tengo la capacidad para hacer todo lo que me proponga».',
                       style: monoRegular,
                     ),
                     TextSpan(
@@ -48,7 +56,7 @@ class MiedosoVenciendo extends StatelessWidget {
                     ),
                     TextSpan(
                       text:
-                      '\n\n¿Por qué Dios hizo este poder? Para que aprendamos a unirnos, '
+                          '\n\n¿Por qué Dios hizo este poder? Para que aprendamos a unirnos, '
                           'a hacer alianza, ya que nosotros no podemos hacer todo pero '
                           'hay otros que pueden hacer lo que nosotros no podemos. '
                           'Y como somos inteligentes, creemos en nosotros pero '
@@ -60,8 +68,7 @@ class MiedosoVenciendo extends StatelessWidget {
                       style: monoBold,
                     ),
                     TextSpan(
-                      text:
-                      '\n\nEl verdadero poder consiste en creer en mí, '
+                      text: '\n\nEl verdadero poder consiste en creer en mí, '
                           'aliarme con el poder del otro y con el poder de '
                           'Dios que está en mis genes. '
                           'Si quieres ser una persona sin miedo, '

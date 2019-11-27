@@ -10,8 +10,13 @@ class FelpudoAmargura extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Amargura adiós',
-            style: titleAppBar),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Amargura adiós',
+          style: titleAppBar,
+          textScaleFactor: 1.0,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -28,12 +33,13 @@ class FelpudoAmargura extends StatelessWidget {
                   style: monoRegular,
                   children: <TextSpan>[
                     TextSpan(
-                      text: '\n\nDebemos transformar los recuerdos tristes en aprendizaje.',
+                      text:
+                          '\n\nDebemos transformar los recuerdos tristes en aprendizaje.',
                       style: monoBoldItalic,
                     ),
                     TextSpan(
                       text:
-                      '\n\nNo basta con recordar y gastar la emoción, además debemos aprender algo de esa situación adversa. Por eso, ¡ataca y resuelve la raíz de amargura!',
+                          '\n\nNo basta con recordar y gastar la emoción, además debemos aprender algo de esa situación adversa. Por eso, ¡ataca y resuelve la raíz de amargura!',
                       style: monoRegular,
                     ),
                   ],

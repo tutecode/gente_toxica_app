@@ -10,8 +10,12 @@ class TrianguladorPersonas extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Personas que intervienen',
-            style: titleAppBar,
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Personas que intervienen',
+          style: titleAppBar,
+          textScaleFactor: 1.0,
         ),
       ),
       body: SingleChildScrollView(
@@ -28,10 +32,10 @@ class TrianguladorPersonas extends StatelessWidget {
                   style: monoRegular,
                   children: <TextSpan>[
                     TextSpan(
-                        text:
-                            '\n\n ● El que no se anima a enfrentar y busca un ariete, '
-                            'es decir un intermediario.',
-                        style: monoBold,
+                      text:
+                          '\n\n ● El que no se anima a enfrentar y busca un ariete, '
+                          'es decir un intermediario.',
+                      style: monoBold,
                     ),
                     TextSpan(
                       text: ' Esta persona necesita un ariete para que vaya a '
@@ -39,8 +43,8 @@ class TrianguladorPersonas extends StatelessWidget {
                       style: monoRegular,
                     ),
                     TextSpan(
-                        text: '\n\n ● El que quiere manipular.',
-                        style: monoBold,
+                      text: '\n\n ● El que quiere manipular.',
+                      style: monoBold,
                     ),
                     TextSpan(
                       text: ' Aquí la persona busca un efecto directo: se pone '

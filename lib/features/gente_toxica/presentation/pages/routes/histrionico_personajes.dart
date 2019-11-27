@@ -10,8 +10,13 @@ class HistrionicoPersonajes extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Personajes tóxicos',
-            style: titleAppBar),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Personajes tóxicos',
+          style: titleAppBar,
+          textScaleFactor: 1.0,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -22,7 +27,8 @@ class HistrionicoPersonajes extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
-                  text: 'Analicemos las actitudes y los roles que interpretarían distintos personajes tóxicos si la vida fuera un teatro.',
+                  text:
+                      'Analicemos las actitudes y los roles que interpretarían distintos personajes tóxicos si la vida fuera un teatro.',
                   style: monoRegular,
                   children: <TextSpan>[
                     TextSpan(
@@ -46,7 +52,8 @@ class HistrionicoPersonajes extends StatelessWidget {
                       style: monoItalic,
                     ),
                     TextSpan(
-                      text: ' Es el único protagonista. Los demás son el público que lo debe aplaudir.',
+                      text:
+                          ' Es el único protagonista. Los demás son el público que lo debe aplaudir.',
                       style: monoRegular,
                     ),
                     TextSpan(
@@ -58,7 +65,8 @@ class HistrionicoPersonajes extends StatelessWidget {
                       style: monoItalic,
                     ),
                     TextSpan(
-                      text: ' No es actor ni público. Él quiere ser el dueño del teatro.',
+                      text:
+                          ' No es actor ni público. Él quiere ser el dueño del teatro.',
                       style: monoRegular,
                     ),
                     TextSpan(
@@ -74,7 +82,8 @@ class HistrionicoPersonajes extends StatelessWidget {
                       style: monoItalic,
                     ),
                     TextSpan(
-                      text: ' se sorprende. «¡Qué mal están!», piensa, pero como él sólo presta atención a su propio aplauso, los demás dejan de tener valor e importancia.',
+                      text:
+                          ' se sorprende. «¡Qué mal están!», piensa, pero como él sólo presta atención a su propio aplauso, los demás dejan de tener valor e importancia.',
                       style: monoRegular,
                     ),
                     TextSpan(
@@ -98,7 +107,8 @@ class HistrionicoPersonajes extends StatelessWidget {
                       style: monoItalic,
                     ),
                     TextSpan(
-                      text: ' está pensando cómo quedarse con el teatro y también con la casa colindante.',
+                      text:
+                          ' está pensando cómo quedarse con el teatro y también con la casa colindante.',
                       style: monoRegular,
                     ),
                     TextSpan(
@@ -190,11 +200,13 @@ class HistrionicoPersonajes extends StatelessWidget {
                       style: monoRegular,
                     ),
                     TextSpan(
-                      text: '\n\n ● Explotan a los demás para su propio beneficio.',
+                      text:
+                          '\n\n ● Explotan a los demás para su propio beneficio.',
                       style: monoRegular,
                     ),
                     TextSpan(
-                      text: '\n\n ● Son malos líderes. No saben construir equipo.',
+                      text:
+                          '\n\n ● Son malos líderes. No saben construir equipo.',
                       style: monoRegular,
                     ),
                     TextSpan(

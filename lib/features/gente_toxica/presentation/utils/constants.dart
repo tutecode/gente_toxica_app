@@ -11,16 +11,25 @@ const APP_NAME = 'Gente Toxica';
 final kIconToxic = Image.asset('assets/icons/toxic.png', height: 64.0, width: 64.0);
 
 ///Icon Instagram
-final kIconInstagram = Image.asset('assets/icons/Instagram.png', height: 16, width: 16);
+final kIconInstagram = Image.asset('assets/icons/instagram-26.png', height: 26, width: 26);
 
 ///Icon Donate
-final kIconDonate = Image.asset('assets/icons/donate.png', height: 16, width: 16);
+final kIconDonate = Image.asset('assets/icons/donar-26.png', height: 26, width: 26);
+
+///Icon Beer
+final kIconBeer = Image.asset('assets/icons/beer-80.png', height: 80, width: 80);
 
 ///Margin App (Routes Pages)
 final kMargin = EdgeInsets.only(left: 16, top: 24, bottom: 24, right: 16);
 
-///TextScale
+///TextScale Routes Navigation (Toxic Text)
 final kTextScale = 1.4;
+
+///Instagram URL
+const INSTAGRAM_URL = "https://www.instagram.com/viajelibros/";
+
+///Google Play URL
+const GOOGLEPLAY_URL = "https://play.google.com/store/apps/details?id=tuteapp.com.example.gente_toxica_app";
 
 /*
 ///Descripticn App

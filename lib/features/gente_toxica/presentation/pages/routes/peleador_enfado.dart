@@ -10,7 +10,10 @@ class PeleadorEnfado extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: Text('El enfado', style: titleAppBar)
+          backgroundColor: Colors.yellow[500],
+          elevation: 0,
+          title: Text('El enfado', style: titleAppBar,
+            textScaleFactor: 1.0,)
       ),
       body: SingleChildScrollView(
         child: Column(

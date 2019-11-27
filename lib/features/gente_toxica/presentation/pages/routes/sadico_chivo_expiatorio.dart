@@ -10,9 +10,11 @@ class SadicoChivoExpiatorio extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
         title: Text(
           'Chivo expiatorio',
-          style: titleAppBar,
+          style: titleAppBar, textScaleFactor: 1.0,
         ),
       ),
       body: SingleChildScrollView(

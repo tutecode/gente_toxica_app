@@ -10,7 +10,10 @@ class PeleadorActitudes extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: Text('Actitudes sanas', style: titleAppBar)
+          backgroundColor: Colors.yellow[500],
+          elevation: 0,
+          title: Text('Actitudes sanas', style: titleAppBar,
+            textScaleFactor: 1.0,)
       ),
       body: SingleChildScrollView(
         child: Column(

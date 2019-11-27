@@ -10,8 +10,13 @@ class AsfixiadorDefinicion extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Definición',
-            style: titleAppBar),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Definición',
+          style: titleAppBar,
+          textScaleFactor: 1.0,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -22,7 +27,8 @@ class AsfixiadorDefinicion extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
-                  text: '«Sin tu amor no viviré»; «Eres más importante que el aire que respiro». Seguramente has escuchado estas frases y otras frente a las cuales habrás dicho: ¿y ahora cómo sigo? Frases que pueden sonar o parecer muy bonitas, pero que son como un gran lazo que asfixia. Sentirnos así implica haber perdido antes de ir a la batalla misma. Es lo que sucede cuando alguien se siente incapaz y no puede ver sus capacidades. Así es como se vuelve dependiente emocional de los demás. La persona dependiente o codependiente de la gente (en general esto se da más en las mujeres que en los hombres) es dócil, dulce, cariñosa, amable, educada, muy buena y servicial. ¿Por qué? Porque en el fondo de su ser se siente indefensa. Entonces, busca fuera lo que cree que no tiene en su interior. A menudo se relaciona con el otro diciendo: «¿Qué harías en mi lugar?» o «Dime qué hacer».',
+                  text:
+                      '«Sin tu amor no viviré»; «Eres más importante que el aire que respiro». Seguramente has escuchado estas frases y otras frente a las cuales habrás dicho: ¿y ahora cómo sigo? Frases que pueden sonar o parecer muy bonitas, pero que son como un gran lazo que asfixia. Sentirnos así implica haber perdido antes de ir a la batalla misma. Es lo que sucede cuando alguien se siente incapaz y no puede ver sus capacidades. Así es como se vuelve dependiente emocional de los demás. La persona dependiente o codependiente de la gente (en general esto se da más en las mujeres que en los hombres) es dócil, dulce, cariñosa, amable, educada, muy buena y servicial. ¿Por qué? Porque en el fondo de su ser se siente indefensa. Entonces, busca fuera lo que cree que no tiene en su interior. A menudo se relaciona con el otro diciendo: «¿Qué harías en mi lugar?» o «Dime qué hacer».',
                   style: monoRegular,
                 ),
               ),

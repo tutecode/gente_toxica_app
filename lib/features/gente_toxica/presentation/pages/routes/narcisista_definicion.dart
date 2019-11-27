@@ -10,8 +10,13 @@ class NarcisistaDefinicion extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Definición',
-            style: titleAppBar),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Definición',
+          style: titleAppBar,
+          textScaleFactor: 1.0,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -22,7 +27,8 @@ class NarcisistaDefinicion extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
-                  text: 'El narcisista es la persona que se ama a sí misma en exceso y '
+                  text:
+                      'El narcisista es la persona que se ama a sí misma en exceso y '
                       'vive en una permanente búsqueda de admiración. '
                       'Su mundo se reduce a "Yo... yo... y yo..."'
                       '\n\nEl narcisista no tiene autocrítica ni le gusta ser evaluado. '

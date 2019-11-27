@@ -10,8 +10,13 @@ class NegativoRasgos extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Rasgos',
-            style: titleAppBar),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Rasgos',
+          style: titleAppBar,
+          textScaleFactor: 1.0,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -48,12 +53,12 @@ class NegativoRasgos extends StatelessWidget {
                       style: monoBold,
                     ),
                     TextSpan(
-                      text:
-                      ' Ellos son así, las cosas son así y punto.',
+                      text: ' Ellos son así, las cosas son así y punto.',
                       style: monoRegular,
                     ),
                     TextSpan(
-                      text: '\n\n ● Todo lo ven desde la perspectiva del caos y del desastre.',
+                      text:
+                          '\n\n ● Todo lo ven desde la perspectiva del caos y del desastre.',
                       style: monoBold,
                     ),
                     TextSpan(
@@ -61,8 +66,7 @@ class NegativoRasgos extends StatelessWidget {
                       style: monoBold,
                     ),
                     TextSpan(
-                      text:
-                      ' Están obsesionados.',
+                      text: ' Están obsesionados.',
                       style: monoRegular,
                     ),
                     TextSpan(
@@ -71,7 +75,7 @@ class NegativoRasgos extends StatelessWidget {
                     ),
                     TextSpan(
                       text:
-                      ' No quieren comprometerse y evitan toda exigencia laboral.',
+                          ' No quieren comprometerse y evitan toda exigencia laboral.',
                       style: monoRegular,
                     ),
                   ],

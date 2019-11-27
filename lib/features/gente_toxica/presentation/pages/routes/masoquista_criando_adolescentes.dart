@@ -10,8 +10,12 @@ class MasoquistaCriandoAdolescentes extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Jóvenes responsables',
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Jóvenes responsables',
           style: titleAppBar,
+          textScaleFactor: 1.0,
         ),
       ),
       body: SingleChildScrollView(
@@ -23,11 +27,13 @@ class MasoquistaCriandoAdolescentes extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
-                  text: '¿Cómo hacer que nuestros hijos adolescentes actúen con responsabilidad?',
+                  text:
+                      '¿Cómo hacer que nuestros hijos adolescentes actúen con responsabilidad?',
                   style: monoRegular,
                   children: <TextSpan>[
                     TextSpan(
-                      text: 'Igual que con los niños pequeños, pero «aflojando» poco a poco. '
+                      text:
+                          'Igual que con los niños pequeños, pero «aflojando» poco a poco. '
                           'Es lo mismo que hace el pescador con el carrete de la caña de pescar: '
                           'va soltando hilo, pero no del todo. '
                           'Los padres tenemos que supervisar cómo va el crecimiento de '

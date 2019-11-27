@@ -10,8 +10,13 @@ class EvitadorTomaDecisiones extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: Text('Toma de decisiones', style: titleAppBar)
-      ),
+          backgroundColor: Colors.yellow[500],
+          elevation: 0,
+          title: Text(
+            'Toma de decisiones',
+            style: titleAppBar,
+            textScaleFactor: 1.0,
+          )),
       body: SingleChildScrollView(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -26,7 +31,7 @@ class EvitadorTomaDecisiones extends StatelessWidget {
                   children: <TextSpan>[
                     TextSpan(
                       text:
-                      '\n\nEn ese caso tenemos que medir dónde vamos a poner el foco, porque el que todo lo quiere nada tiene. Cuando decido qué es prescindible —es decir, a qué decir «no»— y qué es imprescindible, o sea, a qué decir «sí», puedo negociar, puedo elegir qué pierdo y qué gano.',
+                          '\n\nEn ese caso tenemos que medir dónde vamos a poner el foco, porque el que todo lo quiere nada tiene. Cuando decido qué es prescindible —es decir, a qué decir «no»— y qué es imprescindible, o sea, a qué decir «sí», puedo negociar, puedo elegir qué pierdo y qué gano.',
                       style: monoRegular,
                     ),
                   ],

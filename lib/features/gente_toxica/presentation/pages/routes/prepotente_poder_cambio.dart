@@ -10,8 +10,13 @@ class PrepotentePoderCambio extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('El poder del cambio',
-            style: titleAppBar),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'El poder del cambio',
+          style: titleAppBar,
+          textScaleFactor: 1.0,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -22,23 +27,25 @@ class PrepotentePoderCambio extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
-                  text: ' ● Todo cambio que no cambie la mente, no es un cambio.',
+                  text:
+                      ' ● Todo cambio que no cambie la mente, no es un cambio.',
                   style: monoRegular,
                   children: <TextSpan>[
                     TextSpan(
-                      text: '\n\n ● Todo cambio que no cambie nuestra manera de pensar, '
+                      text:
+                          '\n\n ● Todo cambio que no cambie nuestra manera de pensar, '
                           'no es un cambio. Del mismo modo que no podemos ponernos un traje encima de otro, '
                           'tampoco podemos incorporar ideas nuevas si antes no eliminamos las viejas.',
                       style: monoRegular,
                     ),
                     TextSpan(
-                      text: '\n\nTener la capacidad de cambiar es tener un espíritu con capacidad de aprender. '
+                      text:
+                          '\n\nTener la capacidad de cambiar es tener un espíritu con capacidad de aprender. '
                           'Es ser humilde.',
                       style: monoRegular,
                     ),
                     TextSpan(
-                      text:
-                      '\n\nHumildad viene de',
+                      text: '\n\nHumildad viene de',
                       style: monoRegular,
                     ),
                     TextSpan(
@@ -46,8 +53,7 @@ class PrepotentePoderCambio extends StatelessWidget {
                       style: monoItalic,
                     ),
                     TextSpan(
-                      text:
-                      ' (tierra) y es la capacidad de aprender, '
+                      text: ' (tierra) y es la capacidad de aprender, '
                           'y no alardear como lo hace el prepotente. '
                           'Humildad se tiene con o sin dinero, con o sin profesión, '
                           'porque es una actitud interna. '

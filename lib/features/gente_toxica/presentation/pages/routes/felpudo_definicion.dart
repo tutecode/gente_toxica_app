@@ -10,8 +10,13 @@ class FelpudoDefinicion extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Definición',
-            style: titleAppBar),
+        backgroundColor: Colors.yellow[500],
+        elevation: 0,
+        title: Text(
+          'Definición',
+          style: titleAppBar,
+          textScaleFactor: 1.0,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -22,7 +27,8 @@ class FelpudoDefinicion extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
-                  text: 'Vivir pendientes de la mirada de los demás, pensando en los demás, '
+                  text:
+                      'Vivir pendientes de la mirada de los demás, pensando en los demás, '
                       'sufriendo por los demás significa no mirar lo que ellos desean. '
                       'Y vivir atados a la mirada de los otros los convierte en felpudo de los otros. '
                       'Así es que mientras caminan hacia su sueño, '
