@@ -743,7 +743,7 @@ class MyHomePage extends StatelessWidget {
         ),
         title: Text(
           navCat.head,
-          textScaleFactor: 1.2,
+          textScaleFactor: 1.1,
           style: listViewHome,
         ),
         children: navCat.navigations.map(_myNavigation).toList(),

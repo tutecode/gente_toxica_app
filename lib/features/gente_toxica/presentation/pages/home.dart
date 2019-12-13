@@ -80,7 +80,7 @@ class HomePageState extends State<HomePage> {
                       '¿Cómo son los que te hacen mal para sentirse bien?',
                       style: listViewHome,
                       textAlign: TextAlign.center,
-                      textScaleFactor: 1.2,
+                      textScaleFactor: 1.1,
                     ),
                   ],
                 ),
@@ -90,7 +90,7 @@ class HomePageState extends State<HomePage> {
               ),
             ),
             ListTile(
-              title: Text('Sobre el autor', style: listViewHome, textScaleFactor: 1.3),
+              title: Text('Sobre el autor', style: listViewHome, textScaleFactor: 1.2),
               trailing: Icon(Icons.person),
               onTap: () {
                 Navigator.push(
@@ -100,24 +100,24 @@ class HomePageState extends State<HomePage> {
               },
             ),
             ListTile(
-              title: Text('Síguenos', style: listViewHome, textScaleFactor: 1.3),
+              title: Text('Síguenos', style: listViewHome, textScaleFactor: 1.2),
               trailing: kIconInstagram,
               onTap: () => _launchURL(INSTAGRAM_URL),
             ),
             ListTile(
-              title: Text('Califícanos', style: listViewHome, textScaleFactor: 1.3),
+              title: Text('Califícanos', style: listViewHome, textScaleFactor: 1.2),
               trailing: Icon(Icons.rate_review),
               onTap: () => _launchURL(GOOGLEPLAY_URL),
             ),
             ListTile(
-              title: Text('Compartir app', style: listViewHome, textScaleFactor: 1.3),
+              title: Text('Compartir app', style: listViewHome, textScaleFactor: 1.2),
               trailing: Icon(Icons.share),
               onTap: () {
                 Share.share(GOOGLEPLAY_URL);
               },
             ),
             ListTile(
-              title: Text('Contáctanos', style: listViewHome, textScaleFactor: 1.3),
+              title: Text('Contáctanos', style: listViewHome, textScaleFactor: 1.2),
               trailing: Icon(Icons.email),
               onTap: () {
                 sendEmail('tuteapps@gmail.com');

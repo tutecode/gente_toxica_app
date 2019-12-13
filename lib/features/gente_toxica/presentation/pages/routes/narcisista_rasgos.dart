@@ -24,35 +24,35 @@ class NarcisistaRasgos extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
-                  text: ' ● Dice de sí mismo: "Soy grandioso"',
+                  text: ' - Dice de sí mismo: "Soy grandioso"',
                   style: monoBold,
                   children: <TextSpan>[
                     TextSpan(
-                      text: '\n\n ● No tiene empatía',
+                      text: '\n\n - No tiene empatía',
                       style: monoBold,
                     ),
                     TextSpan(
-                      text: '\n\n ● "Vende" su grandeza',
+                      text: '\n\n - "Vende" su grandeza',
                       style: monoBold,
                     ),
                     TextSpan(
-                      text: '\n\n ● Vende "seducción impaciente"',
+                      text: '\n\n - Vende "seducción impaciente"',
                       style: monoBold,
                     ),
                     TextSpan(
-                      text: '\n\n ● Es superficial',
+                      text: '\n\n - Es superficial',
                       style: monoBold,
                     ),
                     TextSpan(
-                      text: '\n\n ● No tiene autocrítica',
+                      text: '\n\n - No tiene autocrítica',
                       style: monoBold,
                     ),
                     TextSpan(
-                      text: '\n\n ● No planifica un futuro de largo alcance',
+                      text: '\n\n - No planifica un futuro de largo alcance',
                       style: monoBold,
                     ),
                     TextSpan(
-                      text: '\n\n ● Es envidioso',
+                      text: '\n\n - Es envidioso',
                       style: monoBold,
                     ),
                   ],

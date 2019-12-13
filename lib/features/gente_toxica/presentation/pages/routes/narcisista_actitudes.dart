@@ -27,9 +27,11 @@ class NarcisistaActitudes extends StatelessWidget {
               child: RichText(
                 textScaleFactor: kTextScale,
                 text: TextSpan(
-                  text: 'Intentar mostrarle sus errores',
-                  style: monoItalic,
                   children: <TextSpan>[
+                    TextSpan(
+                      text: 'Intentar mostrarle sus errores',
+                      style: monoItalic,
+                    ),
                     TextSpan(
                       text: '\n\nSi el',
                       style: monoRegular,

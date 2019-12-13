@@ -23,27 +23,10 @@ final kIconBeer = Image.asset('assets/icons/beer-80.png', height: 80, width: 80)
 final kMargin = EdgeInsets.only(left: 16, top: 24, bottom: 24, right: 16);
 
 ///TextScale Routes Navigation (Toxic Text)
-final kTextScale = 1.4;
+final kTextScale = 1.2;
 
 ///Instagram URL
 const INSTAGRAM_URL = "https://www.instagram.com/viajelibros/";
 
 ///Google Play URL
 const GOOGLEPLAY_URL = "https://play.google.com/store/apps/details?id=tuteapp.com.example.gente_toxica_app";
-
-/*
-///Descripticn App
-const APP_DESCRIPTION = 'An app showcasing Flutter components, with '
-    'side-by-side source code view.'
-    '\n\nDeveloped by X.Wei.';
-
-///Google Play URL
-const GOOGLEPLAY_URL =
-    'https://play.google.com/store/apps/details?id=io.github.x_wei.flutter_catalog';
-
-
-
-//const GITHUB_URL = 'https://github.com/X-Wei/flutter_catalog';
-
-//const AUTHOR_SITE = 'http://x-wei.github.io';
-*/
