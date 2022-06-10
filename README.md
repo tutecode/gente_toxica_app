@@ -10,7 +10,7 @@ Android: https://play.google.com/store/apps/details?id=tuteapp.com.example.gente
 
 ## Preview
 
-
+![](img-preview.png)
 
 ## Getting Started
 
