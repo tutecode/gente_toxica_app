@@ -1,10 +1,16 @@
 # Gente Toxica App
 
-App de ViajeLibros
+Project related to my Instagram account ViajeLibros (Old) about the book "Gente Tóxica" from Bernardo Stamateas.
+
+Tech Stack: Flutter, Dart.
 
 ## Download the app
 
 Android: https://play.google.com/store/apps/details?id=tuteapp.com.example.gente_toxica_app
+
+## Preview
+
+
 
 ## Getting Started
 
