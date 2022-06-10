@@ -1,6 +1,10 @@
-# gente_toxica_app
+# Gente Toxica App
 
 App de ViajeLibros
+
+## Download the app
+
+Android: https://play.google.com/store/apps/details?id=tuteapp.com.example.gente_toxica_app
 
 ## Getting Started
 
